@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:slokas/component/decorate.dart';
 import 'package:slokas/parts/floating_btn.dart';
@@ -17,6 +18,9 @@ class _RamayanaState extends State<Ramayana> {
   final GetShloka _repo = GetShloka();
   Map<int, int> lang = {};
   Map<int, int> mean = {};
+  bool dark = true;
+  Random rand = Random();
+  int r_num = 0;
   @override
   void initState() {
     super.initState();
@@ -31,12 +35,21 @@ class _RamayanaState extends State<Ramayana> {
         }
       }
     });
+    r_num = rand.nextInt(bgImg.length);
   }
+
+  List<String> bgImg = [
+    'assets/imgs/om_01.jpg',
+    'assets/imgs/om_02.jpg',
+    'assets/imgs/om_03.jpg',
+    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_05.jpg',
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Clr.lPri,
+      backgroundColor: dark ? Clr.dPri : Clr.lPri,
       // appBar: AppBar(title: Text("This is app bar")),
       body: SafeArea(
         child: FutureBuilder<List<ShlokaModel>>(
@@ -73,6 +86,7 @@ class _RamayanaState extends State<Ramayana> {
                           },
                           child: Dec.impTx(
                             lang[index] == 1 ? word.bengali : word.sanskrit,
+                            dark,
                           ),
                         ),
                         TextButton(
@@ -83,6 +97,7 @@ class _RamayanaState extends State<Ramayana> {
                           },
                           child: Dec.bdyTx(
                             mean[index] == 1 ? word.meaning : word.english,
+                            dark,
                           ),
                         ),
                       ],

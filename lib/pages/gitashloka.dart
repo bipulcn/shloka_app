@@ -17,6 +17,7 @@ class _GitaShlokaState extends State<GitaShloka> {
   final GetShloka _repo = GetShloka();
   Map<int, int> lang = {};
   Map<int, int> mean = {};
+  bool dark = true;
   @override
   void initState() {
     super.initState();
@@ -36,7 +37,7 @@ class _GitaShlokaState extends State<GitaShloka> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Clr.lPri,
+      backgroundColor: dark ? Clr.dPri : Clr.lPri,
       // appBar: AppBar(title: Text("This is app bar")),
       body: SafeArea(
         child: FutureBuilder<List<ShlokaModel>>(
@@ -73,6 +74,7 @@ class _GitaShlokaState extends State<GitaShloka> {
                           },
                           child: Dec.impTx(
                             lang[index] == 1 ? word.bengali : word.sanskrit,
+                            dark,
                           ),
                         ),
                         TextButton(
@@ -83,6 +85,7 @@ class _GitaShlokaState extends State<GitaShloka> {
                           },
                           child: Dec.bdyTx(
                             mean[index] == 1 ? word.meaning : word.english,
+                            dark,
                           ),
                         ),
                       ],

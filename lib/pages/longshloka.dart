@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:slokas/component/decorate.dart';
 import 'package:slokas/parts/floating_btn.dart';
@@ -17,6 +18,9 @@ class _LongShlokaState extends State<LongShloka> {
   final GetShloka _repo = GetShloka();
   Map<int, int> lang = {};
   Map<int, int> mean = {};
+  bool dark = true;
+  Random rand = Random();
+  int r_num = 0;
   @override
   void initState() {
     super.initState();
@@ -31,12 +35,21 @@ class _LongShlokaState extends State<LongShloka> {
         }
       }
     });
+    r_num = rand.nextInt(bgImg.length);
   }
+
+  List<String> bgImg = [
+    'assets/imgs/om_01.jpg',
+    'assets/imgs/om_02.jpg',
+    'assets/imgs/om_03.jpg',
+    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_05.jpg',
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Clr.lPri,
+      backgroundColor: dark ? Clr.dPri : Clr.lPri,
       // appBar: AppBar(title: Text("This is app bar")),
       body: SafeArea(
         child: FutureBuilder<List<ShlokaModel>>(
@@ -58,13 +71,19 @@ class _LongShlokaState extends State<LongShloka> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        SizedBox(height: 150),
-                        Image.asset('assets/imgs/man.png', width: 50),
-                        // Cards.crd4(word.id.toString(), tx: word.name),
-                        // Center(child: Cards.crd5(word.sanskrit)),
-                        // Cards.crd6(word.bengali),
-                        // Cards.crd6(word.english),
-                        // Cards.flipText(word.sanskrit, word.bengali),
+                        Container(
+                          width: double.infinity,
+                          height: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                bgImg[r_num],
+                              ), // Or NetworkImage('your_image_url')
+                              fit: BoxFit
+                                  .cover, // This makes the image cover the container
+                            ),
+                          ),
+                        ),
                         TextButton(
                           onPressed: () {
                             setState(() {
@@ -73,6 +92,7 @@ class _LongShlokaState extends State<LongShloka> {
                           },
                           child: Dec.impTx(
                             lang[index] == 1 ? word.bengali : word.sanskrit,
+                            dark,
                           ),
                         ),
                         TextButton(
@@ -83,6 +103,7 @@ class _LongShlokaState extends State<LongShloka> {
                           },
                           child: Dec.bdyTx(
                             mean[index] == 1 ? word.meaning : word.english,
+                            dark,
                           ),
                         ),
                       ],

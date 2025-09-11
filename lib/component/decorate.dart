@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:slokas/component/textstyle.dart';
 
 class Dec {
-  static Widget impTx(String txt) {
+  static Widget impTx(String txt, bool drk) {
     return Container(
       decoration: BoxDecoration(
         color: Colors.black12,
@@ -10,11 +10,15 @@ class Dec {
       ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
       width: double.infinity,
-      child: Text(txt, style: StyTxt.h5(), textAlign: TextAlign.center),
+      child: Text(
+        txt,
+        style: StyTxt.h5(dk: drk),
+        textAlign: TextAlign.center,
+      ),
     );
   }
 
-  static Widget bdyTx(String txt) {
+  static Widget bdyTx(String txt, bool drk) {
     return Container(
       // decoration: BoxDecoration(
       //   color: Colors.black12,
@@ -22,7 +26,11 @@ class Dec {
       // ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
       width: double.infinity,
-      child: Text(txt, style: StyTxt.txt(), textAlign: TextAlign.center),
+      child: Text(
+        txt,
+        style: StyTxt.txt(dk: drk),
+        textAlign: TextAlign.center,
+      ),
     );
   }
 }
