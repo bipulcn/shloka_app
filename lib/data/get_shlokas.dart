@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:slokas/data/models/shlokas.dart';
+import 'package:slokas/data/models/words.dart';
 import 'package:slokas/data/shloka_database.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -64,20 +65,20 @@ class GetShloka {
     }
   }
 
-  Future<void> insertRamayana() async {
+  Future<void> words() async {
     final db = await _db;
     final count = Sqflite.firstIntValue(
-      await db.rawQuery("SELECT COUNT(*) FROM shlokas where kinds='ramayana'"),
+      await db.rawQuery("SELECT COUNT(*) FROM words"),
     );
 
     if (count == 0) {
       final String response = await rootBundle.loadString(
-        'assets/data/ramayana_shlokas.json',
+        'assets/data/words.json',
       );
       final List<dynamic> data = jsonDecode(response);
 
       for (var item in data) {
-        await db.insert('shlokas', ShlokaModel.fromJson(item).toJson());
+        await db.insert('words', Word.fromJson(item).toJson());
       }
     }
   }

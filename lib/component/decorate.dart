@@ -2,21 +2,34 @@ import 'package:flutter/material.dart';
 import 'package:slokas/component/textstyle.dart';
 
 class Dec {
-  static Widget head(String txt, bool drk) {
+  static Widget head(String txt, String ttl, bool drk) {
     debugPrint(txt);
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Container(
           decoration: BoxDecoration(
-            color: Colors.black12,
-            borderRadius: BorderRadius.circular(10),
+            color: Colors.black87,
+            borderRadius: BorderRadius.circular(5),
           ),
           margin: EdgeInsets.all(10),
-          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 0),
           child: Text(
             txt,
-            style: StyTxt.h1(dk: false),
+            style: StyTxt.h5(dk: drk),
+            textAlign: TextAlign.center,
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+            color: Colors.black87,
+            borderRadius: BorderRadius.circular(5),
+          ),
+          margin: EdgeInsets.all(10),
+          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 0),
+          child: Text(
+            ttl,
+            style: StyTxt.h4(dk: drk),
             textAlign: TextAlign.center,
           ),
         ),
@@ -50,7 +63,7 @@ class Dec {
       width: double.infinity,
       child: Text(
         txt,
-        style: StyTxt.h5(dk: drk),
+        style: StyTxt.h6(dk: drk),
         textAlign: TextAlign.center,
       ),
     );
@@ -69,6 +82,18 @@ class Dec {
         style: StyTxt.txt(dk: drk),
         textAlign: TextAlign.center,
       ),
+    );
+  }
+
+  static Widget word(String txt, bool drk) {
+    return Text(txt, style: StyTxt.h5(dk: drk));
+  }
+
+  static Widget wordMean(String txt, bool drk) {
+    return Text(
+      txt,
+      style: StyTxt.txt(dk: drk),
+      textAlign: TextAlign.right,
     );
   }
 }

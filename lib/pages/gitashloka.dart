@@ -1,5 +1,8 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:slokas/component/decorate.dart';
+import 'package:slokas/data/get_tracks.dart';
+import 'package:slokas/data/models/tracks.dart';
 import 'package:slokas/parts/floating_btn.dart';
 import 'package:slokas/const/colors.dart';
 import 'package:slokas/data/get_shlokas.dart';
@@ -15,11 +18,36 @@ class GitaShloka extends StatefulWidget {
 class _GitaShlokaState extends State<GitaShloka> {
   Future<List<ShlokaModel>>? slk;
   final GetShloka _repo = GetShloka();
+  int r_num = 0;
+  bool dark = true;
   Map<int, int> lang = {};
   Map<int, int> mean = {};
-  bool dark = true;
+  Random rand = Random();
+  late PageController pageCon;
+
+  void gPage() async {
+    List<Track> th = await GetTracks().rdByKind('theme');
+    if (th.isNotEmpty) {
+      dark = th.first.main == "dark" ? true : false;
+    }
+    List<Track> tk = await GetTracks().rdByKind('gita');
+    if (tk.isNotEmpty) {
+      pageCon = PageController(initialPage: tk.first.subs);
+    } else {
+      pageCon = PageController(initialPage: 0);
+    }
+  }
+
+  void setPage(int page) async {
+    await GetTracks().uKindTrack(
+      Track(kinds: 'page', main: '/gita', subs: page),
+    );
+    await GetTracks().uKindTrack(Track(kinds: 'gita', main: '', subs: page));
+  }
+
   @override
   void initState() {
+    gPage();
     super.initState();
     slk = _repo.getShlokaByCat('gita');
     int ind = 0;
@@ -32,7 +60,16 @@ class _GitaShlokaState extends State<GitaShloka> {
         }
       }
     });
+    r_num = rand.nextInt(bgImg.length);
   }
+
+  List<String> bgImg = [
+    'assets/imgs/om_01.jpg',
+    'assets/imgs/om_02.jpg',
+    'assets/imgs/om_03.jpg',
+    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_05.jpg',
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -52,20 +89,35 @@ class _GitaShlokaState extends State<GitaShloka> {
             } else {
               final words = snapshot.data!;
               return PageView.builder(
+                controller: pageCon,
+                onPageChanged: (value) => setPage(value),
                 itemCount: words.length,
                 itemBuilder: (context, index) {
                   final word = words[index];
                   return SingleChildScrollView(
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        SizedBox(height: 150),
-                        Image.asset('assets/imgs/man.png', width: 50),
-                        // Cards.crd4(word.id.toString(), tx: word.name),
-                        // Center(child: Cards.crd5(word.sanskrit)),
-                        // Cards.crd6(word.bengali),
-                        // Cards.crd6(word.english),
-                        // Cards.flipText(word.sanskrit, word.bengali),
+                        Container(
+                          width: double.infinity,
+                          height: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                bgImg[r_num],
+                              ), // Or NetworkImage('your_image_url')
+                              fit: BoxFit
+                                  .cover, // This makes the image cover the container
+                            ),
+                          ),
+                          padding: EdgeInsets.only(top: 140),
+                          child: Dec.head(
+                            "${word.chapter}:${word.serial}",
+                            word.name.toString(),
+                            dark,
+                          ),
+                        ),
+                        // Dec.name(word.name.toString(), dark),
                         TextButton(
                           onPressed: () {
                             setState(() {
@@ -88,6 +140,7 @@ class _GitaShlokaState extends State<GitaShloka> {
                             dark,
                           ),
                         ),
+                        Dec.bdyTx(word.wordMeaning, dark),
                       ],
                       // trailing: word.learnt
                       //     ? const Icon(Icons.check, color: Colors.green)

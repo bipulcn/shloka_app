@@ -4,7 +4,6 @@ import 'package:slokas/data/shloka_database.dart';
 import 'package:slokas/pages/gitashloka.dart';
 import 'package:slokas/pages/homepage.dart';
 import 'package:slokas/pages/longshloka.dart';
-import 'package:slokas/pages/ramayana.dart';
 import 'package:slokas/pages/shortshloka.dart';
 import 'package:slokas/pages/words.dart';
 
@@ -14,7 +13,7 @@ void main() async {
   await GetShloka().insertShort();
   await GetShloka().insertLong();
   await GetShloka().insertGita();
-  await GetShloka().insertRamayana();
+  await GetShloka().words();
   runApp(const MyApp());
 }
 
@@ -31,7 +30,6 @@ class MyApp extends StatelessWidget {
         '/short': (context) => SingleShloka(),
         '/long': (context) => LongShloka(),
         '/gita': (context) => GitaShloka(),
-        '/ram': (context) => Ramayana(),
         '/word': (context) => WordMeaning(),
       },
       title: 'Flutter Demo',

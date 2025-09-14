@@ -4,8 +4,8 @@ class Word {
   final String bengali;
   final String english;
   final String pronounce;
-  final int viewed;
-  final int learnt;
+  final bool viewed;
+  final bool learnt;
   final int numberOfTimeRead;
 
   Word({
@@ -14,8 +14,8 @@ class Word {
     required this.bengali,
     required this.english,
     required this.pronounce,
-    this.viewed = 0,
-    this.learnt = 0,
+    this.viewed = false,
+    this.learnt = false,
     this.numberOfTimeRead = 0,
   });
 
@@ -47,28 +47,54 @@ class Word {
     );
   }
 
-  // Create a copy of Word with updated values
-  Word copyWith({
-    int? id,
-    String? sanskrit,
-    String? bengali,
-    String? english,
-    String? pronounce,
-    int? viewed,
-    int? learnt,
-    int? numberOfTimeRead,
-  }) {
+  factory Word.fromJson(Map<String, dynamic> json) {
     return Word(
-      id: id ?? this.id,
-      sanskrit: sanskrit ?? this.sanskrit,
-      bengali: bengali ?? this.bengali,
-      english: english ?? this.english,
-      pronounce: pronounce ?? this.pronounce,
-      viewed: viewed ?? this.viewed,
-      learnt: learnt ?? this.learnt,
-      numberOfTimeRead: numberOfTimeRead ?? this.numberOfTimeRead,
+      id: json['id'],
+      sanskrit: json['sanskrit'],
+      bengali: json['bengali'],
+      english: json['english'],
+      pronounce: json['pronounce'],
+      viewed: json['viewed'] == 1,
+      learnt: json['learnt'] == 1,
+      numberOfTimeRead: json['numberOfTimeRead'] ?? 0,
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'sanskrit': sanskrit,
+      'bengali': bengali,
+      'english': english,
+      'pronounce': pronounce,
+      'viewed': viewed ? 1 : 0,
+      'learnt': learnt ? 1 : 0,
+      'numberOfTimeRead': numberOfTimeRead,
+    };
+  }
+
+  // Create a copy of Word with updated values
+  // Word copyWith({
+  //   int? id,
+  //   String? sanskrit,
+  //   String? bengali,
+  //   String? english,
+  //   String? pronounce,
+  //   int? viewed,
+  //   int? learnt,
+  //   int? numberOfTimeRead,
+  // }) {
+  //   return Word(
+  //     id: id ?? this.id,
+  //     sanskrit: sanskrit ?? this.sanskrit,
+  //     bengali: bengali ?? this.bengali,
+  //     english: english ?? this.english,
+  //     pronounce: pronounce ?? this.pronounce,
+  //     viewed: viewed ?? this.viewed,
+  //     learnt: learnt ?? this.learnt,
+  //     numberOfTimeRead: numberOfTimeRead ?? this.numberOfTimeRead,
+  //   );
+  // }
 
   // Override toString for easier debugging
   @override

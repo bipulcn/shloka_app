@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Clr {
-  static Color dPri = Color.fromRGBO(43, 70, 92, 1);
+  static Color dPri = Color.fromRGBO(0, 0, 0, 1);
   static Color lPri = Color.fromRGBO(173, 185, 196, 1);
   static Color dSec = Color.fromRGBO(44, 139, 52, 1);
   static Color lSec = Color.fromRGBO(44, 139, 52, 1);

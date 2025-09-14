@@ -108,7 +108,7 @@ class _LongShlokaState extends State<LongShloka> {
                                   .cover, // This makes the image cover the container
                             ),
                           ),
-                          child: Dec.head(index.toString(), dark),
+                          child: Dec.head(index.toString(), '', dark),
                         ),
                         Dec.name(word.name.toString(), dark),
                         TextButton(

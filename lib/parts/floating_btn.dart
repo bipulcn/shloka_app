@@ -50,15 +50,15 @@ class _FloatingBtnState extends State<FloatingBtn> {
             },
             child: const Icon(Icons.gite_sharp),
           ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            heroTag: "btn5",
-            mini: true,
-            onPressed: () {
-              Navigator.pushReplacementNamed(context, '/ram');
-            },
-            child: const Icon(Icons.gpp_good_outlined),
-          ),
+          // const SizedBox(height: 10),
+          // FloatingActionButton(
+          //   heroTag: "btn5",
+          //   mini: true,
+          //   onPressed: () {
+          //     Navigator.pushReplacementNamed(context, '/ram');
+          //   },
+          //   child: const Icon(Icons.gpp_good_outlined),
+          // ),
           const SizedBox(height: 10),
           FloatingActionButton(
             heroTag: "btn6",

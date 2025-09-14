@@ -1,17 +1,6505 @@
 [
   {
-    "sanskrit": "आभासः",
-    "bengali": "চেহারা; আভাস; প্রতিফলন ('প্রতিফলন' সাধারণত বেদান্তে রূপকভাবে ব্যবহৃত হয় - বিম্বঃ দেখুন)।",
-    "english": "Appearance; semblance; reflection ('reflection' is typically used figuratively in Vedāntaḥ – see bimbaḥ).",
-    "pronounce": "ābhāsaḥ",
+    "sanskrit": "बल्बज",
+    "bengali": "কোরবানি বৃষ্টি (বারহিস), জ্বালানী এবং ঝুড়ি এবং অন্যান্য পণ্য তৈরির জন্য ব্যবহৃত একটি ঘাস (এলিউজিন ইন্ডিকা)",
+    "english": "a grass (Eleusine indica) used for sacrificial rain (barhis), fuel, and making baskets and other products",
+    "pronounce": "balbaj",
     "viewed": 0,
     "learnt": 0
   },
   {
-    "sanskrit": "अबाधित",
-    "bengali": "অস্বীকারের অধীন নয় (সত্যমের সংজ্ঞা); বাধাহীন; বাধাহীন; অখণ্ডিত; দেখুন বাধঃ।",
-    "english": "Not subject to negation (a definition of satyam); unimpeded; unobstructed; unrefuted; see bādhaḥ.",
-    "pronounce": "abādhita",
+    "sanskrit": "दर्भ",
+    "bengali": "ঘাসের নাম",
+    "english": "the name of a grass",
+    "pronounce": "darbh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दूर्वा",
+    "bengali": "ঘাসের একটি প্রজাতি (প্যানিকাম ড্যাকটিলন)",
+    "english": "a species of grass (Panicum dactylon)",
+    "pronounce": "durva",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "घास",
+    "bengali": "পশুর, বিশেষত অশ্বমেধের ঘোড়ার শিকারের জন্য (ঘোড়া ত্যাগ)",
+    "english": "fodder, especially for the horse victim of the ashwamedh (horse sacrifice)",
+    "pronounce": "ghas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "इषीका",
+    "bengali": "রিড ঘাসের একটি ডাঁটা, প্রায়শই ভঙ্গুরতা বোঝায়",
+    "english": "a stalk of reed grass, often denotes fragility",
+    "pronounce": "ishika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कश",
+    "bengali": "একটি প্রজাতির ঘাস (স্যাকার্রাম স্পিডানকাম) ম্যাটস ইটিসি তৈরির জন্য ব্যবহৃত হয়",
+    "english": "a species of grass (Saccharum spentancum) used for making mats etc.",
+    "pronounce": "kash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुश",
+    "bengali": "ঘাসের একটি প্রজাতি (পিওএ সিনোসুরয়েডস)",
+    "english": "a species of grass (Poa cynosuroides)",
+    "pronounce": "kush",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नड",
+    "bengali": "রিড",
+    "english": "reed",
+    "pronounce": "nad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नडवला",
+    "bengali": "রিড বিছানা",
+    "english": "reed bed",
+    "pronounce": "nadvala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिंजूल",
+    "bengali": "ঘাস বা ডালপালা বান্ডিল",
+    "english": "bundle of grass or stalks",
+    "pronounce": "pinjul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सैर्य",
+    "bengali": "কিছু প্রজাতির ঘাস পোকামাকড় দ্বারা আক্রান্ত",
+    "english": "some species of grass infested with insects",
+    "pronounce": "sairya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सस",
+    "bengali": "ভেষজ, ঘাস, সোমা প্ল্যান্ট, কোরবানি খড়",
+    "english": "herb, grass, the soma plant, sacrificial straw",
+    "pronounce": "sas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शाद",
+    "bengali": "ঘাস",
+    "english": "grass",
+    "pronounce": "shad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शर",
+    "bengali": "এক ধরণের রিড (স্যাকারাম সারা) তীর শ্যাফ্ট তৈরি করতে ব্যবহৃত হয়",
+    "english": "a kind of a reed (Saccharum sara) used to make arrow shafts",
+    "pronounce": "shar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शष्प",
+    "bengali": "তরুণ ঘাস",
+    "english": "young grass",
+    "pronounce": "shashp",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शुम्बल",
+    "bengali": "এমন একটি পদার্থ যা সহজেই আগুন ধরে;হয় খড়, বা শুকনো সুতির ফাইবার বা পোড",
+    "english": "a substance that easily catches fire; either straw, or dried cotton fibre or pods",
+    "pronounce": "shumbal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्तम्ब",
+    "bengali": "ঘাসের টুফ্ট;সাধারণত, গুচ্ছ বা ক্লাস্টার",
+    "english": "tuft of grass; generally, bunch or cluster",
+    "pronounce": "stamb",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सुगन्धितेजन",
+    "bengali": "এক ধরণের সুগন্ধযুক্ত ঘাস",
+    "english": "a kind of fragrant grass",
+    "pronounce": "sugandhitejan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तृण",
+    "bengali": "ঘাস, একটি ঘর বা কুঁড়েঘরের জন্য ব্যবহৃত জন্য ব্যবহৃত",
+    "english": "grass, used for thatching a house or hut",
+    "pronounce": "trin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उलप",
+    "bengali": "ঘাসের একটি প্রজাতি",
+    "english": "a specied of grass",
+    "pronounce": "ulap",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वीरण",
+    "bengali": "একটি উদ্ভিদের নাম (অ্যান্ড্রোপোগন মুরিকাটাস)",
+    "english": "the name of a plant (Andropogon muricatus)",
+    "pronounce": "virana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "यवाष",
+    "bengali": "ঘাস কোন প্রাণী খাওয়ায়",
+    "english": "grass on which animals feed",
+    "pronounce": "yavash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आल",
+    "bengali": "একটি আগাছা",
+    "english": "a weed",
+    "pronounce": "aal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आबयु",
+    "bengali": "সরিষার উদ্ভিদ",
+    "english": "the mustard plant",
+    "pronounce": "abayu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आदार",
+    "bengali": "একটি উদ্ভিদ যা সোমার বিকল্প",
+    "english": "a plant that is a substitute for soma",
+    "pronounce": "adar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अध्याण्डा",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "adhyanda",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अजशृङ्गी",
+    "bengali": "ওডিনা পিনাটা, প্রোসোপিস স্পিসিগেরা বা মিমোসা সুমা",
+    "english": "Odina pinnata, Prosopis spicigera, or Mimosa suma",
+    "pronounce": "ajashringi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अलापु",
+    "bengali": "বোতল লাউ (লেগেনারিয়া ওয়ালগারিস);এটি থেকে ভেসেলগুলি তৈরি করা হয়েছিল",
+    "english": "bottle gourd (Lagenaria vulgaris); vessels were made from it",
+    "pronounce": "alapu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अलसाला",
+    "bengali": "একটি শস্য লতা নাম",
+    "english": "the name of a grain creeper",
+    "pronounce": "alasala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अमला",
+    "bengali": "মাইরোবালান ট্রি (এম্ব্লিকা অফিসিনালিস)",
+    "english": "myrobalan tree (Emblica officinalis)",
+    "pronounce": "amala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आमलक",
+    "bengali": "মাইরোবালান ফল",
+    "english": "Myrobalan fruit",
+    "pronounce": "amalak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अमूला",
+    "bengali": "বিষাক্ত তীরগুলির জন্য ব্যবহৃত একটি উদ্ভিদ (মেথোনিকা সুপারবা)",
+    "english": "a plant (Methonica superba) used for poisoning arrows",
+    "pronounce": "amula",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आण्डीक",
+    "bengali": "ডিমের আকারের ফল বা পাতা সহ একটি ভোজ্য উদ্ভিদ, পদ্মের মতো",
+    "english": "an edible plant with egg-shaped fruits or leaves, similar to the lotus",
+    "pronounce": "andik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अपामार्ग",
+    "bengali": "একটি উদ্ভিদ (আচিরান্থেস এস্পেরা) প্রায়শই ওষুধ এবং জাদুবিদ্যার জন্য ব্যবহৃত হয়",
+    "english": "a plant (Achyranthes aspera) frequently used for medicines and witchcraft",
+    "pronounce": "apamarg",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अराटकी",
+    "bengali": "ওডিনা পিনাটা, প্রোসোপিস স্পিসিগেরা বা মিমোসা সুমা",
+    "english": "Odina pinnata, Prosopis spicigera, or Mimosa suma",
+    "pronounce": "arataki",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अरटु",
+    "bengali": "কাঠ থেকে একটি উদ্ভিদ (কলসান্থেস ইন্ডিকা) যা কখনও কখনও রথের অক্ষ তৈরি করা হত",
+    "english": "a plant (Colosanthes indica) from the wood of which the axle of a chariot was sometimes made",
+    "pronounce": "aratu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अर्क",
+    "bengali": "ক্যালোট্রপিস জিগান্টিয়া",
+    "english": "Calotropis gigantea",
+    "pronounce": "ark",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अरुन्धती",
+    "bengali": "একটি লোমশ স্টেম সহ একটি সোনার পর্বতারোহী, যা নিরাময়ের ক্ষতগুলির জন্য ব্যবহৃত হয়, একটি ফিব্রিফিউজ হিসাবে এবং গরুকে দুধ দেওয়ার জন্য প্ররোচিত করার জন্য",
+    "english": "a golden climber with a hairy stem, used for healing wounds, as a febrifuge, and for inducing cows to give milk",
+    "pronounce": "arundhati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अश्मगन्धा",
+    "bengali": "ফিজালিস ফ্লেক্সুওসা",
+    "english": "Physalis flexuosa",
+    "pronounce": "ashmagandha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अश्ववार",
+    "bengali": "একটি রিড (স্যাকারাম স্বতঃস্ফূর্ত)",
+    "english": "a reed (Saccharum spontaneum)",
+    "pronounce": "ashvavar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "औक्षगन्धि",
+    "bengali": "একটি সুগন্ধযুক্ত উদ্ভিদের নাম",
+    "english": "the name of a fragrant plant",
+    "pronounce": "aukshagandhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अवका",
+    "bengali": "একটি উদ্ভিদ (ব্লিক্সা অক্টান্দ্রা) যে গন্ধরভরা খায়",
+    "english": "a plant (Blyxa octandra) that the gandharvas eat",
+    "pronounce": "avaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बज",
+    "bengali": "একটি রোগের দৈত্যের বিরুদ্ধে ব্যবহৃত একটি উদ্ভিদ, সম্ভবত সরিষা",
+    "english": "some sort of a plant, probably mustard, used against the demon of a disease",
+    "pronounce": "baj",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भङ्ग",
+    "bengali": "হেম্প, মাদকদ্রব্য অর্থে সোমার একটি উপাধি",
+    "english": "hemp, an epithet of soma in the sense of intoxicating",
+    "pronounce": "bhang",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बिम्ब",
+    "bengali": "মোমর্ডিকা মোনাদেলফা",
+    "english": "Momordica monadelpha",
+    "pronounce": "bimb",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बिस",
+    "bengali": "পদ্মের র‌্যাডিক্যাল ফাইবারগুলি, একটি স্বাদ হিসাবে খাওয়া",
+    "english": "the radical fibres of the lotus, eaten as a delicacy",
+    "pronounce": "bis",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "एराण्ड",
+    "bengali": "ক্যাস্টর অয়েল প্ল্যান্ট (রিকিনাস কমিউনিস)",
+    "english": "the castor oil plant (Ricinus communis)",
+    "pronounce": "erand",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जाम्बीर",
+    "bengali": "সিট্রন",
+    "english": "the citron",
+    "pronounce": "jambir",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जंगीड",
+    "bengali": "টার্মিনালিয়া অর্জুনিয়া",
+    "english": "Terminalia arjuneya",
+    "pronounce": "jangid",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "करीर",
+    "bengali": "একটি পাতাহীন ঝোপের নাম (ক্যাপারিস অ্যাফিলা) বা এর ফল",
+    "english": "the name of a leafless shrub (Capparis aphylla) or its fruit",
+    "pronounce": "karir",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कियाम्बु",
+    "bengali": "একটি ওয়াটারপ্ল্যান্ট যা একটি অন্ত্যেষ্টিক্রিয়া সাইটে বাড়ার কথা",
+    "english": "one of the waterplants that are supposed to grow at a funeral site",
+    "pronounce": "kiyambu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुमुद",
+    "bengali": "সাদা জল লিলি (নিমফিয়া এসকুলেন্টা)",
+    "english": "white water lily (Nymphaea esculenta)",
+    "pronounce": "kumud",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुष्ठ",
+    "bengali": "একটি উদ্ভিদের নাম (কস্টাস স্পেসিওসাস বা কস্টাস আরবি) যা হিমালয়ের উঁচু শিখরে বেড়ে ওঠে এবং নিরাময় ভেষজ হিসাবে উচ্চ সম্মতিতে ধরা হয়েছিল",
+    "english": "the name of a plant (Costus speciosus or Costus arabicus) that grew on the high peaks of the Himalayas and was held in high regard as a healing herb",
+    "pronounce": "kushth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मदवती",
+    "bengali": "একটি মাতাল উদ্ভিদের নাম",
+    "english": "the name of an intoxicating plant",
+    "pronounce": "madavati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मदुघ",
+    "bengali": "একটি মিষ্টি ভেষজ নাম;মধু উদ্ভিদ",
+    "english": "the name of a sweet herb; honey plant",
+    "pronounce": "madugh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मंजिष्ठा",
+    "bengali": "ম্যাডার",
+    "english": "madder",
+    "pronounce": "manjishtha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नलद",
+    "bengali": "একটি উদ্ভিদের নাম (নারদাস্তাচিস জাটামানসি)",
+    "english": "the name of a plant (Nardastachys jatamansi)",
+    "pronounce": "nalad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नराची",
+    "bengali": "একটি বিষাক্ত উদ্ভিদের নাম",
+    "english": "the name of a poisonous plant",
+    "pronounce": "narachi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नीलागलसाल",
+    "bengali": "গ্রেনক্রিপার",
+    "english": "graincreeper",
+    "pronounce": "nilagalasal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "न्यस्तिका",
+    "bengali": "একটি উদ্ভি",
+    "english": "the name of a plant (Andropogon aciculatus), shankhapushpi",
+    "pronounce": "nyastika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ओषधि",
+    "bengali": "medic ষধি গাছ",
+    "english": "medicinal plants",
+    "pronounce": "oshadhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पाकदूर्व",
+    "bengali": "ভোজ্য বাজরা",
+    "english": "edible millet",
+    "pronounce": "pakadurv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्वन",
+    "bengali": "রিডের গিঁট বা উদ্ভিদের জয়েন্টগুলি",
+    "english": "knots of the reed or joints of the plant",
+    "pronounce": "parvan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पाटा",
+    "bengali": "একটি medic ষধি উদ্ভিদের নাম (ক্লিপিয়া হার্নান্দিফোলিয়া)",
+    "english": "the name of a medicinal plant (Clypea hernandifolia)",
+    "pronounce": "pata",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "फलवती",
+    "bengali": "একটি উদ্ভিদের নাম, সম্ভবত প্রিয়াঙ্গুঙ্গ",
+    "english": "name of a plant, possibly Priyangu",
+    "pronounce": "phalavati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पीला",
+    "bengali": "একটি সুগন্ধযুক্ত উদ্ভিদ",
+    "english": "a fragrant plant",
+    "pronounce": "pila",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रमन्द",
+    "bengali": "একটি মিষ্টি সুগন্ধযুক্ত উদ্ভিদ",
+    "english": "a sweet-scented plant",
+    "pronounce": "pramand",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रप्रोथ",
+    "bengali": "সোমার বিকল্প হিসাবে ব্যবহৃত একটি উদ্ভিদের নাম",
+    "english": "the name of a plant used as a substitute for soma",
+    "pronounce": "praproth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रसू",
+    "bengali": "তরুণ অঙ্কুর",
+    "english": "young shoot",
+    "pronounce": "prasu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पृश्निपर्णी",
+    "bengali": "গর্ভপাতের বিরুদ্ধে সুরক্ষা হিসাবে ব্যবহৃত একটি উদ্ভিদের নাম, সম্ভবত হার্মিওনাইটিস কর্ডিফোলিয়া বা গ্লাইসিন ডিবিলিস",
+    "english": "the name of a plant used as protection against abortions, possibly Hermionitis cordifolia or Glycine debilis",
+    "pronounce": "prishniparni",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुण्डरीक",
+    "bengali": "পদ্ম পুষ্প",
+    "english": "lotus blossom",
+    "pronounce": "pundarik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुष्कर",
+    "bengali": "পদ্ম ফুল",
+    "english": "lotus flower",
+    "pronounce": "pushkar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुष्प",
+    "bengali": "ফুল",
+    "english": "flower",
+    "pronounce": "pushp",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूतिका",
+    "bengali": "গিল্যান্ডিনা বন্ডুক বা বেসেলা কর্ডিফোলিয়া",
+    "english": "Guilandina bonduc or Basella cordifolia",
+    "pronounce": "putika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूतिरज्जु",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "putirajju",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सहदेवी",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "sahadevi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सहमान",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "sahaman",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सर्षप",
+    "bengali": "সরিষা, সরিষার বীজ",
+    "english": "mustard, mustard seed",
+    "pronounce": "sarshap",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शालूक",
+    "bengali": "পদ্মের ভোজ্য শিকড়",
+    "english": "edible roots of the lotus",
+    "pronounce": "shaluk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शण",
+    "bengali": "শিং",
+    "english": "hemp",
+    "pronounce": "shan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शफक",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "shaphak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शिपाल",
+    "bengali": "একটি জল গাছের নাম (ব্লিক্সা অক্টান্দ্রা)",
+    "english": "the name of a water plant (Blyxa octandra)",
+    "pronounce": "shipal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सिलाची",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "silachi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सिलांजला",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "silanjala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सोम",
+    "bengali": "ত্যাগের জন্য সোমা লিবিশন প্রস্তুত করার জন্য ব্যবহৃত একটি উদ্ভিদের নাম",
+    "english": "the name of a plant used for preparing the soma libation for sacrifices",
+    "pronounce": "som",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ताजदभङ्ग",
+    "bengali": "একটি গাছ বা উদ্ভিদের নাম, সম্ভবত ক্যাস্টর-অয়েল উদ্ভিদ",
+    "english": "the name of a tree or plant, probably the castor-oil plant",
+    "pronounce": "tajadbhang",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तौदी",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "taudi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "त्रायमान",
+    "bengali": "একটি উদ্ভিদ নাম",
+    "english": "name of a plant",
+    "pronounce": "trayaman",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उर्वारु",
+    "bengali": "শসা",
+    "english": "cucumber",
+    "pronounce": "urvaru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उशाना",
+    "bengali": "একটি উদ্ভিদের নাম যা থেকে সোমা তৈরি করা হয়েছিল",
+    "english": "the name of a plant from which soma was made",
+    "pronounce": "ushana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विहल्ह",
+    "bengali": "একটি উদ্ভিদের নাম",
+    "english": "the name of a plant",
+    "pronounce": "vihalh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वीरुध",
+    "bengali": "উদ্ভিদ, ওশাদির নিকৃষ্ট",
+    "english": "plant, inferior to oshadhi",
+    "pronounce": "virudh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विषाणका",
+    "bengali": "কিছু রোগের প্রতিকার হিসাবে ব্যবহৃত একটি উদ্ভিদের নাম",
+    "english": "the name of a plant used as a remedy for some disease",
+    "pronounce": "vishanaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "व्रतति",
+    "bengali": "লতা",
+    "english": "creeper",
+    "pronounce": "vratati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अश्वत्थ",
+    "bengali": "ফিকাস রিলিজিওসা",
+    "english": "Ficus religiosa",
+    "pronounce": "ashvatth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बदर",
+    "bengali": "এক ধরণের জুজুব",
+    "english": "a kind of jujube",
+    "pronounce": "badar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बिल्व",
+    "bengali": "কাঠের আপেল ট্রি (আইগল মারমেলোস)",
+    "english": "the wood apple tree (Aigle marmelos)",
+    "pronounce": "bilv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दारु",
+    "bengali": "কাঠ",
+    "english": "wood",
+    "pronounce": "daru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्रुम",
+    "bengali": "গাছ",
+    "english": "tree",
+    "pronounce": "drum",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हरिद्रु",
+    "bengali": "একটি গাছের নাম (পিনাস ডিওডোরা)",
+    "english": "the name of a tree (Pinus deodora)",
+    "pronounce": "haridru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "काकम्बीर",
+    "bengali": "একটি গাছের নাম",
+    "english": "name of a tree",
+    "pronounce": "kakambir",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कर्कन्धु",
+    "bengali": "একটি গাছের নাম (জিজিফাস জুজুবা) এবং এর ফল",
+    "english": "the name of a tree (Zizyphus jujuba) and its fruit",
+    "pronounce": "karkandhu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कार्ष्मर्य",
+    "bengali": "একটি গাছের নাম (জিমেলিনা আরবোরিয়া)",
+    "english": "the name of a tree (Gmelina arborea)",
+    "pronounce": "karshmarya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खदिर",
+    "bengali": "শক্ত কাঠের সাথে একটি গাছের নাম (বাবলা ক্যাটেকু)",
+    "english": "the name of a tree (Acacia catechu) with hard wood",
+    "pronounce": "khadir",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खर्जूर",
+    "bengali": "একটি গাছের নাম (ফিনিক্স সিলভেস্ট্রিস)",
+    "english": "the name of a tree (Phoenix silvestris)",
+    "pronounce": "kharjur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "किंशुक",
+    "bengali": "একটি গাছের নাম (বুটিয়া ফ্রনডোসা)",
+    "english": "the name of a tree (Butea frondosa)",
+    "pronounce": "kimshuk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "क्रुमुक",
+    "bengali": "জ্বালানির জন্য ব্যবহৃত একটি প্রজাতি কাঠের",
+    "english": "a species of wood used for fuel",
+    "pronounce": "krumuk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निर्यास",
+    "bengali": "গাছের বহিঃপ্রকাশ",
+    "english": "exudation of trees",
+    "pronounce": "niryas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "न्यग्रोध",
+    "bengali": "একটি গাছের নাম (ফিকাস ইন্ডিকা)",
+    "english": "the name of a tree (Ficus indica)",
+    "pronounce": "nyagrodh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलाश",
+    "bengali": "পাতা, সাধারণত এবং বিশেষভাবে বুটিয়া ফ্রনডোসা",
+    "english": "leaf, generally, and Butea frondosa specifically",
+    "pronounce": "palash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्ण",
+    "bengali": "একটি পাখির ডানা, একটি তীরের পালক এবং একটি গাছের পাতা",
+    "english": "wing of a bird, feather of an arrow, and leaf of a tree",
+    "pronounce": "parn",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्ण",
+    "bengali": "বুটিয়া ফ্রনডোসা",
+    "english": "Butea frondosa",
+    "pronounce": "parn",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पीलु",
+    "bengali": "একটি গাছের নাম (কেরিয়া আরবোরিয়া), যার ফলগুলি কবুতর দ্বারা খাওয়া হত",
+    "english": "the name of a tree (Careya arborea), the fruits of which were eaten by doves",
+    "pronounce": "pilu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिप्पल",
+    "bengali": "বেরি",
+    "english": "berry",
+    "pronounce": "pippal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पितुदारु",
+    "bengali": "দেওদার",
+    "english": "deodar",
+    "pronounce": "pitudaru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्लक्ष",
+    "bengali": "তরঙ্গ-পাতাযুক্ত ডুমুর গাছ (ফিকাস ইনফেক্টরিয়া)",
+    "english": "wave-leafed fig tree (Ficus infectoria)",
+    "pronounce": "plaksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रक्ष",
+    "bengali": "ফিকাস ইনফেক্টরিয়া",
+    "english": "Ficus infectoria",
+    "pronounce": "praksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूतुद्रु",
+    "bengali": "দেওদার",
+    "english": "deodar",
+    "pronounce": "putudru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रज्जुदाल",
+    "bengali": "একটি গাছের নাম (কর্ডিয়া মাইক্সা বা বাটিফোলিয়া)",
+    "english": "the name of a tree (Cordia myxa or batifolia)",
+    "pronounce": "rajjudal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रोहितक",
+    "bengali": "একটি গাছের নাম (অ্যান্ডারসনিয়া রোহিতাকা)",
+    "english": "the name of a tree (Andersonia rohitaka)",
+    "pronounce": "rohitak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शाखा",
+    "bengali": "শাখা",
+    "english": "branch",
+    "pronounce": "shakha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शल्मलि",
+    "bengali": "সিল্ক সুতি গাছ (সালমালিয়া মালাবারিকা);ব্রাইডাল মিছিলের রথটি তার কাঠ দিয়ে তৈরি",
+    "english": "silk cotton tree (Salmalia malabarica); the chariot of the bridal procession is made of its wood",
+    "pronounce": "shalmali",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शमी",
+    "bengali": "একটি বিস্তৃত-পাতার গাছের নাম যা চুলের জন্য ধ্বংসাত্মক এবং নেশা উত্পাদন করে",
+    "english": "the name of a broad-leafed tree that is destructive to hair and produces intoxication",
+    "pronounce": "shami",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शिम्बल",
+    "bengali": "শালমালি গাছের ফুল",
+    "english": "flower of the shalmali tree",
+    "pronounce": "shimbal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शिंशपा",
+    "bengali": "একটি রাষ্ট্রীয় এবং সুন্দর গাছের নাম (ডালবার্গিয়া সিসু)",
+    "english": "the name of a stately and beautiful tree (Dalbergia sisu)",
+    "pronounce": "shimshap",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्पन्दन",
+    "bengali": "একটি গাছের নাম",
+    "english": "the name of a tree",
+    "pronounce": "spandan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्फूर्जक",
+    "bengali": "একটি গাছের নাম (ডায়োস্পাইরোস ভ্রূণ ভ্রূণ)",
+    "english": "the name of a tree (Diospyros embryopteris)",
+    "pronounce": "sphurjaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्वधिति",
+    "bengali": "একটি শক্ত কাঠ সঙ্গে দুর্দান্ত গাছ",
+    "english": "great tree with a hard wood",
+    "pronounce": "svadhiti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तलाश",
+    "bengali": "একটি গাছের নাম (ফ্লাকোর্টিয়া ক্যাটাফ্র্যাক্টা)",
+    "english": "the name of a tree (Flacourtia cataphracta)",
+    "pronounce": "talash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ताष्टार्घ",
+    "bengali": "একটি গাছের নাম",
+    "english": "the name of a tree",
+    "pronounce": "tarshtagh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तिलवक",
+    "bengali": "একটি গাছের নাম (সিম্প্লোকোস রেসমোসা) এর কাছে এটি একটি কবর তৈরি করা অশুভ",
+    "english": "the name of a tree (Symplocos racemosa) near which it is inauspicious to make a grave",
+    "pronounce": "tilvak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उदुम्बर",
+    "bengali": "একটি গাছের নাম (ফিকাস গ্লোমেরাটা), যার কাঠটি পোস্ট, লাডল, তাবিজের মতো কোরবানি বস্তু তৈরির জন্য ব্যবহৃত হয়েছিল",
+    "english": "the name of a tree (Ficus glomerata), the wood of which ws used for making sacrificial objects like the post, ladle, amulets",
+    "pronounce": "udumbar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वकल",
+    "bengali": "অভ্যন্তরীণ ছাল, বেস্ট",
+    "english": "inner bark, bast",
+    "pronounce": "vakal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वल्क",
+    "bengali": "ছাল",
+    "english": "bark",
+    "pronounce": "valk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वल्श",
+    "bengali": "টুইগ",
+    "english": "twig",
+    "pronounce": "valsh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वनस्पति",
+    "bengali": "গাছ",
+    "english": "tree",
+    "pronounce": "vanaspati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वरण",
+    "bengali": "একটি গাছের নাম (ক্রটাভা রক্সবার্গি)",
+    "english": "the name of a tree (Crataeva roxburghii)",
+    "pronounce": "varan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वया",
+    "bengali": "শাখা",
+    "english": "branch",
+    "pronounce": "vaya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विकण्कट",
+    "bengali": "একটি গাছের নাম (ফ্লাকোর্তিয়া সাপিদা)",
+    "english": "the name of a tree (Flacourtia sapida)",
+    "pronounce": "vikankat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृक्ष",
+    "bengali": "গাছ",
+    "english": "tree",
+    "pronounce": "vriksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृक्ष्य",
+    "bengali": "একটি গাছের ফল",
+    "english": "fruit of a tree",
+    "pronounce": "vrkshya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अज",
+    "bengali": "ছাগল",
+    "english": "goat",
+    "pronounce": "aj",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अक्र",
+    "bengali": "ঘোড়া, আরও সুনির্দিষ্টভাবে, একটি রাইডিং ঘোড়া",
+    "english": "horse, more specifically, a riding horse",
+    "pronounce": "akr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अनडवाह",
+    "bengali": "খসড়া অক্স, সাধারণত (তবে সর্বদা নয়) কাস্ট্রেটেড",
+    "english": "draught ox, usually (but not always) castrated",
+    "pronounce": "anadvah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अश्व",
+    "bengali": "ঘোড়া",
+    "english": "horse",
+    "pronounce": "ashv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अश्वतर",
+    "bengali": "খচ্চর",
+    "english": "mule",
+    "pronounce": "ashvatar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अवि",
+    "bengali": "ভেড়া, এবং পশম",
+    "english": "sheep, and also wool",
+    "pronounce": "avi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बलाय",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "balay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बस्त",
+    "bengali": "ছাগল",
+    "english": "goat",
+    "pronounce": "bast",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भरूजी",
+    "bengali": "একটি ক্ষতিকারক প্রাণীর নাম",
+    "english": "the name of a noxious animal",
+    "pronounce": "bharuji",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भौमक",
+    "bengali": "একটি প্রাণীর নাম",
+    "english": "the name of an animal",
+    "pronounce": "bhaumak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भौमी",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "bhaumi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चराचर",
+    "bengali": "একটি প্রাণীর নাম",
+    "english": "the name of an animal",
+    "pronounce": "charachar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चतुष्पद",
+    "bengali": "চতুর্ভুজ",
+    "english": "quadruped",
+    "pronounce": "chatushpad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "छग",
+    "bengali": "ছাগল",
+    "english": "goat",
+    "pronounce": "chhag",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चिलवटि",
+    "bengali": "একটি প্রাণীর নাম",
+    "english": "the name of an animal",
+    "pronounce": "chilvati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धरुण",
+    "bengali": "স্তন্যপায়ী বাছুর",
+    "english": "suckling calf",
+    "pronounce": "dharun",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धेनु",
+    "bengali": "মিলচ গরু",
+    "english": "milch cow",
+    "pronounce": "dhenu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धेनुष्टरी",
+    "bengali": "গাভী যে দুধ দেওয়া বন্ধ করে দিয়েছে",
+    "english": "cow that has stopped giving milk",
+    "pronounce": "dhenushtari",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धूम्र",
+    "bengali": "উট",
+    "english": "camel",
+    "pronounce": "dhumr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दित्यौही",
+    "bengali": "দুই বছরের গরু",
+    "english": "two-year-old cow",
+    "pronounce": "dityauhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दित्यवाह",
+    "bengali": "দুই বছরের বুল",
+    "english": "two-year-old bull",
+    "pronounce": "dityavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दुघ",
+    "bengali": "দুধ ফলনকারী গরু",
+    "english": "milk-yielding cow",
+    "pronounce": "dugh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दुर्वराह",
+    "bengali": "বন্য শুয়োর",
+    "english": "wild boar",
+    "pronounce": "durvarah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्विपाद",
+    "bengali": "দ্বিপদী, চতুর্ভুজগুলির বিপরীতে একজন মানুষকে বোঝায়",
+    "english": "biped, denotes a human as opposed to quadrupeds",
+    "pronounce": "dvipad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्वीपिन",
+    "bengali": "প্যান্থার বা চিতা",
+    "english": "panther or leopard",
+    "pronounce": "dvipin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्विरेतस",
+    "bengali": "ডাবল বীজ আছে;মারে এবং গাধা একটি এপিথেট (কারণ তারা খচ্চর জন্মগ্রহণ করে)",
+    "english": "having double seed; an epithet of mare and ass (because they birth the mule)",
+    "pronounce": "dviretas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "एडक",
+    "bengali": "একটি দুষ্ট র‌্যাম",
+    "english": "a vicious ram",
+    "pronounce": "edak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "एणी",
+    "bengali": "মহিলা অ্যান্টেলোপ",
+    "english": "female antelope",
+    "pronounce": "eni",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "एत",
+    "bengali": "একটি প্রজাতির সুইফট হরিণ তবে সম্ভবত গাজেলগুলি নয়",
+    "english": "a species of swift deer but probably not gazelles",
+    "pronounce": "et",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गज",
+    "bengali": "হাতি",
+    "english": "elephant",
+    "pronounce": "gaj",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गर्दभ",
+    "bengali": "গাধা",
+    "english": "ass",
+    "pronounce": "gardabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गवय",
+    "bengali": "একটি প্রজাতির ষাঁড় (বোস গাভিয়াস)",
+    "english": "a species of ox (Bos gavaeus)",
+    "pronounce": "gavay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "घृणिवन्त",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "ghrnivant",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गो",
+    "bengali": "একটি বলদ বা একটি গরু",
+    "english": "an ox or a cow",
+    "pronounce": "go",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गोधा",
+    "bengali": "একটি কুমির বা একটি বড় টিকটিকি",
+    "english": "a crocodile or a large lizard",
+    "pronounce": "godha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गोलत्तिका",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "golattika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गृष्टि",
+    "bengali": "একটি যুবক গরু যা কেবল একবারে চারণ হয়ে গেছে",
+    "english": "a young cow that has calved only once",
+    "pronounce": "grishti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हलिक्ष्ण",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "halikshn",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हरिण",
+    "bengali": "গাজেল",
+    "english": "gazelle",
+    "pronounce": "harin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हस्तिन",
+    "bengali": "হাতি",
+    "english": "elephant",
+    "pronounce": "hastin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हय",
+    "bengali": "ঘোড়া",
+    "english": "horse",
+    "pronounce": "hay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "इभ",
+    "bengali": "হাতি",
+    "english": "elephant",
+    "pronounce": "ibh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जहका",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত পোলক্যাট",
+    "english": "the polecat, mentioned  in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "jahaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जतू",
+    "bengali": "বিএটি, অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত (ঘোড়া ত্যাগ)",
+    "english": "bat, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "jatu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कपि",
+    "bengali": "এপি",
+    "english": "ape",
+    "pronounce": "kapi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कर्की",
+    "bengali": "সাদা গরু",
+    "english": "white cow",
+    "pronounce": "karki",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कश",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कशीका",
+    "bengali": "ওয়েজেল, পোলিক্যাট বা মহিলা আইচনিউমন",
+    "english": "weasel, polecat, or female ichneumon",
+    "pronounce": "kashika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कश्यप",
+    "bengali": "কচ্ছপ",
+    "english": "tortoise",
+    "pronounce": "kashyap",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खड्ग",
+    "bengali": "গণ্ডার",
+    "english": "rhinoceros",
+    "pronounce": "khadga",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खंग",
+    "bengali": "গণ্ডার",
+    "english": "rhinoceros",
+    "pronounce": "khang",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खर",
+    "bengali": "গাধা",
+    "english": "ass",
+    "pronounce": "khar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "किम्पुरुष",
+    "bengali": "আক্ষরিক অর্থে, 'একজন মানুষ কী ধরণের?'",
+    "english": "ape, literally, 'what sort of a man?'",
+    "pronounce": "kimpurush",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कीर्शा",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kirsha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कृकलास",
+    "bengali": "চ্যামিলিয়ন, আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "chameleon, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "krikalas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुभ्र",
+    "bengali": "একটি প্রাণীর নাম",
+    "english": "the name of an animal",
+    "pronounce": "kubhr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुलुंग",
+    "bengali": "আশ্বাম্মে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত একটি প্রাণীর নাম, সম্ভবত গাজেল",
+    "english": "name of an animal, possibly gazelle, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kulung",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुम्भीनासा",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত একটি প্রাণীর নাম, সম্ভবত কোনও ধরণের সাপ",
+    "english": "the name of an animal, possibly some sort of a snake, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kumbhinasa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुण्डृनाची",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kundranachi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुरीरिन",
+    "bengali": "একটি ক্রেস্ট প্রাণী, সম্ভবত একটি ময়ূর",
+    "english": "a crested animal, probably a peacock",
+    "pronounce": "kuririn",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुर्कुर",
+    "bengali": "কুকুর",
+    "english": "dog",
+    "pronounce": "kurkur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कूर्म",
+    "bengali": "কচ্ছপ",
+    "english": "tortoise",
+    "pronounce": "kurm",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लोध",
+    "bengali": "লাল ছাগল",
+    "english": "red goat",
+    "pronounce": "lodh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लोपाश",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লেখ করা একটি প্রাণীর নাম সম্ভবত জ্যাকাল বা ফক্স",
+    "english": "the name of an animal, possibly jackal or fox, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "lopash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "माचल",
+    "bengali": "বিদর্বে পাওয়া এক ধরণের কুকুর বাঘকে হত্যা করতে পারে",
+    "english": "a kind of dog found in Vidarbh, can kill tigers",
+    "pronounce": "machal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "महानिरष्ट",
+    "bengali": "রাজসুয়া ইয়াগনা (রাজকীয় পবিত্রতা) এ একটি দক্ষিণ (কোরবানির ফি) হিসাবে উল্লিখিত দুর্দান্ত কাস্ট্রেটেড বলদ",
+    "english": "great castrated ox, mentioned as a dakshina (sacrificial fee) at the rajasuya yagna (royal consecration)",
+    "pronounce": "mahanirasta",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "महासुहय",
+    "bengali": "সিন্ধু অঞ্চল থেকে একটি উচ্চ-উত্সাহী ঘোড়া, এর ঝাপটায় ছিঁড়ে ফেলতে সক্ষম",
+    "english": "a high-spirited horse from the Indus region, capable of tearing away the peg of its hobble",
+    "pronounce": "mahasuhay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "महिष",
+    "bengali": "মহিষ",
+    "english": "buffalo",
+    "pronounce": "mahish",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "महोक्ष",
+    "bengali": "দুর্দান্ত ষাঁড়",
+    "english": "great bull",
+    "pronounce": "mahoksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मकर",
+    "bengali": "কুমির, আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "crocodile, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "makar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मण्डूक",
+    "bengali": "ব্যাঙ",
+    "english": "frog",
+    "pronounce": "manduk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मांथालव",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "manthalav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मर्कट",
+    "bengali": "অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত এপি",
+    "english": "ape, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "markat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मर्य",
+    "bengali": "স্ট্যালিয়ন",
+    "english": "stallion",
+    "pronounce": "marya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मर्यक",
+    "bengali": "একটি ষাঁড় যা গরু থেকে পৃথক",
+    "english": "a bull that's separated from cows",
+    "pronounce": "maryak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मय",
+    "bengali": "ঘোড়া",
+    "english": "horse",
+    "pronounce": "may",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मयु",
+    "bengali": "অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত এপি",
+    "english": "ape, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "mayu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मयूर",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত ময়ূর",
+    "english": "peacock, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "mayur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मेष",
+    "bengali": "মেষ বা ভেড়া;এছাড়াও, সোমা ফিল্টার হিসাবে ব্যবহৃত ভেড়ার পশম",
+    "english": "ram or sheep; also, the wool of the sheep as used in the soma filter",
+    "pronounce": "mesh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मृग",
+    "bengali": "বুনো জন্তু",
+    "english": "wild beast",
+    "pronounce": "mrig",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मृगहस्तिन",
+    "bengali": "হাতি",
+    "english": "elephant",
+    "pronounce": "mrigahastin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मृगवरण",
+    "bengali": "হাতি, আক্ষরিক অর্থে, একটি বন্য বা বিপজ্জনক প্রাণী",
+    "english": "elephant , literally, a wild or dangerous animal",
+    "pronounce": "mrigavaran",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मूषिक",
+    "bengali": "মাউস",
+    "english": "mouse",
+    "pronounce": "mushik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मुष्कर",
+    "bengali": "একটি ছোট প্রাণী বা পোকামাকড়",
+    "english": "a small animal or insect",
+    "pronounce": "mushkar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नग",
+    "bengali": "একটি সাপ বা একটি হাতি",
+    "english": "a snake or an elephant",
+    "pronounce": "nag",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नाक्र",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লেখ করা একটি প্রাণীর নাম সম্ভবত কুমির",
+    "english": "the name of an animal, possibly crocodile, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "nakra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नकुल",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত ইচনিউমন",
+    "english": "ichneumon, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "nakul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नीलशीर्षणी",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "nilashirshani",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निवान्या",
+    "bengali": "একটি বাছুরযুক্ত একটি গরু যেখানে তাকে জিততে হবে, অর্থাৎ একটি বাছুরের সাথে তার নিজের একটির জন্য প্রতিস্থাপিত হয়েছে",
+    "english": "a cow with a calf to which she has to be won over, that is, with a calf substituted for one of her own that's died",
+    "pronounce": "nivanya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निवान्यावत्सा",
+    "bengali": "একটি বাছুরযুক্ত একটি গরু যেখানে তাকে জিততে হবে, অর্থাৎ একটি বাছুরের সাথে তার নিজের একটির জন্য প্রতিস্থাপিত হয়েছে",
+    "english": "a cow with a calf to which she has to be won over, that is, with a calf substituted for one of her own that's died",
+    "pronounce": "nivanyavatsa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "न्यंकु",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লেখ করা একটি প্রাণীর নাম, সম্ভবত গাজেল তবে সহনীয়ও হতে পারে",
+    "english": "the name of an animal, possibly gazelle but could be bear as well, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "nyanku",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पदि",
+    "bengali": "একটি প্রাণীর নাম",
+    "english": "the name of an animal",
+    "pronounce": "padi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पांक्त्र",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লেখ করা একটি প্রাণীর নাম, সম্ভবত ফিল্ড ইঁদুর",
+    "english": "the name of an animal, possibly field rat, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "panktra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परस्वंत",
+    "bengali": "বুনো গাধা",
+    "english": "wild ass",
+    "pronounce": "parasvant",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पष्ठौही",
+    "bengali": "গরু",
+    "english": "cow",
+    "pronounce": "pashthauhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पष्ठवाह",
+    "bengali": "অক্স",
+    "english": "ox",
+    "pronounce": "pashthavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पशु",
+    "bengali": "প্রাণী (মানব সহ যে কোনও প্রাণী)",
+    "english": "animal (any animal, including human)",
+    "pronounce": "pashu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पेत्व",
+    "bengali": "রাম, অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত (ঘোড়া ত্যাগ)",
+    "english": "ram, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "petv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिश",
+    "bengali": "হরিণ",
+    "english": "deer",
+    "pronounce": "pish",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रष्टि",
+    "bengali": "জোয়াল ঘোড়াগুলির পাশে চলছে সাইড হর্স, বা একটি তৃতীয় ঘোড়া সামনের দিকে নেতা হিসাবে জোড় করে",
+    "english": "side horse running beside the yoke horses, or a third horse yoked in the front as a leader",
+    "pronounce": "prashti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रयोग्य",
+    "bengali": "খসড়া প্রাণী",
+    "english": "draught animal",
+    "pronounce": "prayogya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पृषत",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত একটি প্রাণীর নাম সম্ভবত ড্যাপলিং এন্টেলোপ বা গাজেল",
+    "english": "the name of an animal, possibly dappled antelope or gazelle, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "prishat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पृषति",
+    "bengali": "অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত একটি প্রাণীর নাম সম্ভবত, ছদ্মবেশী গরু বা ছদ্মবেশী মারে,",
+    "english": "the name of an animal, possibly dappled antelope, speckled cow, or speckled mare, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "prishati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुरुषहस्तिन",
+    "bengali": "এপি",
+    "english": "ape",
+    "pronounce": "purushahastin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुरुषमृग",
+    "bengali": "এপি",
+    "english": "ape",
+    "pronounce": "purushamrig",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूर्ववह",
+    "bengali": "ঘোড়া, হয় একজন নেতা হিসাবে সামনের দিকে জোড় করে বা একজন প্রথমবারের জন্য একটি রথ অঙ্কন করে",
+    "english": "horse, either one yoked to the front as a leader or one drawing a chariot for the first time",
+    "pronounce": "purvavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रासभ",
+    "bengali": "গাধা",
+    "english": "ass",
+    "pronounce": "rasabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ऋक्ष",
+    "bengali": "ভাল্লুক",
+    "english": "bear",
+    "pronounce": "riksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ऋषभ",
+    "bengali": "ষাঁড়",
+    "english": "bull",
+    "pronounce": "rishabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ऋश्य",
+    "bengali": "স্ট্যাগ",
+    "english": "stag",
+    "pronounce": "rishya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रोहिणी",
+    "bengali": "লাল গরু",
+    "english": "red cow",
+    "pronounce": "rohini",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रोहित",
+    "bengali": "লাল মারে, লাল ডো, বা লাল ঘোড়া",
+    "english": "red mare, red doe, or red horse",
+    "pronounce": "rohit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रुरु",
+    "bengali": "হরিণ, অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত (ঘোড়া ত্যাগ)",
+    "english": "deer, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "ruru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सालावृक",
+    "bengali": "হায়না বা বন্য কুকুর",
+    "english": "hyaena or wild dog",
+    "pronounce": "salavrik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "संश्लिष्टका",
+    "bengali": "একটি প্রাণীর নাম",
+    "english": "the name of an animal",
+    "pronounce": "samslishtak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सप्ति",
+    "bengali": "সুইফট স্টিড",
+    "english": "swift steed",
+    "pronounce": "sapti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सारमेय",
+    "bengali": "কুকুর",
+    "english": "dog",
+    "pronounce": "saramey",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सरीसृप",
+    "bengali": "সরীসৃপ",
+    "english": "reptile",
+    "pronounce": "sarisrip",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शका",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "shaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शलभ",
+    "bengali": "পঙ্গপাল",
+    "english": "locust",
+    "pronounce": "shalabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शल्यक",
+    "bengali": "কর্কুপাইন",
+    "english": "porcupine",
+    "pronounce": "shalyak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शरभ",
+    "bengali": "একটি বন্য প্রাণী, ছাগলের অনুরূপ, সম্ভবত এক ধরণের হরিণ",
+    "english": "a wild animal, akin to a goat, probably a kind of deer",
+    "pronounce": "sharabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शर्कोट",
+    "bengali": "একটি সর্প বা একটি বিচ্ছু",
+    "english": "a serpent or a scorpion",
+    "pronounce": "sharkot",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शश",
+    "bengali": "খরগোশ",
+    "english": "hare",
+    "pronounce": "shash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शिशुक",
+    "bengali": "ফোয়াল",
+    "english": "foal",
+    "pronounce": "shishuk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शित्पुट",
+    "bengali": "বিড়াল",
+    "english": "cat",
+    "pronounce": "shitput",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शृगाल",
+    "bengali": "জ্যাকাল",
+    "english": "jackal",
+    "pronounce": "shrigal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्रृंग",
+    "bengali": "একটি প্রাণীর শিং;এছাড়াও, একটি তীরের বার্ব",
+    "english": "the horn of an animal; also, the barb of an arrow",
+    "pronounce": "shring",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शूकर",
+    "bengali": "বন্য শুয়োর",
+    "english": "wild boar",
+    "pronounce": "shukar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शुक्लदन्त",
+    "bengali": "সাদা-টাস্কড, হাতি",
+    "english": "white-tusked, elephant",
+    "pronounce": "shukladant",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शुनी",
+    "bengali": "দুশ্চরিত্রা",
+    "english": "bitch",
+    "pronounce": "shuni",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्वान",
+    "bengali": "কুকুর",
+    "english": "dog",
+    "pronounce": "shvan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्वापद",
+    "bengali": "শিকারের বিস্ট, বর্বর প্রাণী",
+    "english": "beast of prey, savage animal",
+    "pronounce": "shvapad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्वाविध",
+    "bengali": "কর্কুপাইন",
+    "english": "porcupine",
+    "pronounce": "shvavidh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सिंह",
+    "bengali": "সিংহ",
+    "english": "lion",
+    "pronounce": "sinh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सृजय",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "srijay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्तरी",
+    "bengali": "বন্ধ্যা গরু",
+    "english": "barren cow",
+    "pronounce": "stari",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सूकर",
+    "bengali": "বন্য শুয়োর",
+    "english": "wild boar",
+    "pronounce": "sukar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सूतवशा",
+    "bengali": "একটি বাছুর থাকার পরে একটি গরু বন্ধ্যা",
+    "english": "a cow barren after having one calf",
+    "pronounce": "sutavasha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्वेदज",
+    "bengali": "সমস্ত প্রকারের সিঁদুর যেমন মাছি, মশা, উকুন এবং বাগ",
+    "english": "vermin of all sorts, such as flies, mosquitos, lice, and bugs",
+    "pronounce": "svedaj",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तरक्षु",
+    "bengali": "আশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত হায়েনা (ঘোড়া ত্যাগ)",
+    "english": "hyaena, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "tarakshu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तयादर",
+    "bengali": "একটি প্রাণীর নাম",
+    "english": "the name of an animal",
+    "pronounce": "tayadar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "त्रिवत्स",
+    "bengali": "তিন বছরের পুরানো অক্স",
+    "english": "three-year-old ox",
+    "pronounce": "trivats",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "त्र्यवि",
+    "bengali": "আঠার মাস বয়সী গরু",
+    "english": "eighteen-month-old ox",
+    "pronounce": "tryavi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "त्सरु",
+    "bengali": "ক্রলিং প্রাণী",
+    "english": "crawling animal",
+    "pronounce": "tsaru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तुर्यौही",
+    "bengali": "চার বছর বয়সী গরু",
+    "english": "four-year-old cow",
+    "pronounce": "turyauhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तुर्यवाह",
+    "bengali": "চার বছরের পুরানো অক্স",
+    "english": "four-year-old ox",
+    "pronounce": "turyavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उद्र",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত ওটার",
+    "english": "otter, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "udr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उल",
+    "bengali": "জ্যাকাল সম্ভবত",
+    "english": "jackal possibly",
+    "pronounce": "ul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उष्टि",
+    "bengali": "উট",
+    "english": "camel",
+    "pronounce": "ushti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उष्ट्र",
+    "bengali": "বোঝার একটি জন্তু, হয় বুল, মহিষ বা উটকে কুঁচকে গেছে",
+    "english": "a beast of burden, either humped bull, buffalo, or camel, yoked in fours",
+    "pronounce": "ushtr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उस्र",
+    "bengali": "ষাঁড়",
+    "english": "bull",
+    "pronounce": "usr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वडवा",
+    "bengali": "মারে",
+    "english": "mare",
+    "pronounce": "vadava",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वध्रि",
+    "bengali": "কাস্ট্রেটেড স্ট্যালিয়ন",
+    "english": "castrated stallion",
+    "pronounce": "vadhri",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वघा",
+    "bengali": "একটি ক্ষতিকারক প্রাণীর নাম",
+    "english": "the name of a noxious animal",
+    "pronounce": "vagha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाह",
+    "bengali": "একটি ষাঁড় যা লাঙ্গল টানছে",
+    "english": "an ox that pulls the plough",
+    "pronounce": "vah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाहन",
+    "bengali": "বোঝা বিস্ট, সাধারণত, কিন্তু কখনও কখনও একটি কার্ট",
+    "english": "beast of burden, usually, but sometimes, a cart",
+    "pronounce": "vahan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वहनि",
+    "bengali": "খসড়া প্রাণী",
+    "english": "draught animal",
+    "pronounce": "vahani",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाहस",
+    "bengali": "বোয়া কনস্ট্রাক্টর, অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "boa constrictor, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "vahas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वंसग",
+    "bengali": "একটি ষাঁড় যা পশুপালকে নেতৃত্ব দেয়",
+    "english": "a bull that leads herds",
+    "pronounce": "vamsag",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वराह",
+    "bengali": "শুয়োর",
+    "english": "boar",
+    "pronounce": "varah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वरण",
+    "bengali": "হাতি",
+    "english": "elephant",
+    "pronounce": "varan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वार्ध्राणस",
+    "bengali": "অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত গণ্ডার",
+    "english": "rhinoceros, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "vardhranasa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वशा",
+    "bengali": "গরু, সম্ভবত বন্ধ্যা",
+    "english": "cow, possibly barren",
+    "pronounce": "vasha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाशिता",
+    "bengali": "একটি গরু একটি ষাঁড় ইচ্ছা",
+    "english": "a cow desiring a bull",
+    "pronounce": "vashita",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वत्स",
+    "bengali": "বাছুর",
+    "english": "calf",
+    "pronounce": "vats",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वत्सतर",
+    "bengali": "তরুণ বাছুর",
+    "english": "young calf",
+    "pronounce": "vatsatar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वेहत",
+    "bengali": "একটি গরু যা গর্ভপাত করে",
+    "english": "a cow that miscarries",
+    "pronounce": "vehat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृक",
+    "bengali": "নেকড়ে",
+    "english": "wolf",
+    "pronounce": "vrik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृषभ",
+    "bengali": "ষাঁড়",
+    "english": "bull",
+    "pronounce": "vrishabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृषदंश",
+    "bengali": "অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত ক্যাট",
+    "english": "cat, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "vrishadansh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृश्चिक",
+    "bengali": "বৃশ্চিক",
+    "english": "scorpion",
+    "pronounce": "vrishchik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "व्यद्वर",
+    "bengali": "কুঁচকানো প্রাণী",
+    "english": "gnawing animal",
+    "pronounce": "vyadvar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "यु",
+    "bengali": "জোয়াল প্রাণী",
+    "english": "yoke animals",
+    "pronounce": "yu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "यूथ",
+    "bengali": "পশুপাল",
+    "english": "herd",
+    "pronounce": "yuth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अलज",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "alaj",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अलिक्लव",
+    "bengali": "একটি ক্যারিয়ান পাখি",
+    "english": "a carrion bird",
+    "pronounce": "aliklav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आति",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত একটি জলজ পাখি, সম্ভবত রাজহাঁস",
+    "english": "an aquatic bird, possibly swan, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "ati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बलाका",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত ক্রেন",
+    "english": "crane, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "balaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भास",
+    "bengali": "শিকারের পাখির নাম",
+    "english": "the name of a bird of prey",
+    "pronounce": "bhas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चक्रवाक",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত ব্রাহ্মী ডাক (আনাস ক্যাসকা)",
+    "english": "the brahmany duck (Anas casarca), mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "chakravak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चाष",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত নীল উডপেকার (কোরাকাস ইন্ডিকা)",
+    "english": "the blue woodpecker (Coractas indica), mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "chash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दार्वाघात",
+    "bengali": "উডপেকার, আশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত (ঘোড়া ত্যাগ)",
+    "english": "woodpecker, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "darvaghat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दर्विदा",
+    "bengali": "উডপেকার, অশ্বমেমে (ঘোড়া ত্যাগ) এর ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "the woodpecker, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "darvida",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दात्यौह",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত গ্যালিনুল",
+    "english": "the gallinule, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "datyauh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धुंक्षा",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত পাখির নাম",
+    "english": "the name of a bird mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "dhunksha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ध्वांक्ष",
+    "bengali": "কাক",
+    "english": "crow",
+    "pronounce": "dhvansksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गोषादी",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "goshadi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गृध्र",
+    "bengali": "শকুন",
+    "english": "vulture",
+    "pronounce": "gridhra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हंस",
+    "bengali": "গ্যান্ডার, সোমাকে জল থেকে আলাদা করার ক্ষমতা দিয়ে কৃতিত্ব;অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লেখ করা হয়েছে (ঘোড়া ত্যাগ)",
+    "english": "the gander, credited with the ability to separate soma from water; mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "hans",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हंससाचि",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "hansasachi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हारिद्रव",
+    "bengali": "হলুদ জল-ওয়্যাগটেল",
+    "english": "the yellow water-wagtail",
+    "pronounce": "haridrav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ककर",
+    "bengali": "অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম (ঘোড়া ত্যাগ)",
+    "english": "name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kakar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कालका",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kalaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कलविंक",
+    "bengali": "চড়ুই",
+    "english": "sparrow",
+    "pronounce": "kalavink",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कंक",
+    "bengali": "হেরন, সম্ভবত",
+    "english": "heron, probably",
+    "pronounce": "kank",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कपिंजल",
+    "bengali": "ফ্রাঙ্কোলিন পার্টরিজ বা হ্যাজেল-কক",
+    "english": "francoline partridge or hazel-cock",
+    "pronounce": "kapinjal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कपोत",
+    "bengali": "কবুতর",
+    "english": "pigeon",
+    "pronounce": "kapot",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कौलीक",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kaulik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खर्गला",
+    "bengali": "পেঁচা বা অন্য কোনও নিশাচর পাখি",
+    "english": "owl or another nocturnal bird",
+    "pronounce": "kharagala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "किकिदीवि",
+    "bengali": "নীল জে, সম্ভবত, বা সম্ভবত পার্টরিজ",
+    "english": "blue jay, probably, or maybe partridge",
+    "pronounce": "kikidivi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कृकवाकु",
+    "bengali": "মোরগ, অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত (ঘোড়া ত্যাগ)",
+    "english": "cock, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "krikavaku",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "क्रुञ्च",
+    "bengali": "কার্লিউ বা স্নাইপ, দুটি তরল মিশ্রিত হলে জল থেকে দুধ বের করতে পারে",
+    "english": "curlew or snipe, can extract milk from water when the two fluids are mixed",
+    "pronounce": "krunch",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुक्कुट",
+    "bengali": "মোরগ",
+    "english": "cock",
+    "pronounce": "kukkut",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुलीक",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kulika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुषीटक",
+    "bengali": "সমুদ্রের কাক",
+    "english": "sea crow",
+    "pronounce": "kusitak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुटरु",
+    "bengali": "মোরগ",
+    "english": "cock",
+    "pronounce": "kutaru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुवय",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kuvay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "क्वयि",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "kvayi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लब",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত কোয়েল (পেরডিক্স চিনেসিস)",
+    "english": "quail (Perdix chinensis), mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "lab",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लोपा",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় সম্ভবত একটি পাখির নাম, সম্ভবত ক্যারিয়ান ক্রো",
+    "english": "the name of a bird, possibly carrion crow, in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "lopa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मद्गु",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি জলজ পাখির নাম",
+    "english": "the name of an aquatic bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "madgu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पैंगराज",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "paingaraj",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पक्षिन",
+    "bengali": "ডানাযুক্ত প্রাণী, আরও বিশেষত একটি পাখি",
+    "english": "winged creature, more particularly a bird",
+    "pronounce": "pakshin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पारावात",
+    "bengali": "অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত কচ্ছপ ডোভ",
+    "english": "turtle dove, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "paravat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्ण",
+    "bengali": "একটি পাখির ডানা, একটি তীরের পালক এবং একটি গাছের পাতা",
+    "english": "wing of a bird, feather of an arrow, and leaf of a tree",
+    "pronounce": "parn",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पारूष्णा",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "parusna",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पतत्रिन",
+    "bengali": "উড়ন্ত প্রাণী, আরও বিশেষত একটি পাখি",
+    "english": "fyling creature, more particularly a bird",
+    "pronounce": "patatrin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिक",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত কোকিল",
+    "english": "cuckoo, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "pik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिप्पक",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "pippak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्लव",
+    "bengali": "অশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি জলজ পাখির নাম সম্ভবত পেলিকান",
+    "english": "the name of an aquatic bird, possibly pelican, in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "plav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुलीका",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "pulika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुष्करसाद",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি প্রাণীর নাম",
+    "english": "the name of an animal in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "pushkarasad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रघत",
+    "bengali": "একটি পাখির নাম, সম্ভবত ফ্যালকন",
+    "english": "the name of a bird, probably falcon",
+    "pronounce": "raghat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रोपणाका",
+    "bengali": "থ্রুশ",
+    "english": "thrush",
+    "pronounce": "ropanaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सघन",
+    "bengali": "Ag গল বা শকুন",
+    "english": "eagle or vulture",
+    "pronounce": "saghan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शकुन",
+    "bengali": "একটি বড় পাখি, বা একটি পাখি যা অশুভ দেয়",
+    "english": "a large bird, or a bird which gives omens",
+    "pronounce": "shakun",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शकुनि",
+    "bengali": "পাখি, ভবিষ্যদ্বাণী করা অসুস্থ ভাগ্য;সম্ভবত ফ্যালকন, রেভেন বা কাক;অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লেখ করা হয়েছে (ঘোড়া ত্যাগ)",
+    "english": "bird, foretold ill luck; possibly falcon, raven or crow; mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "shakuni",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शकुन्त",
+    "bengali": "পাখি",
+    "english": "bird",
+    "pronounce": "shakunt",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शकुन्तक",
+    "bengali": "ছোট পাখি",
+    "english": "little bird",
+    "pronounce": "shakuntak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शकुन्ति",
+    "bengali": "ওমেনের পাখি",
+    "english": "bird of omen",
+    "pronounce": "shakunti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शार्ग",
+    "bengali": "আশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত বন্য চাটাক (ঘোড়া ত্যাগ)",
+    "english": "wild chatak, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "sharg",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शारि",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় সম্ভবত একটি পাখির নাম, সম্ভবত স্টারলিং",
+    "english": "the name of a bird, possibly starling, in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "shari",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शयण्डक",
+    "bengali": "একটি পাখি বা সম্ভবত একটি গিরগিটি",
+    "english": "some sort of a bird or, possibly, a chameleon",
+    "pronounce": "shayandak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शुक",
+    "bengali": "তোতা",
+    "english": "parrot",
+    "pronounce": "shuk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शुशुलूक",
+    "bengali": "ছোট পেঁচা, আশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত (ঘোড়া ত্যাগ)",
+    "english": "small owl, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "shushuluk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्येन",
+    "bengali": "শিকারের একটি শক্তিশালী পাখি, সম্ভবত ag গল তবে সম্ভবত ফ্যালকন বা বাজপাখি",
+    "english": "a strong bird of prey, most probably eagle but also possibly falcon or hawk",
+    "pronounce": "shyen",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सीचापू",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "sichapu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सुपर्ण",
+    "bengali": "শিকারের একটি বড় পাখি, বিশেষত একটি ag গল বা শকুন",
+    "english": "a large bird of prey, specifically an eagle or vulture",
+    "pronounce": "suparn",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तक्वन",
+    "bengali": "সুইফট উড়ন্ত পাখি",
+    "english": "swift flying bird",
+    "pronounce": "takvan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उलूक",
+    "bengali": "পেঁচা",
+    "english": "owl",
+    "pronounce": "uluk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वर्तिका",
+    "bengali": "কোয়েল, আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "quail, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "vartika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वयस",
+    "bengali": "পাখিদের জন্য একটি সাধারণ নাম",
+    "english": "a common name for birds",
+    "pronounce": "vayas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वायस",
+    "bengali": "বড় পাখি",
+    "english": "large bird",
+    "pronounce": "vayas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वि",
+    "bengali": "একটি পাখির নাম",
+    "english": "the name for a bird",
+    "pronounce": "vi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विदीगय",
+    "bengali": "মোরগ বা সাদা হেরন",
+    "english": "cock or white heron",
+    "pronounce": "vidigay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विककर",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি পাখির নাম",
+    "english": "the name of a bird in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "vikakar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अनडवाह",
+    "bengali": "খসড়া অক্স, সাধারণত (তবে সর্বদা নয়) কাস্ট্রেটেড",
+    "english": "draught ox, usually (but not always) castrated",
+    "pronounce": "anadvah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धरुण",
+    "bengali": "স্তন্যপায়ী বাছুর",
+    "english": "suckling calf",
+    "pronounce": "dharun",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धेनु",
+    "bengali": "মিলচ গরু",
+    "english": "milch cow",
+    "pronounce": "dhenu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धेनुष्टरी",
+    "bengali": "গাভী যে দুধ দেওয়া বন্ধ করে দিয়েছে",
+    "english": "cow that has stopped giving milk",
+    "pronounce": "dhenushtari",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दित्यौही",
+    "bengali": "দুই বছরের গরু",
+    "english": "two-year-old cow",
+    "pronounce": "dityauhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दित्यवाह",
+    "bengali": "দুই বছরের বুল",
+    "english": "two-year-old bull",
+    "pronounce": "dityavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दुघ",
+    "bengali": "দুধ ফলনকারী গরু",
+    "english": "milk-yielding cow",
+    "pronounce": "dugh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गो",
+    "bengali": "একটি বলদ বা একটি গরু",
+    "english": "an ox or a cow",
+    "pronounce": "go",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गोष्ठ",
+    "bengali": "চারণভূমি",
+    "english": "grazing ground",
+    "pronounce": "goshth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गृष्टि",
+    "bengali": "একটি যুবক গরু যা কেবল একবারে চারণ হয়ে গেছে",
+    "english": "a young cow that has calved only once",
+    "pronounce": "grishti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कर्की",
+    "bengali": "সাদা গরু",
+    "english": "white cow",
+    "pronounce": "karki",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "महानिरष्ट",
+    "bengali": "রাজসুয়া ইয়াগনা (রাজকীয় পবিত্রতা) এ একটি দক্ষিণ (কোরবানির ফি) হিসাবে উল্লিখিত দুর্দান্ত কাস্ট্রেটেড বলদ",
+    "english": "great castrated ox, mentioned as a dakshina (sacrificial fee) at the rajasuya yagna (royal consecration)",
+    "pronounce": "mahanirasta",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "महिष",
+    "bengali": "মহিষ",
+    "english": "buffalo",
+    "pronounce": "mahish",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "महोक्ष",
+    "bengali": "দুর্দান্ত ষাঁড়",
+    "english": "great bull",
+    "pronounce": "mahoksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मर्यक",
+    "bengali": "একটি ষাঁড় যা গরু থেকে পৃথক",
+    "english": "a bull that's separated from cows",
+    "pronounce": "maryak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निवान्या",
+    "bengali": "একটি বাছুরযুক্ত একটি গরু যেখানে তাকে জিততে হবে, অর্থাৎ একটি বাছুরের সাথে তার নিজের একটির জন্য প্রতিস্থাপিত হয়েছে",
+    "english": "a cow with a calf to which she has to be won over, that is, with a calf substituted for one of her own that's died",
+    "pronounce": "nivanya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निवान्यावत्सा",
+    "bengali": "একটি বাছুরযুক্ত একটি গরু যেখানে তাকে জিততে হবে, অর্থাৎ একটি বাছুরের সাথে তার নিজের একটির জন্য প্রতিস্থাপিত হয়েছে",
+    "english": "a cow with a calf to which she has to be won over, that is, with a calf substituted for one of her own that's died",
+    "pronounce": "nivanyavatsa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पष्ठौही",
+    "bengali": "গরু",
+    "english": "cow",
+    "pronounce": "pashthauhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पष्ठवाह",
+    "bengali": "অক্স",
+    "english": "ox",
+    "pronounce": "pashthavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पशु",
+    "bengali": "প্রাণী (মানব সহ যে কোনও প্রাণী)",
+    "english": "animal (any animal, including human)",
+    "pronounce": "pashu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रयोग्य",
+    "bengali": "খসড়া প্রাণী",
+    "english": "draught animal",
+    "pronounce": "prayogya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ऋषभ",
+    "bengali": "ষাঁড়",
+    "english": "bull",
+    "pronounce": "rishabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रोहिणी",
+    "bengali": "লাল গরু",
+    "english": "red cow",
+    "pronounce": "rohini",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "संगविनी",
+    "bengali": "দিনের উত্তাপের সময় মধ্যাহ্নে গরু জড়ো যেখানে গরু",
+    "english": "cowshed where cows gathered at midday during teh heat of the day",
+    "pronounce": "samgavini",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "संगव",
+    "bengali": "ফরেনুন, সময় যখন চারণ গরু দুধের জন্য একসাথে চালিত হয়",
+    "english": "forenoon, the time when grazing cows are driven together for milking",
+    "pronounce": "sangav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्तरी",
+    "bengali": "বন্ধ্যা গরু",
+    "english": "barren cow",
+    "pronounce": "stari",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सूतवशा",
+    "bengali": "একটি বাছুর থাকার পরে একটি গরু বন্ধ্যা",
+    "english": "a cow barren after having one calf",
+    "pronounce": "sutavasha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सुयवस",
+    "bengali": "ভাল চারণভূমি",
+    "english": "good pasture",
+    "pronounce": "suyavasa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "त्रिवत्स",
+    "bengali": "তিন বছরের পুরানো অক্স",
+    "english": "three-year-old ox",
+    "pronounce": "trivats",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "त्र्यवि",
+    "bengali": "আঠার মাস বয়সী গরু",
+    "english": "eighteen-month-old ox",
+    "pronounce": "tryavi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तुर्यौही",
+    "bengali": "চার বছর বয়সী গরু",
+    "english": "four-year-old cow",
+    "pronounce": "turyauhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तुर्यवाह",
+    "bengali": "চার বছরের পুরানো অক্স",
+    "english": "four-year-old ox",
+    "pronounce": "turyavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उषा",
+    "bengali": "গবাদি পশুদের জন্য উপযুক্ত লবণ মাঠ",
+    "english": "salt ground suited for cattle",
+    "pronounce": "usha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उस्र",
+    "bengali": "ষাঁড়",
+    "english": "bull",
+    "pronounce": "usr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाह",
+    "bengali": "একটি ষাঁড় যা লাঙ্গল টানছে",
+    "english": "an ox that pulls the plough",
+    "pronounce": "vah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वहनि",
+    "bengali": "খসড়া প্রাণী",
+    "english": "draught animal",
+    "pronounce": "vahani",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वंसग",
+    "bengali": "একটি ষাঁড় যা পশুপালকে নেতৃত্ব দেয়",
+    "english": "a bull that leads herds",
+    "pronounce": "vamsag",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वशा",
+    "bengali": "গরু, সম্ভবত বন্ধ্যা",
+    "english": "cow, possibly barren",
+    "pronounce": "vasha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाशिता",
+    "bengali": "একটি গরু একটি ষাঁড় ইচ্ছা",
+    "english": "a cow desiring a bull",
+    "pronounce": "vashita",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वत्स",
+    "bengali": "বাছুর",
+    "english": "calf",
+    "pronounce": "vats",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वत्सतर",
+    "bengali": "তরুণ বাছুর",
+    "english": "young calf",
+    "pronounce": "vatsatar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वेहत",
+    "bengali": "একটি গরু যা গর্ভপাত করে",
+    "english": "a cow that miscarries",
+    "pronounce": "vehat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृषभ",
+    "bengali": "ষাঁড়",
+    "english": "bull",
+    "pronounce": "vrishabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "युग",
+    "bengali": "জোয়াল প্রাণী, বেশিরভাগ গরু",
+    "english": "yoke animal, mostly oxen",
+    "pronounce": "yug",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "यूथ",
+    "bengali": "পশুপাল",
+    "english": "herd",
+    "pronounce": "yuth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जष",
+    "bengali": "একটি জলজ প্রাণী, সম্ভবত ডলফিন",
+    "english": "an aquatic animal, probably dolphin",
+    "pronounce": "jash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "झाष",
+    "bengali": "একটি জলজ প্রাণী, সম্ভবত ডলফিন",
+    "english": "an aquatic animal, probably dolphin",
+    "pronounce": "jhash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कर्कट",
+    "bengali": "কাঁকড়া",
+    "english": "crab",
+    "pronounce": "karkat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कर्वर",
+    "bengali": "একটি মাছের নাম",
+    "english": "the name of a fish",
+    "pronounce": "karvar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुलीकय",
+    "bengali": "একটি মাছের নাম",
+    "english": "the name of a fish",
+    "pronounce": "kulikay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मत्स्य",
+    "bengali": "মাছ",
+    "english": "fish",
+    "pronounce": "matsya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रजस",
+    "bengali": "একটি মাছের নাম",
+    "english": "the name of a fish",
+    "pronounce": "rajas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शकुल",
+    "bengali": "একটি মাছের নাম",
+    "english": "the name of a fish",
+    "pronounce": "shakul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शिंशुमार",
+    "bengali": "সম্ভবত কুমির, অ্যালিগেটর বা পোরপাইজ (ডেলফিনাস গ্যাঙ্গেটিকাস)",
+    "english": "probably crocodile, alligator, or porpoise (Delphinus gangeticus)",
+    "pronounce": "shimshumar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शिशुमार",
+    "bengali": "সম্ভবত কুমির, অ্যালিগেটর বা পোরপাইজ (ডেলফিনাস গ্যাঙ্গেটিকাস)",
+    "english": "probably crocodile, alligator, or porpoise (Delphinus gangeticus)",
+    "pronounce": "shishumar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अल्पसयु",
+    "bengali": "একটি পোকামাকড়ের নাম",
+    "english": "the name of an insect",
+    "pronounce": "alpasayu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आरंगर",
+    "bengali": "মৌমাছি",
+    "english": "bee",
+    "pronounce": "arangar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भृण्गा",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত বড় এবং কালো মৌমাছি",
+    "english": "bee, large and black, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "bhringa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दंश",
+    "bengali": "গ্যাডফ্লাই",
+    "english": "gadfly",
+    "pronounce": "dansh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "एजत्क",
+    "bengali": "একটি পোকামাকড়ের নাম",
+    "english": "the name of an insect",
+    "pronounce": "ejatk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "इन्द्रगोप",
+    "bengali": "একটি কোচিনিয়াল পোকামাকড়",
+    "english": "a cochineal insect",
+    "pronounce": "indragop",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जभ्य",
+    "bengali": "একটি শস্য পোকার",
+    "english": "a grain insect",
+    "pronounce": "jabhya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कंकपर्वन",
+    "bengali": "বৃশ্চিক",
+    "english": "scorpion",
+    "pronounce": "kankaparvan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कंकट",
+    "bengali": "বৃশ্চিক, সম্ভবত",
+    "english": "scorpion, probably",
+    "pronounce": "kankata",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खद्योत",
+    "bengali": "ফায়ারফ্লাই",
+    "english": "firefly",
+    "pronounce": "khadyot",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मधुकृत",
+    "bengali": "মৌমাছি",
+    "english": "bee",
+    "pronounce": "madhukrit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मक्ष",
+    "bengali": "উড়ুন",
+    "english": "fly",
+    "pronounce": "maksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मक्षिका",
+    "bengali": "উড়ে, মৌমাছি",
+    "english": "fly, bee",
+    "pronounce": "makshika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मशक",
+    "bengali": "কামড় দেওয়া ফ্লাই বা মশা",
+    "english": "biting fly or mosquito",
+    "pronounce": "mashak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पतंग",
+    "bengali": "ডানাযুক্ত পোকামাকড়",
+    "english": "winged insect",
+    "pronounce": "patang",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिपीला",
+    "bengali": "পিঁপড়া",
+    "english": "ant",
+    "pronounce": "pipila",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिपीलिका",
+    "bengali": "পিঁপড়া",
+    "english": "ant",
+    "pronounce": "pipilika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्लुषि",
+    "bengali": "অশ্বমেমে (ঘোড়া ত্যাগ) এর ক্ষতিগ্রস্থদের তালিকায় উল্লেখ করা একটি ক্ষতিকারক পোকামাকড়ের নাম, সম্ভবত কিছু প্রজাতির পিঁপড়া",
+    "english": "the name of a noxious insect, possibly some species of ant, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "plushi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रकन्टक",
+    "bengali": "একটি ক্ষতিকারক পোকামাকড়ের নাম",
+    "english": "the name of a noxious insect",
+    "pronounce": "prakankat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सरघ",
+    "bengali": "মৌমাছি",
+    "english": "bee",
+    "pronounce": "saragh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सरह",
+    "bengali": "মৌমাছি",
+    "english": "bee",
+    "pronounce": "sarah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सूचीका",
+    "bengali": "স্টিংিং পোকামাকড়",
+    "english": "stinging insect",
+    "pronounce": "suchika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तर्द",
+    "bengali": "শস্য-বিরক্তিকর পোকামাকড়",
+    "english": "grain-boring insect",
+    "pronounce": "tard",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तृणजलायुक",
+    "bengali": "ক্যাটারপিলার",
+    "english": "caterpillar",
+    "pronounce": "trnajalayuk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तृणस्कन्द",
+    "bengali": "ঘাসফড়িং",
+    "english": "grasshopper",
+    "pronounce": "trnaskand",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उपजीका",
+    "bengali": "পিঁপড়া",
+    "english": "ant",
+    "pronounce": "upajika",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उपक्वास",
+    "bengali": "বীজগুলিতে ক্ষতিকারক একটি ক্ষতিকারক পোকামাকড়",
+    "english": "a noxious insect injurious to seeds",
+    "pronounce": "upakvas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ऊर्णनाभि",
+    "bengali": "মাকড়সা",
+    "english": "spider",
+    "pronounce": "urnanabhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "येवाष",
+    "bengali": "একটি ধ্বংসাত্মক পোকামাকড়ের নাম",
+    "english": "the name of a destructive insect",
+    "pronounce": "yevash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अहि",
+    "bengali": "একটি সাপ, বিষাক্ত;নাকুলা (ইচনিউমন) দ্বারা হত্যা করা যেতে পারে যা বিষের প্রতিরোধ ক্ষমতা",
+    "english": "a snake, poisonous; can be killed by the nakula (ichneumon) which is immune to the poison",
+    "pronounce": "ahi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अजगर",
+    "bengali": "বোয়া কনস্ট্রাক্টর, অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "boa constrictor, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "ajagar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आशीविष",
+    "bengali": "একটি বিষাক্ত সাপ",
+    "english": "a poisonous snake",
+    "pronounce": "ashivish",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "असित",
+    "bengali": "একটি কালো সাপ",
+    "english": "a black snake",
+    "pronounce": "asit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भोग",
+    "bengali": "একটি সাপের কয়েল",
+    "english": "the coil of a snake",
+    "pronounce": "bhog",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दर्वि",
+    "bengali": "একটি লাডল বা একটি সাপের ফণা",
+    "english": "a ladle or a snake's hood",
+    "pronounce": "darvi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दशोनासि",
+    "bengali": "একটি সাপের নাম",
+    "english": "the name of a snake",
+    "pronounce": "dashonasi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कल्माषग्रीव",
+    "bengali": "একটি স্পেকল-গলা সাপের নাম",
+    "english": "the name of a speckle-necked snake",
+    "pronounce": "kalmashagriv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "करिक्रत",
+    "bengali": "একটি সাপের নাম",
+    "english": "the name of a snake",
+    "pronounce": "karikrat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कसरणील",
+    "bengali": "একটি সাপের নাম",
+    "english": "the name of a snake",
+    "pronounce": "kasarnil",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लोहिताहि",
+    "bengali": "রেড স্নেক, অশ্বমেধে ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত (ঘোড়া ত্যাগ)",
+    "english": "red snake, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "lohitahi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नग",
+    "bengali": "একটি সাপ বা একটি হাতি",
+    "english": "a snake or an elephant",
+    "pronounce": "nag",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पृदाकु",
+    "bengali": "আশ্বমেধে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় একটি সাপের নাম;এর ত্বক বিশেষত মূল্যবান ছিল",
+    "english": "the name of a snake in the list of victims at the ashwamedh (horse sacrifice); its skin was especially valuable",
+    "pronounce": "pridaku",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथर्वी",
+    "bengali": "একটি সাপের নাম",
+    "english": "the name of a snake",
+    "pronounce": "ratharvi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सर्प",
+    "bengali": "সাপ",
+    "english": "snake",
+    "pronounce": "sarp",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सतीनकङ्कट",
+    "bengali": "একটি জলজ সাপ",
+    "english": "an aquatic snake",
+    "pronounce": "satinakankat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शेरभ",
+    "bengali": "একটি সাপ বা একটি রাক্ষসের নাম",
+    "english": "the name of a snake or a demon",
+    "pronounce": "sherabh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शेवृध",
+    "bengali": "একটি সাপ বা একটি রাক্ষসের নাম",
+    "english": "the name of a snake or a demon",
+    "pronounce": "shevridh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्वित्र",
+    "bengali": "একটি সাদা সাপের নাম",
+    "english": "the name of a white snake",
+    "pronounce": "shvitra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्वज",
+    "bengali": "ভাইপার",
+    "english": "viper",
+    "pronounce": "svaj",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तैमात",
+    "bengali": "সাপের প্রজাতি",
+    "english": "species of snake",
+    "pronounce": "taimat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तिरश्चराजि",
+    "bengali": "একটি স্ট্রাইপ সাপের নাম",
+    "english": "the name of a striped snake",
+    "pronounce": "tirashcharaji",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाहस",
+    "bengali": "বোয়া কনস্ট্রাক্টর, অশ্বমেহে (ঘোড়া ত্যাগ) ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "boa constrictor, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "vahas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विलिगी",
+    "bengali": "একটি সাপের নাম",
+    "english": "the name of a snake",
+    "pronounce": "viligi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृक्षसर्पी",
+    "bengali": "একটি গাছ-ক্রিপিং কৃমি বা সাপের নাম",
+    "english": "the name of a tree-creeping worm or snake",
+    "pronounce": "vrikshasarpi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अलाण्डु",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "alandu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अवस्कव",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "avaskav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कपना",
+    "bengali": "একটি কৃমি যা গাছের পাতাগুলি ধ্বংস করে",
+    "english": "a worm that destroys the leaves of trees",
+    "pronounce": "kapana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कषकषा",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "kashkasha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कीट",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "kit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कृमि",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "krimi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुरूरु",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "kururu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नीलांगु",
+    "bengali": "অশ্বমেমে (ঘোড়া ত্যাগ) এর ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত একটি কৃমির নাম",
+    "english": "the name of a worm, mentioned in the list of victims at the ashwamedh (horse sacrifice)",
+    "pronounce": "nilangu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शलुन",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "shalun",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शवर्त",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "shavart",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शिपवित्नुक",
+    "bengali": "একটি কৃমির নাম",
+    "english": "the name of a worm",
+    "pronounce": "shipavitnuk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्ववर्त",
+    "bengali": "কুকুরের মধ্যে পাওয়া একটি কৃমির নাম",
+    "english": "the name of a worm found in dogs",
+    "pronounce": "shvavart",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्तेग",
+    "bengali": "কৃমি একটি প্রজাতি",
+    "english": "a species of worm",
+    "pronounce": "steg",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वृक्षसर्पी",
+    "bengali": "একটি গাছ-ক্রিপিং কৃমি বা সাপের নাম",
+    "english": "the name of a tree-creeping worm or snake",
+    "pronounce": "vrikshasarpi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अगार",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "agar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अग्निशाला",
+    "bengali": "ফায়ারপ্লেসযুক্ত কেন্দ্রীয় হল",
+    "english": "the central hall containing the fireplace",
+    "pronounce": "agnishala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अक्षु",
+    "bengali": "উইকার ওয়ার্ক একটি মরীচি জুড়ে প্রসারিত এবং একটি ছাদের মতো উভয় দিকে op ালু",
+    "english": "wickerwork stretched across a beam and sloping down to both sides like a thatched roof",
+    "pronounce": "akshu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आष्ट्री",
+    "bengali": "ফায়ারপ্লেস",
+    "english": "fireplace",
+    "pronounce": "ashtri",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आता",
+    "bengali": "একটি বাড়ির দরজার কাঠামো",
+    "english": "the framework of the door of a house",
+    "pronounce": "ata",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आवसथ",
+    "bengali": "ভোজ এবং ত্যাগে অতিথিদের গ্রহণের জন্য একটি বাড়ি, কিছুটা ধর্মশালার মতো তীর্থযাত্রীদের জন্য রেস্টহাউস হিসাবে",
+    "english": "a house for receiving guests at feasts and sacrifices, somewhat like the dharmashala as a resthouse for pilgrims",
+    "pronounce": "avasath",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "बृहद्छदिस",
+    "bengali": "ব্রড্রুফড হাউস",
+    "english": "broadroofed house",
+    "pronounce": "brhadchhadis",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "छदिस",
+    "bengali": "একটি ওয়াগনের আবরণ বা একটি বাড়ির ছত্রাক",
+    "english": "the covering of a wagon or the thatch of a house",
+    "pronounce": "chadis",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दम",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "dam",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धनधानी",
+    "bengali": "ট্রেজারহাউস",
+    "english": "treasurehouse",
+    "pronounce": "dhanadhani",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दुर",
+    "bengali": "দরজা",
+    "english": "door",
+    "pronounce": "dur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दुरोण",
+    "bengali": "বাড়ি",
+    "english": "home",
+    "pronounce": "duron",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दुर्या",
+    "bengali": "ডোরপোস্ট",
+    "english": "doorpost",
+    "pronounce": "durya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दुर्योण",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "duryon",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्वार",
+    "bengali": "দরজা",
+    "english": "door",
+    "pronounce": "dvar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्वारपिधान",
+    "bengali": "ডোরফেসেনার",
+    "english": "doorfastener",
+    "pronounce": "dvarapidhan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गय",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "gay",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गृह",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "grh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हर्म्य",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "harmya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निधि",
+    "bengali": "আমানত, দোকান, ধন",
+    "english": "place of deposit, store, treasure",
+    "pronounce": "nidhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निवेशन",
+    "bengali": "বাস করা, এবং কখনও কখনও, প্রাণীদের জন্য একটি বিশ্রামের জায়গা",
+    "english": "dwelling, and sometimes, a resting place for animals",
+    "pronounce": "niveshana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पक्ष",
+    "bengali": "একটি বাড়ির পাশ, রথের পাশ, একটি দরজার ডানা",
+    "english": "sides of a house, sides of a chariot, wing of a door",
+    "pronounce": "paksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलद",
+    "bengali": "খড়ের বান্ডিল বা রিডগুলি বাড়িটি ছিনিয়ে নেওয়ার জন্য এবং পক্ষগুলি বাতাস এবং আবহাওয়ার প্রমাণ সরবরাহ করে",
+    "english": "bundle of straw or reeds to thatch the house and render the sides wind and weather proof",
+    "pronounce": "palad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिमित",
+    "bengali": "ক্রসবিম",
+    "english": "crossbeam",
+    "pronounce": "parimit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पस्त्या",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "pastya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्राचीनवंश",
+    "bengali": "পূর্ব দিকে মুখী ছাদের মরীচি সমর্থন",
+    "english": "supporting beam of the roof facing east",
+    "pronounce": "pracinavamsh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रासाद",
+    "bengali": "প্রাসাদ",
+    "english": "palace",
+    "pronounce": "prasad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रतिमित",
+    "bengali": "সমর্থন",
+    "english": "support",
+    "pronounce": "pratimit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सेतु",
+    "bengali": "একটি কজওয়ে একটি অবহেলিত ক্ষেত্র অতিক্রম করার জন্য একটি উত্থাপিত ব্যাংক",
+    "english": "a raised bank for crossing an innundated field, a causeway",
+    "pronounce": "setu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शाला",
+    "bengali": "বাড়ি",
+    "english": "house",
+    "pronounce": "shala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शर्करा",
+    "bengali": "গ্রিট বা নুড়ি",
+    "english": "grit or gravel",
+    "pronounce": "sharkara",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्तम्भ",
+    "bengali": "স্তম্ভ",
+    "english": "pillar",
+    "pronounce": "stambh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्थाणु",
+    "bengali": "স্টাম্প বা কাঠের পোস্ট",
+    "english": "stump or post of wood",
+    "pronounce": "sthanu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्थूण",
+    "bengali": "একটি বাড়ির পোস্ট বা স্তম্ভ",
+    "english": "post or pillar of a house",
+    "pronounce": "sthun",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सूद",
+    "bengali": "মিষ্টি পানীয়, জল ভাল",
+    "english": "sweet drink, water well",
+    "pronounce": "sud",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्यूमन",
+    "bengali": "স্ট্র্যাপ যা কোনও বাড়ির দরজাগুলিকে দৃ ins ় করে তোলে",
+    "english": "strap that fastens the doors of a house",
+    "pronounce": "syuman",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तृण",
+    "bengali": "ঘাস, একটি ঘর বা কুঁড়েঘরের জন্য ব্যবহৃত জন্য ব্যবহৃত",
+    "english": "grass, used for thatching a house or hut",
+    "pronounce": "trin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उपमित",
+    "bengali": "স্তম্ভ",
+    "english": "pillar",
+    "pronounce": "upamit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वसति",
+    "bengali": "আবাস, বাড়ি",
+    "english": "abode, house",
+    "pronounce": "vasati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विषूवन्त",
+    "bengali": "ছাদ",
+    "english": "ridge of the roof",
+    "pronounce": "vishuvant",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अक्ष",
+    "bengali": "একটি রথের অক্ষ",
+    "english": "the axle of a chariot",
+    "pronounce": "aksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आणि",
+    "bengali": "লিঞ্চপিন, যে অক্ষের চারপাশে চাকাটির নাভটি ঘোরে",
+    "english": "lynchpin, the part of the axle around which the nave of the wheel revolved",
+    "pronounce": "ani",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अङ्क",
+    "bengali": "একটি রথের অংশ, সম্ভবত পক্ষ বা চাকা",
+    "english": "part of a chariot, probably the sides or wheels",
+    "pronounce": "ank",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अरटु",
+    "bengali": "কাঠ থেকে একটি উদ্ভিদ (কলসান্থেস ইন্ডিকা) যা কখনও কখনও রথের অক্ষ তৈরি করা হত",
+    "english": "a plant (Colosanthes indica) from the wood of which the axle of a chariot was sometimes made",
+    "pronounce": "aratu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भग",
+    "bengali": "রথের একটি অংশ",
+    "english": "a part of a chariot",
+    "pronounce": "bhag",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चक्र",
+    "bengali": "চাকা",
+    "english": "wheel",
+    "pronounce": "chakra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दक्षिणाप्रष्टि",
+    "bengali": "ডানদিকে পাশের ঘোড়া;যখন চারটি ঘোড়া একটি রথের সাথে সংযুক্ত ছিল, তখন ডান এবং বাম জোয়াল ঘোড়াগুলি মাঝখানে ছিল, প্রতিটি পাশের একটি দ্বারা ফ্ল্যাঙ্ক করা হয়েছিল যা সম্ভবত জোয়ালকে মোটেও বেঁধে রাখা হয়নি তবে জোয়াল ঘোড়ার পাশাপাশি চিহ্নগুলি দ্বারা চিহ্নিত করা হয়েছিল",
+    "english": "the side horse on the right; when four horses were attached to a chariot, the right and left yoke horses were in the middle, flanked by one on each side which were probably not fastened to the yoke at all but by traces alongside the yoke horses",
+    "pronounce": "dakshinaprasti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दक्षिणायुग्य",
+    "bengali": "ডান-জোয়াল ঘোড়া",
+    "english": "the right-yoke horse",
+    "pronounce": "dakshinayugya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धुर",
+    "bengali": "জোয়ালের সেই অংশ যা প্রাণীদের কাঁধে রথ বা কার্ট আঁকায়",
+    "english": "that part of the yoke which is placed on the shoulders of the animals drawing the chariot or cart",
+    "pronounce": "dhur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दीर्घाप्सस",
+    "bengali": "রথের দীর্ঘ সামনের অংশ রয়েছে",
+    "english": "chariot having a long front part",
+    "pronounce": "dirghapsas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गर्त",
+    "bengali": "রথের আসন যার উপরে তীরন্দাজ বসেছিল;মনে হচ্ছে বেশ বড় হয়েছে",
+    "english": "the seat of the chariot on which the archer sat; seems to have been quite large",
+    "pronounce": "gart",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ईषा",
+    "bengali": "একটি রথের মেরু",
+    "english": "the pole of a chariot",
+    "pronounce": "isha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ककुह",
+    "bengali": "একটি রথের অংশ, সম্ভবত আসন",
+    "english": "part of a chariot, possibly the seat",
+    "pronounce": "kakuh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कस्तंम्भी",
+    "bengali": "একটি ওয়াগন খুঁটির শেষের জন্য বিশ্রাম হিসাবে ব্যবহৃত কাঠের একটি টুকরো বিশ্রামের জন্য",
+    "english": "a piece of wood used as a prop for the end of a wagon pole to rest on",
+    "pronounce": "kastambhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ख",
+    "bengali": "চাকাটির নাভের গর্ত যেখানে অক্ষটি serted োকানো হয়",
+    "english": "the hole in the nave of the wheel in which the axle is inserted",
+    "pronounce": "kha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कोश",
+    "bengali": "রথের দেহ",
+    "english": "the body of the chariot",
+    "pronounce": "kosh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मेथी",
+    "bengali": "একটি রথের মেরু সমর্থন করার জন্য পোস্ট করুন",
+    "english": "post to support the pole of a chariot",
+    "pronounce": "methi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नाभि",
+    "bengali": "একটি রথ চাকা নাভ",
+    "english": "the nave of a chariot wheel",
+    "pronounce": "nabhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नाड़ी",
+    "bengali": "রথ হুইল বক্স",
+    "english": "box of chariot wheel",
+    "pronounce": "nadi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नेमि",
+    "bengali": "একটি রথ চাকা",
+    "english": "felly of a chariot wheel",
+    "pronounce": "nemi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "न्यंक",
+    "bengali": "একটি রথের অংশ",
+    "english": "part of a chariot",
+    "pronounce": "nyank",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पक्ष",
+    "bengali": "একটি বাড়ির পাশ, রথের পাশ, একটি দরজার ডানা",
+    "english": "sides of a house, sides of a chariot, wing of a door",
+    "pronounce": "paksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिरथ्य",
+    "bengali": "একটি রথের রিম",
+    "english": "the rim of a chariot",
+    "pronounce": "parirathya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिस्कन्द",
+    "bengali": "রথের চারপাশে দৌড়াদৌড়ি করা পাদদেশীয়",
+    "english": "footmen who run around the chariot",
+    "pronounce": "pariskand",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पातल्य",
+    "bengali": "রথের অংশ, সম্ভবত গাড়ির মেরু ধরে রাখতে অক্ষের উপরে কাঠের টুকরো",
+    "english": "part of the chariot, possibly a piece of wood on the axle to hold the pole of the car",
+    "pronounce": "patalya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पवि",
+    "bengali": "রিম",
+    "english": "rim",
+    "pronounce": "pavi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रधि",
+    "bengali": "একটি রথ চাকা",
+    "english": "felly of a chariot wheel",
+    "pronounce": "pradhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रष्टि",
+    "bengali": "জোয়াল ঘোড়াগুলির পাশে চলছে সাইড হর্স, বা একটি তৃতীয় ঘোড়া সামনের দিকে নেতা হিসাবে জোড় করে",
+    "english": "side horse running beside the yoke horses, or a third horse yoked in the front as a leader",
+    "pronounce": "prashti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रतिधि",
+    "bengali": "রথের অংশ যার উপরে কনে বাড়িতে নেওয়া হয়",
+    "english": "part of the chariot on which the bride is taken home",
+    "pronounce": "pratidhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रउग",
+    "bengali": "পোলের সামনের অংশ",
+    "english": "the fore part of pole",
+    "pronounce": "praug",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूर्ववह",
+    "bengali": "ঘোড়া, হয় একজন নেতা হিসাবে সামনের দিকে জোড় করে বা একজন প্রথমবারের জন্য একটি রথ অঙ্কন করে",
+    "english": "horse, either one yoked to the front as a leader or one drawing a chariot for the first time",
+    "pronounce": "purvavah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रभि",
+    "bengali": "একটি রথের সমর্থন শ্যাফট",
+    "english": "supporting shaft of a chariot",
+    "pronounce": "rabhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रशना",
+    "bengali": "কর্ড বা দড়ি একটি ঘোড়ার বিভিন্ন বেঁধে দেওয়ার জন্য ব্যবহৃত হয়",
+    "english": "cord or rope used for the various fastenings of a horse",
+    "pronounce": "rashana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रश्मि",
+    "bengali": "দড়ি, সাধারণত;এছাড়াও, লাগাম, চিহ্ন;এছাড়াও, সূর্যের রশ্মি",
+    "english": "ropes, generally; also, reins, traces; also, rays of the sun",
+    "pronounce": "rashmi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथ",
+    "bengali": "রথ",
+    "english": "chariot",
+    "pronounce": "rath",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथचक्र",
+    "bengali": "রথ হুইল",
+    "english": "chariot wheel",
+    "pronounce": "rathachakr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथचर्षण",
+    "bengali": "রথের পথ",
+    "english": "pathway of the chariot",
+    "pronounce": "rathacharshan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथाक्ष",
+    "bengali": "রথ অ্যাক্সেল",
+    "english": "chariot axle",
+    "pronounce": "rathaksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथमुख",
+    "bengali": "রথের সামনের অংশ",
+    "english": "the fore part of chariot",
+    "pronounce": "rathamukh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथनाभि",
+    "bengali": "রথ হুইলের নাভ",
+    "english": "the nave of chariot wheel",
+    "pronounce": "rathanabhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथशीर्ष",
+    "bengali": "রথের সামনের অংশ",
+    "english": "the fore part of chariot",
+    "pronounce": "rathashirsh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथवाहन",
+    "bengali": "একটি রথ রাখা একটি অস্থাবর স্ট্যান্ড",
+    "english": "a movable stand to hold a chariot",
+    "pronounce": "rathavahan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रथोपस्थ",
+    "bengali": "রথের নীচে বা নীচের অংশ, যার উপরে ড্রাইভার এবং যোদ্ধা দাঁড়িয়ে আছে",
+    "english": "the bottom or lower part of the chariot, on which stand the driver and the warrior",
+    "pronounce": "rathopasth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "संग्राहितृ",
+    "bengali": "সার্টিয়েটার",
+    "english": "charioteer",
+    "pronounce": "samgrahitr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सव्यष्ठ",
+    "bengali": "রথ যোদ্ধা",
+    "english": "chariot fighter",
+    "pronounce": "savyasth",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "साव्यायुग्य",
+    "bengali": "বাম দিকের ঘোড়া",
+    "english": "the left-yoke horse",
+    "pronounce": "savyayugya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शल्मलि",
+    "bengali": "সিল্ক সুতি গাছ (সালমালিয়া মালাবারিকা);ব্রাইডাল মিছিলের রথটি তার কাঠ দিয়ে তৈরি",
+    "english": "silk cotton tree (Salmalia malabarica); the chariot of the bridal procession is made of its wood",
+    "pronounce": "shalmali",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्थातृ",
+    "bengali": "ড্রাইভার বা ঘোড়া বা রথ",
+    "english": "driver or horses or chariot",
+    "pronounce": "sthatr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्थूरि",
+    "bengali": "এক ঘোড়া",
+    "english": "one-horsed",
+    "pronounce": "sthuri",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "स्यन्दन",
+    "bengali": "রথ",
+    "english": "chariot",
+    "pronounce": "syandan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तर्दमन",
+    "bengali": "জোয়াল বা ত্বকে গর্ত",
+    "english": "hole in the yoke or in the skin",
+    "pronounce": "tardman",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उद्धि",
+    "bengali": "রথের কিছু অংশ, সম্ভবত আসন",
+    "english": "some part of a chariot, probably the seat",
+    "pronounce": "uddhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उपह्वार",
+    "bengali": "রথের দেহ",
+    "english": "the body of the chariot",
+    "pronounce": "upahvar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वनस्पति",
+    "bengali": "একটি রথের অংশ",
+    "english": "part of a chariot",
+    "pronounce": "vanaspati",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वन्धुर",
+    "bengali": "রথের আসন",
+    "english": "the seat of the chariot",
+    "pronounce": "vandhur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वरत्रा",
+    "bengali": "জোয়ালের সাথে গরু বেঁধে রাখার জন্য, মেরুতে জোয়াল বা একটি কূপ থেকে জল আঁকতে ব্যবহৃত একটি থং বা স্ট্র্যাপ",
+    "english": "a thong or strap used to tie oxen to the yoke, yoke to the pole, or draw up water from a well",
+    "pronounce": "varatra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वर्तनि",
+    "bengali": "একটি রথের ফেলি",
+    "english": "the felly of a chariot",
+    "pronounce": "vartani",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विमोक्तृ",
+    "bengali": "যিনি একজন রথের কাছ থেকে ঘোড়াগুলিকে অবহেলা করেন, যা পুরুসামহে (মানব ত্যাগ) এর ক্ষতিগ্রস্থদের তালিকায় উল্লিখিত",
+    "english": "one who unharnesses horses from a chariot, mentioned in the list of victims at the purusamedh (human sacrifice)",
+    "pronounce": "vimoktri",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विपथ",
+    "bengali": "রুক্ষ রাস্তার জন্য উপযুক্ত যানবাহন",
+    "english": "vehicle suited for rough roads",
+    "pronounce": "vipath",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "योग",
+    "bengali": "গরু বা ঘোড়া জোয়াল",
+    "english": "yoke of oxen or horses",
+    "pronounce": "yog",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "योक्त्र",
+    "bengali": "একটি রথ বা একটি কার্ট জোয়াল করার জন্য থাংস",
+    "english": "thongs for yoking a chariot or a cart",
+    "pronounce": "yoktr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "योक्तृ",
+    "bengali": "যে রথগুলিতে ঘোড়া জোড় করে",
+    "english": "one who yokes horses to chariots",
+    "pronounce": "yoktri",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "युग",
+    "bengali": "রথের জোয়াল",
+    "english": "the yoke of a chariot",
+    "pronounce": "yug",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "युक्त",
+    "bengali": "ষাঁড়ের জোয়াল",
+    "english": "yoke of oxen",
+    "pronounce": "yukt",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आज्या",
+    "bengali": "মাখন",
+    "english": "butter",
+    "pronounce": "ajya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आम्ब",
+    "bengali": "এক ধরণের শস্য",
+    "english": "a kind of grain",
+    "pronounce": "amb",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आमिक्ष",
+    "bengali": "ক্লটেড দই",
+    "english": "clotted curds",
+    "pronounce": "amiksh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अणु",
+    "bengali": "একটি চাষ করা শস্য (প্যানিকাম মিলিয়াসিয়াম)",
+    "english": "a cultivated grain (Panicum miliaceum)",
+    "pronounce": "anu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अपूप",
+    "bengali": "কেক",
+    "english": "cake",
+    "pronounce": "apup",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दधि",
+    "bengali": "টক দুধ",
+    "english": "sour milk",
+    "pronounce": "dadhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धाना",
+    "bengali": "ভুট্টার দানা",
+    "english": "the grains of corn",
+    "pronounce": "dhana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धान्य",
+    "bengali": "শস্য",
+    "english": "grain",
+    "pronounce": "dhanya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्रप्स",
+    "bengali": "একটি ড্রপ, একটি ছোট ড্রপের চেয়ে ঘন ড্রপ, প্রায়শই সোমার জন্য ব্যবহৃত হয়",
+    "english": "a drop, a thick drop rather than a small drop, most often used for soma",
+    "pronounce": "draps",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गर्मुत",
+    "bengali": "বন্য শিম",
+    "english": "wild bean",
+    "pronounce": "garmut",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गवीधूका",
+    "bengali": "এক ধরণের ঘাস (কক্স বার্বাটা)",
+    "english": "a type of grass (Coix barbata)",
+    "pronounce": "gavidhuka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "घृत",
+    "bengali": "ঘি",
+    "english": "ghee",
+    "pronounce": "ghrt",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गो",
+    "bengali": "দুধ",
+    "english": "milk",
+    "pronounce": "go",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गोधूम",
+    "bengali": "গম",
+    "english": "wheat",
+    "pronounce": "godhum",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "करम्भ",
+    "bengali": "শস্য দিয়ে তৈরি এক ধরণের দরিদ্র যা অস্বাস্থ্যকর ছিল, কিছুটা পার্চড ছিল এবং গিঁটে গেছে",
+    "english": "a kind of porridge made of grain that was unhusked, parched slightly, and kneaded",
+    "pronounce": "karambh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खलकुल",
+    "bengali": "মসুরের নাম (ডলিচোস ইউনিফ্লোরাস)",
+    "english": "the name of a lentil (Dolichos uniflorus)",
+    "pronounce": "khalakul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खल्व",
+    "bengali": "এক ধরণের শিমের নাম (ফেজোলাস রেডিয়েটাস)",
+    "english": "the name of a type of beans (Phaseolus radiatus)",
+    "pronounce": "khalv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कीलाल",
+    "bengali": "একটি মিষ্টি পানীয়",
+    "english": "a sweet drink",
+    "pronounce": "kilala",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "क्षीर",
+    "bengali": "দুধ",
+    "english": "milk",
+    "pronounce": "kshir",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "क्षीरौदन",
+    "bengali": "দুধের সাথে ভাত রান্না করা",
+    "english": "rice cooked with milk",
+    "pronounce": "kshiraudan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुलमाष",
+    "bengali": "মটরশুটি যে খারাপ হয়েছে;টক গ্রুয়েল",
+    "english": "beans that have gone bad; sour gruel",
+    "pronounce": "kulmash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मधु",
+    "bengali": "খাবার হিসাবে ব্যবহৃত মিষ্টি, বিশেষত সোমা, দুধ, মাংস বা মধু",
+    "english": "anything sweet used as food, especially soma, milk, mead, or honey",
+    "pronounce": "madhu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मद्य",
+    "bengali": "মাদকদ্রব্য মদ",
+    "english": "intoxicating liquor",
+    "pronounce": "madya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मांसौदन",
+    "bengali": "ভাত দিয়ে রান্না করা মাংস",
+    "english": "meat cooked with rice",
+    "pronounce": "mamsaudan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मांस",
+    "bengali": "মাংস",
+    "english": "meat",
+    "pronounce": "mans",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मासर",
+    "bengali": "চাল, বাজ, ঘাস এবং পার্চড বার্লি দিয়ে তৈরি পানীয়",
+    "english": "beverage made of rice, millet, grass, and parched barley",
+    "pronounce": "masar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "माषाह",
+    "bengali": "চুরি করা মটরশুটি",
+    "english": "pounded beans",
+    "pronounce": "mashah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मस्तु",
+    "bengali": "টক দই",
+    "english": "sour curds",
+    "pronounce": "mastu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मसूर",
+    "bengali": "মসুরের নাম (এরভাম হিরসুটাম)",
+    "english": "the name of a lentil (Ervum hirsutum)",
+    "pronounce": "masur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मसूस्य",
+    "bengali": "উত্তর দেশের একটি শস্যের নাম",
+    "english": "the name of a grain of the north country",
+    "pronounce": "masusya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मुद्ग",
+    "bengali": "একটি শিমের নাম (ফেজোলাস মুনগো)",
+    "english": "the name of a bean (Phaseolus mungo)",
+    "pronounce": "mudg",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मुद्गौदन",
+    "bengali": "মটরশুটি সহ চালের একটি স্যুপ",
+    "english": "a soup of rice with beans",
+    "pronounce": "mudgaudan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नाम्ब",
+    "bengali": "একটি শস্যের নাম",
+    "english": "the name of a grain",
+    "pronounce": "namb",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नवनीत",
+    "bengali": "টাটকা মাখন",
+    "english": "fresh butter",
+    "pronounce": "navanit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निवार",
+    "bengali": "বন্য চাল",
+    "english": "wild rice",
+    "pronounce": "nivar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ओदन",
+    "bengali": "দুধের সাথে শস্য রান্না করা",
+    "english": "grain cooked with milk",
+    "pronounce": "odan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पचत",
+    "bengali": "রান্না করা খাবার",
+    "english": "cooked food",
+    "pronounce": "pachat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पक्ति",
+    "bengali": "রান্না করা খাবার, সম্ভবত একরকম কেক",
+    "english": "cooked food, probably some kind of cake",
+    "pronounce": "pakti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पक्व",
+    "bengali": "রান্না করা খাবার, রান্না করা দুধ বা বেকড ইট",
+    "english": "cooked food, cooked milk, or baked bricks",
+    "pronounce": "pakv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलाल",
+    "bengali": "খড়",
+    "english": "straw",
+    "pronounce": "palal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलाव",
+    "bengali": "চ্যাফ",
+    "english": "chaff",
+    "pronounce": "palav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पान",
+    "bengali": "পানীয়",
+    "english": "drink",
+    "pronounce": "pana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पान्त",
+    "bengali": "পানীয়",
+    "english": "drink",
+    "pronounce": "pant",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिस्रुत",
+    "bengali": "একটি মাতাল পানীয়ের নাম",
+    "english": "the name of an intoxicating drink",
+    "pronounce": "parisrut",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिवाप",
+    "bengali": "ধানের ভাজা দানা",
+    "english": "fried grains of rice",
+    "pronounce": "parivap",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्ष",
+    "bengali": "মাড়াইয়ের মেঝেতে ছুঁড়ে ফেলা",
+    "english": "sheaf thrown over the threshing floor",
+    "pronounce": "parsh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पयस",
+    "bengali": "দুধ",
+    "english": "milk",
+    "pronounce": "payas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पयस्या",
+    "bengali": "দই, টক দুধ এবং গরম বা ঠান্ডা তাজা দুধের মিশ্রণ",
+    "english": "curds, a mixture of sour milk and hot or cold fresh milk",
+    "pronounce": "payasya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "फाण्ट",
+    "bengali": "ক্রিমি মাখন",
+    "english": "creamy butter",
+    "pronounce": "phant",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिण्ड",
+    "bengali": "ময়দার বল, বিশেষত একটি যা অমাবস্যার সন্ধ্যায় প্রস্থানকে দেওয়া হয়",
+    "english": "ball of flour, especially one that's offered to the departed on the evening of the new moon",
+    "pronounce": "pind",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिष्ट",
+    "bengali": "ময়দা",
+    "english": "flour",
+    "pronounce": "pisht",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पितु",
+    "bengali": "খাদ্য ও পানীয়, পুষ্টি",
+    "english": "food and drinks, nourishment",
+    "pronounce": "pitu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पीयूष",
+    "bengali": "বায়িস্টিংস, বাছুরের পরে গরুর প্রথম দুধ",
+    "english": "biestings, first milk of the cow after calving",
+    "pronounce": "piyush",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्लाशुका",
+    "bengali": "দ্রুত বর্ধমান ভাত",
+    "english": "fast growing rice",
+    "pronounce": "plashuka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रतिदुह",
+    "bengali": "টাটকা দুধ",
+    "english": "fresh milk",
+    "pronounce": "pratiduh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पृषदाज्या",
+    "bengali": "ছিটানো মাখন, অর্থাৎ, টক দুধের সাথে মিশ্রিত মাখন",
+    "english": "sprinkled butter, that is, butter mixed with sour milk",
+    "pronounce": "prishadajya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पृषातक",
+    "bengali": "দই, মধু এবং মাখনের মিশ্রণ",
+    "english": "mixture of curds, honey, and butter",
+    "pronounce": "prishatak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रियंगु",
+    "bengali": "'প্যানিক বীজ' উদ্ভিদের নাম (প্যানিকাম ইটালিকাম)",
+    "english": "name of the 'panic seed' plant (Panicum italicum)",
+    "pronounce": "priyangu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूल्प",
+    "bengali": "শ্রোভেল শস্য",
+    "english": "shrivelled grain",
+    "pronounce": "pulp",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूल्य",
+    "bengali": "শ্রোভেল শস্য",
+    "english": "shrivelled grain",
+    "pronounce": "pulya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पुरोडाश",
+    "bengali": "কোরবানি কেক",
+    "english": "sacrificial cake",
+    "pronounce": "purodash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सक्तु",
+    "bengali": "মোটা গ্রাউন্ড খাবার বা গ্রোয়েট;বিশেষত, বার্লি খাবার",
+    "english": "coarsely ground meals or groats; especially, barley meal",
+    "pronounce": "saktu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सर्पिस",
+    "bengali": "গলে মাখন",
+    "english": "melted butter",
+    "pronounce": "sarpis",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सस्य",
+    "bengali": "কর্ন",
+    "english": "corn",
+    "pronounce": "sasya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शालि",
+    "bengali": "ভাত",
+    "english": "rice",
+    "pronounce": "shali",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शालूक",
+    "bengali": "পদ্মের ভোজ্য শিকড়",
+    "english": "edible roots of the lotus",
+    "pronounce": "shaluk",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्यामाक",
+    "bengali": "বাজর (প্যানিকাম ফ্রুমেন্টাসিয়াম)",
+    "english": "millet (Panicum frumentaceum)",
+    "pronounce": "shyamak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सूद",
+    "bengali": "মিষ্টি পানীয়, ভাল",
+    "english": "sweet drink, well",
+    "pronounce": "sud",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सुरा",
+    "bengali": "মাদকাসক্ত স্পিরিটাস অ্যালকোহল",
+    "english": "intoxicating spirituous liquor",
+    "pronounce": "sura",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तैल",
+    "bengali": "সেসামাম তেল",
+    "english": "sesamum oil",
+    "pronounce": "tail",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तण्डुल",
+    "bengali": "ভাত শস্য",
+    "english": "rice grains",
+    "pronounce": "tandul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तिर्य",
+    "bengali": "গ্রুয়েল",
+    "english": "gruel",
+    "pronounce": "tirya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तुष",
+    "bengali": "হুস্ক",
+    "english": "husk",
+    "pronounce": "tush",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उपवाक",
+    "bengali": "একটি প্রজাতির শস্য (রাইটিয়া অ্যান্টিডিজেন্টেরিকা), যাকে ইন্দ্রায়ভাও বলা হয়",
+    "english": "a species of grain (Wrightia antidysenterica), also called indrayava",
+    "pronounce": "upavaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "वाजिन",
+    "bengali": "গরম তাজা দুধ এবং টক দুধের মিশ্রণ",
+    "english": "a mixture of hot fresh milk and sour milk",
+    "pronounce": "vajin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "विष्टारिन",
+    "bengali": "বিশেষ ধরণের পোরিজ",
+    "english": "special kind of porridge",
+    "pronounce": "vishtarin",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "व्रीहि",
+    "bengali": "ভাত",
+    "english": "rice",
+    "pronounce": "vrihi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "यव",
+    "bengali": "শস্য, জেনেরিক অর্থে এবং কখনও কখনও বিশেষত বার্লি",
+    "english": "grain, in the generic sense, and sometimes specifically, barley",
+    "pronounce": "yav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "यवागु",
+    "bengali": "বার্লি গ্রুয়েল বা কোনও শস্যের দুর্বল ডিকোশন",
+    "english": "barley gruel or a weak decoction of any grain",
+    "pronounce": "yavagu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आम्ब",
+    "bengali": "এক ধরণের শস্য",
+    "english": "a kind of grain",
+    "pronounce": "amb",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अणु",
+    "bengali": "একটি চাষ করা শস্য (প্যানিকাম মিলিয়াসিয়াম)",
+    "english": "a cultivated grain (Panicum miliaceum)",
+    "pronounce": "anu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धाना",
+    "bengali": "ভুট্টার দানা",
+    "english": "the grains of corn",
+    "pronounce": "dhana",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धान्य",
+    "bengali": "শস্য",
+    "english": "grain",
+    "pronounce": "dhanya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गर्मुत",
+    "bengali": "বন্য শিম",
+    "english": "wild bean",
+    "pronounce": "garmut",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गवीधूका",
+    "bengali": "এক ধরণের ঘাস (কক্স বার্বাটা)",
+    "english": "a type of grass (Coix barbata)",
+    "pronounce": "gavidhuka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "गोधूम",
+    "bengali": "গম",
+    "english": "wheat",
+    "pronounce": "godhum",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "इन्द्रयव",
+    "bengali": "একটি প্রজাতির শস্য (রাইটিয়া অ্যান্টিডিজেন্টেরিকা), যাকে উপাবাক বলা হয়",
+    "english": "a species of grain (Wrightia antidysenterica), also called upavak",
+    "pronounce": "indrayav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "इन्द्रयव",
+    "bengali": "একটি প্রজাতির শস্য (রাইটিয়া অ্যান্টিডিজেন্টেরিকা), যাকে উপাবাক বলা হয়",
+    "english": "a species of grain (Wrightia antidysenterica), also called upavak",
+    "pronounce": "indrayav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खलकुल",
+    "bengali": "মসুরের নাম (ডলিচোস ইউনিফ্লোরাস)",
+    "english": "the name of a lentil (Dolichos uniflorus)",
+    "pronounce": "khalakul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खल्व",
+    "bengali": "এক ধরণের শিমের নাম (ফেজোলাস রেডিয়েটাস)",
+    "english": "the name of a type of beans (Phaseolus radiatus)",
+    "pronounce": "khalv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुलमाष",
+    "bengali": "মটরশুটি যে খারাপ হয়েছে;টক গ্রুয়েল",
+    "english": "beans that have gone bad; sour gruel",
+    "pronounce": "kulmash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मसूर",
+    "bengali": "মসুরের নাম (এরভাম হিরসুটাম)",
+    "english": "the name of a lentil (Ervum hirsutum)",
+    "pronounce": "masur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मसूस्य",
+    "bengali": "উত্তর দেশের একটি শস্যের নাম",
+    "english": "the name of a grain of the north country",
+    "pronounce": "masusya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मुद्ग",
+    "bengali": "একটি শিমের নাম (ফেজোলাস মুনগো)",
+    "english": "the name of a bean (Phaseolus mungo)",
+    "pronounce": "mudg",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नाम्ब",
+    "bengali": "একটি শস্যের নাম",
+    "english": "the name of a grain",
+    "pronounce": "namb",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "निवार",
+    "bengali": "বন্য চাল",
+    "english": "wild rice",
+    "pronounce": "nivar",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलाल",
+    "bengali": "খড়",
+    "english": "straw",
+    "pronounce": "palal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलाव",
+    "bengali": "চ্যাফ",
+    "english": "chaff",
+    "pronounce": "palav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्ष",
+    "bengali": "মাড়াইয়ের মেঝেতে ছুঁড়ে ফেলা",
+    "english": "sheaf thrown over the threshing floor",
+    "pronounce": "parsh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्लाशुका",
+    "bengali": "দ্রুত বর্ধমান ভাত",
+    "english": "fast growing rice",
+    "pronounce": "plashuka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रियंगु",
+    "bengali": "'প্যানিক বীজ' উদ্ভিদের নাম (প্যানিকাম ইটালিকাম)",
+    "english": "name of the 'panic seed' plant (Panicum italicum)",
+    "pronounce": "priyangu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूल्प",
+    "bengali": "শ্রোভেল শস্য",
+    "english": "shrivelled grain",
+    "pronounce": "pulp",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पूल्य",
+    "bengali": "শ্রোভেল শস্য",
+    "english": "shrivelled grain",
+    "pronounce": "pulya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सक्तु",
+    "bengali": "মোটা গ্রাউন্ড খাবার বা গ্রোয়েট;বিশেষত, বার্লি খাবার",
+    "english": "coarsely ground meals or groats; especially, barley meal",
+    "pronounce": "saktu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सस्य",
+    "bengali": "কর্ন",
+    "english": "corn",
+    "pronounce": "sasya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "शालि",
+    "bengali": "ভাত",
+    "english": "rice",
+    "pronounce": "shali",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्यामाक",
+    "bengali": "বাজর (প্যানিকাম ফ্রুমেন্টাসিয়াম)",
+    "english": "millet (Panicum frumentaceum)",
+    "pronounce": "shyamak",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तण्डुल",
+    "bengali": "ভাত শস্য",
+    "english": "rice grains",
+    "pronounce": "tandul",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तोक्मन",
+    "bengali": "যে কোনও ধরণের শস্যের সবুজ অঙ্কুর",
+    "english": "green shoots of any kind of grain",
+    "pronounce": "tokman",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "तुष",
+    "bengali": "হুস্ক",
+    "english": "husk",
+    "pronounce": "tush",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "उपवाक",
+    "bengali": "একটি প্রজাতির শস্য (রাইটিয়া অ্যান্টিডিজেন্টেরিকা), যাকে ইন্দ্রায়ভাও বলা হয়",
+    "english": "a species of grain (Wrightia antidysenterica), also called indrayava",
+    "pronounce": "upavaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "व्रीहि",
+    "bengali": "ভাত",
+    "english": "rice",
+    "pronounce": "vrihi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "यव",
+    "bengali": "শস্য, জেনেরিক অর্থে এবং কখনও কখনও বিশেষত বার্লি",
+    "english": "grain, in the generic sense, and sometimes specifically, barley",
+    "pronounce": "yav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अयस",
+    "bengali": "ব্রোঞ্জ বা আয়রন",
+    "english": "bronze or iron",
+    "pronounce": "ayas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चन्द्र",
+    "bengali": "স্বর্ণ",
+    "english": "gold",
+    "pronounce": "chandra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हरित",
+    "bengali": "স্বর্ণ",
+    "english": "gold",
+    "pronounce": "harit",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "हिरण्य",
+    "bengali": "স্বর্ণ",
+    "english": "gold",
+    "pronounce": "hiranya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जातरूप",
+    "bengali": "স্বর্ণ",
+    "english": "gold",
+    "pronounce": "jatarupa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कार्ष्णायस",
+    "bengali": "আয়রন",
+    "english": "iron",
+    "pronounce": "karshnayas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लोह",
+    "bengali": "লাল ধাতু, সম্ভবত তামা তবে সম্ভবত ব্রোঞ্জ",
+    "english": "red metal, probably copper but possibly bronze",
+    "pronounce": "loh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लोहायस",
+    "bengali": "লাল ধাতু, আয়াস এবং সোনার থেকে পৃথক হিসাবে;সম্ভবত তামা",
+    "english": "red metal, as distinct from ayas and gold; probably copper",
+    "pronounce": "lohayas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लोहितायस",
+    "bengali": "লাল মানসিক, সম্ভবত তামা",
+    "english": "red mental, probably copper",
+    "pronounce": "lohitayas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "रजत",
+    "bengali": "রৌপ্য",
+    "english": "silver",
+    "pronounce": "rajat",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "श्याम",
+    "bengali": "আয়রন",
+    "english": "iron",
+    "pronounce": "shyam",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सीस",
+    "bengali": "সীসা",
+    "english": "lead",
+    "pronounce": "sis",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "सुवर्ण",
+    "bengali": "স্বর্ণ",
+    "english": "gold",
+    "pronounce": "suvarn",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "त्रपु",
+    "bengali": "টিন",
+    "english": "tin",
+    "pronounce": "trapu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आहाव",
+    "bengali": "কাঠের বালতি",
+    "english": "buckets of wood",
+    "pronounce": "ahav",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अमत्र",
+    "bengali": "সোমা জাহাজ",
+    "english": "soma vessel",
+    "pronounce": "amatr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अनस",
+    "bengali": "খসড়া ওয়াগন (রথের বিপরীতে, যা যুদ্ধ বা খেলাধুলার জন্য ব্যবহৃত হয়)",
+    "english": "draft wagon (as opposed to the chariot, which is used for war or sport)",
+    "pronounce": "anas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अङ्गारावक्षायन",
+    "bengali": "কয়লা বেলচা বা টংস",
+    "english": "coal shovel or tongs",
+    "pronounce": "angaravakshayan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आरा",
+    "bengali": "পুশনের একটি অস্ত্র;পরে, চামড়া ছিদ্র করার জন্য ব্যবহৃত একটি এডাব্লুএল বা জিমলেট",
+    "english": "a weapon of Pushan; later, an awl or gimlet used for piercing leather",
+    "pronounce": "ara",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अरित्र",
+    "bengali": "ওয়ার",
+    "english": "oar",
+    "pronounce": "aritr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "आसेचन",
+    "bengali": "মাংসের রস বা ঘি জাতীয় তরলগুলির জন্য একটি জাহাজ",
+    "english": "a vessel for liquids such as meat juice or ghee",
+    "pronounce": "asechan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "अष्ट्रा",
+    "bengali": "প্লৌজারের গোয়েড, কৃষির ব্যাজ",
+    "english": "plougher's goad, the badge of agriculture",
+    "pronounce": "ashtra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भस्त्रा",
+    "bengali": "একটি চামড়ার বোতল বা থলি",
+    "english": "a leathern bottle or pouch",
+    "pronounce": "bhastra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भित्ति",
+    "bengali": "স্প্লিট রিডের একটি মাদুর",
+    "english": "a mat of split reeds",
+    "pronounce": "bhitti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भूमिदुन्दुभि",
+    "bengali": "একটি পৃথিবী ড্রাম (একটি পিট লুকিয়ে covered াকা এবং মহাভারত আচারে ব্যবহৃত)",
+    "english": "an earth drum (a pit covered with hide and used at the mahavrat rite)",
+    "pronounce": "bhumidundubhi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "भुरिज",
+    "bengali": "কাঁচি, বা সম্ভবত প্লেয়ার বা কোনও ছুতার ভাইস",
+    "english": "scissors, or maybe pliers or a carpenter's vice",
+    "pronounce": "bhurij",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चमस",
+    "bengali": "একটি ত্যাগের সময় সোমা ধরে রাখার জন্য ব্যবহৃত জাহাজ পান করা জাহাজ",
+    "english": "drinking vessel, used for holding the soma during a sacrifice",
+    "pronounce": "chamas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चमू",
+    "bengali": "একটি জাহাজ যেখানে সোমাকে প্রেস থেকে .েলে দেওয়া হয়েছিল;কখনও কখনও, যে মর্টারটিতে সোমাকে চাপ দেওয়া হয়েছিল",
+    "english": "a vessel into which the soma was poured from the press; sometimes, the mortar in which the soma was pressed",
+    "pronounce": "chamu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चप्य",
+    "bengali": "কোরবানির পাত্র",
+    "english": "sacrificial vessel",
+    "pronounce": "chapya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चरु",
+    "bengali": "একটি কেটলি বা পাত্র, একটি id াকনা এবং একটি হুক যার দ্বারা এটি আগুনের উপরে ঝুলতে পারে;সাধারণত আয়রন বা ব্রোঞ্জের",
+    "english": "a kettle or pot, with a lid and a hook by which it could be hung over the fire; usually of iron or bronze",
+    "pronounce": "charu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "चषल",
+    "bengali": "কোরবানি পোস্টের একটি মর্টার-আকৃতির শীর্ষ টুকরা (YUP)",
+    "english": "a mortar-shaped top piece of the sacrificial post (yup)",
+    "pronounce": "chashal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दर्वि",
+    "bengali": "একটি লাডল বা একটি সাপের ফণা",
+    "english": "a ladle or a snake's hood",
+    "pronounce": "darvi",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दात्र",
+    "bengali": "সিকেল",
+    "english": "sickle",
+    "pronounce": "datra",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धमनि",
+    "bengali": "রিড বা পাইপ;এছাড়াও, একটি ধমনী, শিরা বা অন্ত্রের চ্যানেল",
+    "english": "reed or pipe; also, an artery, a vein, or an intestinal channel",
+    "pronounce": "dhamani",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धवित्र",
+    "bengali": "কোরবানি আগুনের জন্য ব্যবহৃত লুকানো বা চামড়ার অনুরাগী",
+    "english": "fan of hide or leather used for fanning the sacrificial fire",
+    "pronounce": "dhavitr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "धृष्टि",
+    "bengali": "ফায়ারটং",
+    "english": "firetongs",
+    "pronounce": "dhrshti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्रोण",
+    "bengali": "সোমাকে ধরে রাখার জন্য একটি কাঠের গর্ত বা পাত্র",
+    "english": "a wooden trough or vessel for holding the soma",
+    "pronounce": "dron",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दृषद",
+    "bengali": "পাউন্ডিং শস্যের জন্য ব্যবহৃত একটি পাথর",
+    "english": "a stone used for pounding grain",
+    "pronounce": "drshad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "दृति",
+    "bengali": "তরল ধরে রাখার জন্য একটি চামড়ার ব্যাগ",
+    "english": "a leather bag to hold fluids",
+    "pronounce": "drti",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "द्रु",
+    "bengali": "একটি কাঠের পাত্র, বিশেষত, সোমা ত্যাগে ব্যবহৃত একটি জাহাজ",
+    "english": "a wooden vessel, in particular, a vessel used at the soma sacrifice",
+    "pronounce": "dru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "जुहू",
+    "bengali": "একটি জিহ্বা আকৃতির লাডল যেখানে দেবতাদের কাছে মাখন দেওয়া হয়েছিল",
+    "english": "a tongue-shaped ladle in which butter was offered to the gods",
+    "pronounce": "juhu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कद्रू",
+    "bengali": "একটি সোমা জাহাজ",
+    "english": "a soma vessel",
+    "pronounce": "kadru",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कलश",
+    "bengali": "পাত্র বা জারটি কোনও লাউ বা কাদামাটি থেকে তৈরি",
+    "english": "pot or jar made from either a gourd or clay",
+    "pronounce": "kalash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कम्बल",
+    "bengali": "উলের কভারলেট বা কম্বল",
+    "english": "woollen coverlet or blanket",
+    "pronounce": "kambal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कंस",
+    "bengali": "পাত্র বা ধাতব পাত্র",
+    "english": "pot or vessel of metal",
+    "pronounce": "kamsa",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "खनित्र",
+    "bengali": "খননের জন্য বেলচা বা কোদাল",
+    "english": "shovel or spade for digging",
+    "pronounce": "khanitr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कोश",
+    "bengali": "বালতি একটি কূপ থেকে একটি দড়ির মাধ্যমে জল আঁকার জন্য ব্যবহৃত হয়;এছাড়াও, সোমাকে ধরে রাখার জন্য একটি বড় পাত্র",
+    "english": "bucket used for drawing water by means of a rope from a well; also, a large vessel to hold the soma",
+    "pronounce": "kosh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "क्षुर",
+    "bengali": "ব্লেড বা রেজার",
+    "english": "blade or razor",
+    "pronounce": "kshur",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुलिश",
+    "bengali": "কুড়াল, রথ তৈরির জন্য, যুদ্ধে এবং গাছ কেটে দেওয়ার জন্য ব্যবহৃত",
+    "english": "axe, used for making chariots, in war, and for cutting down trees",
+    "pronounce": "kulish",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "कुम्भ",
+    "bengali": "পাত্র, সাধারণত মাটির",
+    "english": "pot, usually of clay",
+    "pronounce": "kumbh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "लङ्गल",
+    "bengali": "লাঙ্গল",
+    "english": "plough",
+    "pronounce": "langal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मधुकशा",
+    "bengali": "মধু চাবুক",
+    "english": "honey whip",
+    "pronounce": "madhukasha",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मणिक",
+    "bengali": "একটি বড় জলের বোতল",
+    "english": "a large waterbottle",
+    "pronounce": "manik",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मयूख",
+    "bengali": "কাঠের খোঁচা, প্রায়শই বুনতে ব্যবহৃত হয়",
+    "english": "wooden peg, often used in weaving",
+    "pronounce": "mayukh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मेक्षण",
+    "bengali": "লাডল",
+    "english": "ladle",
+    "pronounce": "mekshan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मृद",
+    "bengali": "ক্লে",
+    "english": "clay",
+    "pronounce": "mrid",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मुक्षिजा",
+    "bengali": "প্রাণী ধরার জন্য নেট",
+    "english": "net for catching animals",
+    "pronounce": "mukshija",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मूसल",
+    "bengali": "পেস্টেল",
+    "english": "pestle",
+    "pronounce": "musal",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "मूट",
+    "bengali": "বোনা ঝুড়ি",
+    "english": "woven basket",
+    "pronounce": "mut",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "नेक्षण",
+    "bengali": "থুতু",
+    "english": "spit",
+    "pronounce": "nekshan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "ओतु",
+    "bengali": "বুনন",
+    "english": "the woof in weaving",
+    "pronounce": "otu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पचन",
+    "bengali": "রান্নার পাত্র",
+    "english": "cooking vessel",
+    "pronounce": "pachan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पक्व",
+    "bengali": "রান্না করা খাবার, রান্না করা দুধ বা বেকড ইট",
+    "english": "cooked food, cooked milk, or baked bricks",
+    "pronounce": "pakv",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलद",
+    "bengali": "খড়ের বান্ডিল বা রিডগুলি বাড়িটি ছিনিয়ে নেওয়ার জন্য এবং পক্ষগুলি বাতাস এবং আবহাওয়ার প্রমাণ সরবরাহ করে",
+    "english": "bundle of straw or reeds to thatch the house and render the sides wind and weather proof",
+    "pronounce": "palad",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पलपूलन",
+    "bengali": "লাই, বা জল একটি ক্ষারযুক্ত পদার্থের সাথে মিশ্রিত এবং কাপড় ধোয়ার জন্য ব্যবহৃত",
+    "english": "lye, or water mixed with an alkaline substance and used for washing clothes",
+    "pronounce": "palpulan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पान्नेजन",
+    "bengali": "পা ধুয়ে দেওয়ার জন্য জাহাজ",
+    "english": "vessel for washing the feet",
+    "pronounce": "pannejan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिचर्मण्य",
+    "bengali": "চামড়া থং",
+    "english": "thong of leather",
+    "pronounce": "paricharmanya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिघ",
+    "bengali": "আয়রন বল্ট বা বার",
+    "english": "iron bolt or bar",
+    "pronounce": "parigh",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिणह",
+    "bengali": "বাক্স",
+    "english": "box",
+    "pronounce": "parinah",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पारीणह्य",
+    "bengali": "বিল্ডিং পাত্র",
+    "english": "building utensils",
+    "pronounce": "parinahya",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परिपवन",
+    "bengali": "উইননিং ফ্যান",
+    "english": "winnowing fan",
+    "pronounce": "paripavan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "परीशास",
+    "bengali": "আগুন থেকে কোরবানি কেটলি তুলতে ব্যবহৃত টংস",
+    "english": "tongs used for lifting the sacrificial kettle off the fire",
+    "pronounce": "parishas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्शु",
+    "bengali": "সিকেল",
+    "english": "sickle",
+    "pronounce": "parshu",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्यंक",
+    "bengali": "সিংহাসনের মতো আসন",
+    "english": "throne-like seat",
+    "pronounce": "paryank",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पर्यास",
+    "bengali": "কাপড়ের ওউফ",
+    "english": "woof of the cloth",
+    "pronounce": "paryas",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पात्र",
+    "bengali": "কাঠ বা কাদামাটির উভয়ই পান করার পাত্র",
+    "english": "drinking vessel of either wood or clay",
+    "pronounce": "patr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पवन",
+    "bengali": "চালনী বা উইনিং ঝুড়ি",
+    "english": "sieve or winnowing basket",
+    "pronounce": "pavan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पवित्र",
+    "bengali": "সোমা শুদ্ধ করার জন্য চালনী ব্যবহৃত",
+    "english": "sieve used for purifying the soma",
+    "pronounce": "pavitr",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "फलक",
+    "bengali": "তক্তা",
+    "english": "plank",
+    "pronounce": "phalaka",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिन्वन",
+    "bengali": "আচারের পাত্র",
+    "english": "ritual vessel",
+    "pronounce": "pinvan",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिशीला",
+    "bengali": "কাঠের থালা বা পাত্র",
+    "english": "wooden dish or vessel",
+    "pronounce": "pishila",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पिशीलावीणा",
+    "bengali": "কাঠের শরীরের উপর স্ট্রিংযুক্ত এক ধরণের গিটার",
+    "english": "a kind of guitar with strings attached over a wooden body",
+    "pronounce": "pishilavina",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "पीठ",
+    "bengali": "মল",
+    "english": "stool",
+    "pronounce": "pith",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रकश",
+    "bengali": "থং বা একটি চাবুকের আঘাত",
+    "english": "thong or lash of a whip",
+    "pronounce": "prakash",
+    "viewed": 0,
+    "learnt": 0
+  },
+  {
+    "sanskrit": "प्रशस",
+    "bengali": "কুড়াল",
+    "english": "axe",
+    "pronounce": "prashas",
     "viewed": 0,
     "learnt": 0
   }

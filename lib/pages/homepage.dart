@@ -17,7 +17,6 @@ class _HomepageState extends State<Homepage> {
   @override
   void initState() {
     super.initState();
-    gPage();
   }
 
   void gPage() async {
@@ -43,23 +42,17 @@ class _HomepageState extends State<Homepage> {
             Dec.impTx("working", dark),
             TextButton(
               onPressed: () {
-                Track obj = Track(
-                  id: 1,
-                  kinds: 'page',
-                  main: '/short',
-                  subs: 2,
-                );
-                GetTracks().uKindTrack(obj);
+                gPage();
               },
-              child: Text('Save Value'),
+              child: Text('Read'),
             ),
-            TextButton(
-              onPressed: () async {
-                var dt = await GetTracks().rdByKind('page');
-                debugPrint(dt!.first.main);
-              },
-              child: Text("Get Text"),
-            ),
+            // TextButton(
+            //   onPressed: () async {
+            //     var dt = await GetTracks().rdByKind('page');
+            //     debugPrint(dt!.first.main);
+            //   },
+            //   child: Text("Get Text"),
+            // ),
           ],
         ),
       ),

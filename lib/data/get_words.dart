@@ -13,8 +13,8 @@ class GetWords {
   // Read all words
   Future<List<Word>> readAllWords() async {
     final db = await _db;
-    final result = await db.query('words');
-    return result.map((json) => Word.fromMap(json)).toList();
+    final result = await db.query('words', orderBy: 'pronounce ASC');
+    return result.map((json) => Word.fromJson(json)).toList();
   }
 
   // Read a single word by id
