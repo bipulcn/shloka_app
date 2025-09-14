@@ -1,6 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:slokas/component/decorate.dart';
+import 'package:slokas/data/get_tracks.dart';
+import 'package:slokas/data/models/tracks.dart';
 import 'package:slokas/parts/floating_btn.dart';
 import 'package:slokas/const/colors.dart';
 import 'package:slokas/data/get_shlokas.dart';
@@ -21,8 +23,31 @@ class _SingleShlokaState extends State<SingleShloka> {
   Map<int, int> lang = {};
   Map<int, int> mean = {};
   Random rand = Random();
+  late PageController pageCon;
+
+  void gPage() async {
+    List<Track> th = await GetTracks().rdByKind('theme');
+    if (th.isNotEmpty) {
+      dark = th.first.main == "dark" ? true : false;
+    }
+    List<Track> tk = await GetTracks().rdByKind('short');
+    if (tk.isNotEmpty) {
+      pageCon = PageController(initialPage: tk.first.subs);
+    } else {
+      pageCon = PageController(initialPage: 0);
+    }
+  }
+
+  void setPage(int page) async {
+    await GetTracks().uKindTrack(
+      Track(kinds: 'page', main: '/short', subs: page),
+    );
+    await GetTracks().uKindTrack(Track(kinds: 'short', main: '', subs: page));
+  }
+
   @override
   void initState() {
+    gPage();
     super.initState();
     slk = _repo.getShlokaByCat('short');
     int ind = 0;
@@ -64,6 +89,8 @@ class _SingleShlokaState extends State<SingleShloka> {
             } else {
               final words = snapshot.data!;
               return PageView.builder(
+                controller: pageCon,
+                onPageChanged: (value) => setPage(value),
                 itemCount: words.length,
                 itemBuilder: (context, index) {
                   final word = words[index];
@@ -83,7 +110,9 @@ class _SingleShlokaState extends State<SingleShloka> {
                                   .cover, // This makes the image cover the container
                             ),
                           ),
+                          child: Dec.head(index.toString(), dark),
                         ),
+                        Dec.name(word.name.toString(), dark),
                         TextButton(
                           onPressed: () {
                             setState(() {
@@ -102,7 +131,7 @@ class _SingleShlokaState extends State<SingleShloka> {
                             });
                           },
                           child: Dec.bdyTx(
-                            mean[index] == 1 ? word.meaning : word.english,
+                            mean[index] == 1 ? word.bng_mean : word.eng_mean,
                             dark,
                           ),
                         ),

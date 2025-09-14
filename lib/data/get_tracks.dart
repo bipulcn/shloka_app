@@ -13,8 +13,18 @@ class GetTracks {
   // Read all tracks
   Future<List<Track>> readAllTracks() async {
     final db = await _db;
-    final result = await db.query('tracks', orderBy: 'page ASC');
+    final result = await db.query('tracks', orderBy: 'main ASC');
     return result.map((json) => Track.fromMap(json)).toList();
+  }
+
+  Future<Track?> getPage() async {
+    final db = await _db;
+    final result = await db.query(
+      'tracks',
+      where: 'kinds=?',
+      whereArgs: ['page'],
+    );
+    return result.isNotEmpty ? Track.fromMap(result.first) : null;
   }
 
   // Read a single track by id
@@ -25,24 +35,24 @@ class GetTracks {
   }
 
   // Read tracks by kind/category
-  Future<List<Track>> readTracksByKind(String kind) async {
+  Future<List<Track>> rdByKind(String kind) async {
     final db = await _db;
     final result = await db.query(
       'tracks',
       where: 'kinds = ?',
       whereArgs: [kind],
-      orderBy: 'page ASC',
+      orderBy: 'main ASC',
     );
     return result.map((json) => Track.fromMap(json)).toList();
   }
 
-  // Read track by page number
-  Future<Track?> readTrackByPage(int page) async {
+  // Read track by main number
+  Future<Track?> rdByMain(int main) async {
     final db = await _db;
     final result = await db.query(
       'tracks',
-      where: 'page = ?',
-      whereArgs: [page],
+      where: 'main = ?',
+      whereArgs: [main],
     );
     return result.isNotEmpty ? Track.fromMap(result.first) : null;
   }
@@ -58,57 +68,67 @@ class GetTracks {
     );
   }
 
+  Future<bool> getTheme() async {
+    List<Track> th = await rdByKind('theme');
+    if (th.isNotEmpty) {
+      return th.first.main == "dark" ? true : false;
+    }
+    return false;
+  }
+
+  Future<int> getPre(String knd) async {
+    List<Track> tk = await rdByKind(knd);
+    return tk.isNotEmpty ? tk.first.subs : 0;
+  }
+
+  // Update a track
+  Future<int> uKindTrack(Track track) async {
+    final db = await _db;
+    var ck = await db.query(
+      'tracks',
+      where: 'kinds=?',
+      whereArgs: [track.kinds],
+    );
+    if (ck.isNotEmpty) {
+      Map<String, Object?> fs = ck.first;
+      return await db.update(
+        'tracks',
+        track.toValue(),
+        where: 'id = ?',
+        whereArgs: [fs['id']],
+      );
+    } else {
+      return createTrack(track);
+    }
+  }
+
   // Delete a track
   Future<int> deleteTrack(int id) async {
     final db = await _db;
     return await db.delete('tracks', where: 'id = ?', whereArgs: [id]);
   }
 
-  // Increment read count
-  Future<int> incrementReadCount(int id) async {
-    final db = await _db;
-    return await db.rawUpdate(
-      '''
-      UPDATE tracks 
-      SET numberOfTimeRead = numberOfTimeRead + 1 
-      WHERE id = ?
-    ''',
-      [id],
-    );
-  }
-
-  // Get most read tracks
-  Future<List<Track>> getMostReadTracks({int limit = 10}) async {
-    final db = await _db;
-    final result = await db.query(
-      'tracks',
-      orderBy: 'numberOfTimeRead DESC',
-      limit: limit,
-    );
-    return result.map((json) => Track.fromMap(json)).toList();
-  }
-
   // Get next track in sequence
-  Future<Track?> getNextTrack(int currentPage) async {
+  Future<Track?> getNextTrack(int currentMain) async {
     final db = await _db;
     final result = await db.query(
       'tracks',
-      where: 'page > ?',
-      whereArgs: [currentPage],
-      orderBy: 'page ASC',
+      where: 'main > ?',
+      whereArgs: [currentMain],
+      orderBy: 'main ASC',
       limit: 1,
     );
     return result.isNotEmpty ? Track.fromMap(result.first) : null;
   }
 
   // Get previous track in sequence
-  Future<Track?> getPreviousTrack(int currentPage) async {
+  Future<Track?> getPreviousTrack(int currentMain) async {
     final db = await _db;
     final result = await db.query(
       'tracks',
-      where: 'page < ?',
-      whereArgs: [currentPage],
-      orderBy: 'page DESC',
+      where: 'main < ?',
+      whereArgs: [currentMain],
+      orderBy: 'main DESC',
       limit: 1,
     );
     return result.isNotEmpty ? Track.fromMap(result.first) : null;

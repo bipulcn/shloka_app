@@ -84,7 +84,7 @@ class _GitaShlokaState extends State<GitaShloka> {
                             });
                           },
                           child: Dec.bdyTx(
-                            mean[index] == 1 ? word.meaning : word.english,
+                            mean[index] == 1 ? word.bng_mean : word.eng_mean,
                             dark,
                           ),
                         ),

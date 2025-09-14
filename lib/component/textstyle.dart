@@ -2,27 +2,27 @@ import 'package:flutter/material.dart';
 
 class StyTxt {
   static TextStyle h1({bool dk = true}) => TextStyle(
-    fontSize: 66,
+    fontSize: 48,
     fontWeight: FontWeight.w100,
     color: dk == true ? Colors.white : Colors.black,
   );
   static TextStyle h2({bool dk = true}) => TextStyle(
-    fontSize: 54,
+    fontSize: 40,
     fontWeight: FontWeight.w100,
     color: dk == true ? Colors.white : Colors.black,
   );
   static TextStyle h3({bool dk = true}) => TextStyle(
-    fontSize: 42,
+    fontSize: 32,
     fontWeight: FontWeight.w100,
     color: dk == true ? Colors.white : Colors.black,
   );
   static TextStyle h4({bool dk = true}) => TextStyle(
-    fontSize: 32,
+    fontSize: 26,
     fontWeight: FontWeight.w300,
     color: dk == true ? Colors.white : Colors.black,
   );
   static TextStyle h5({bool dk = true}) => TextStyle(
-    fontSize: 25,
+    fontSize: 22,
     fontWeight: FontWeight.w400,
     color: dk == true ? Colors.white : Colors.black,
   );
@@ -32,5 +32,5 @@ class StyTxt {
     color: dk == true ? Colors.white : Colors.black,
   );
   static TextStyle txt({bool dk = true}) =>
-      TextStyle(fontSize: 18, color: dk == true ? Colors.white : Colors.black);
+      TextStyle(fontSize: 16, color: dk == true ? Colors.white : Colors.black);
 }

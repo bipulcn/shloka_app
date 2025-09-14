@@ -1,6 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:slokas/component/decorate.dart';
+import 'package:slokas/data/get_tracks.dart';
+import 'package:slokas/data/models/tracks.dart';
 import 'package:slokas/parts/floating_btn.dart';
 import 'package:slokas/const/colors.dart';
 import 'package:slokas/data/get_shlokas.dart';
@@ -21,18 +23,39 @@ class _LongShlokaState extends State<LongShloka> {
   bool dark = true;
   Random rand = Random();
   int r_num = 0;
+  late PageController pageCon;
+
+  void gPage() async {
+    List<Track> th = await GetTracks().rdByKind('theme');
+    if (th.isNotEmpty) {
+      dark = th.first.main == "dark" ? true : false;
+    }
+    List<Track> tk = await GetTracks().rdByKind('long');
+    if (tk.isNotEmpty) {
+      pageCon = PageController(initialPage: tk.first.subs);
+    } else {
+      pageCon = PageController(initialPage: 0);
+    }
+  }
+
+  void setPage(int page) async {
+    await GetTracks().uKindTrack(
+      Track(kinds: 'page', main: '/long', subs: page),
+    );
+    await GetTracks().uKindTrack(Track(kinds: 'long', main: '', subs: page));
+  }
+
   @override
   void initState() {
+    gPage();
     super.initState();
     slk = _repo.getShlokaByCat('long');
     int ind = 0;
     slk?.then((SList) {
-      if (SList != null) {
-        for (var itm in SList) {
-          lang[ind] = 0;
-          mean[ind] = 0;
-          ind++;
-        }
+      for (var itm in SList) {
+        lang[ind] = 0;
+        mean[ind] = 0;
+        ind++;
       }
     });
     r_num = rand.nextInt(bgImg.length);
@@ -64,6 +87,8 @@ class _LongShlokaState extends State<LongShloka> {
             } else {
               final words = snapshot.data!;
               return PageView.builder(
+                controller: pageCon,
+                onPageChanged: (value) => setPage(value),
                 itemCount: words.length,
                 itemBuilder: (context, index) {
                   final word = words[index];
@@ -83,7 +108,9 @@ class _LongShlokaState extends State<LongShloka> {
                                   .cover, // This makes the image cover the container
                             ),
                           ),
+                          child: Dec.head(index.toString(), dark),
                         ),
+                        Dec.name(word.name.toString(), dark),
                         TextButton(
                           onPressed: () {
                             setState(() {
@@ -102,7 +129,7 @@ class _LongShlokaState extends State<LongShloka> {
                             });
                           },
                           child: Dec.bdyTx(
-                            mean[index] == 1 ? word.meaning : word.english,
+                            mean[index] == 1 ? word.bng_mean : word.eng_mean,
                             dark,
                           ),
                         ),

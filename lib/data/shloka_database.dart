@@ -33,11 +33,13 @@ class ShlokaDatabase {
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT NOT NULL,
         kinds TEXT NOT NULL,
+        chapter INTEGER NOT NULL,
         serial INTEGER NOT NULL,
         sanskrit TEXT,
         bengali TEXT,
         english TEXT,
-        meaning TEXT,
+        eng_mean TEXT,
+        bng_mean TEXT,
         wordMeaning TEXT,
         viewed INTEGER,
         learnt INTEGER,
@@ -63,10 +65,8 @@ class ShlokaDatabase {
       CREATE TABLE tracks (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         kinds TEXT,
-        page INTEGER,
-        prev INTEGER,
-        next INTEGER,
-        numberOfTimeRead INTEGER
+        main TEXT,
+        subs INTEGER
       )
     ''');
   }

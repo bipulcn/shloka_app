@@ -2,11 +2,13 @@ class ShlokaModel {
   final int? id;
   final String name;
   final String kinds;
+  final int chapter;
   final int serial;
   final String sanskrit;
   final String bengali;
   final String english;
-  final String meaning;
+  final String eng_mean;
+  final String bng_mean;
   final String wordMeaning;
   final bool viewed;
   final bool learnt;
@@ -19,11 +21,13 @@ class ShlokaModel {
     this.id,
     required this.name,
     required this.kinds,
+    this.chapter = 0,
     this.serial = 0,
     required this.sanskrit,
     required this.bengali,
     required this.english,
-    required this.meaning,
+    required this.eng_mean,
+    required this.bng_mean,
     required this.wordMeaning,
     this.viewed = false,
     this.learnt = false,
@@ -38,11 +42,13 @@ class ShlokaModel {
       id: json['id'],
       name: json['name'],
       kinds: json['kinds'],
+      chapter: json['chapter'],
       serial: json['serial'],
       sanskrit: json['sanskrit'],
       bengali: json['bengali'],
       english: json['english'],
-      meaning: json['meaning'],
+      eng_mean: json['eng_mean'],
+      bng_mean: json['bng_mean'],
       wordMeaning: json['wordMeaning'],
       viewed: json['viewed'] == 1,
       learnt: json['learnt'] == 1,
@@ -62,11 +68,13 @@ class ShlokaModel {
       'id': id,
       'name': name,
       'kinds': kinds,
+      'chapter': chapter,
       'serial': serial,
       'sanskrit': sanskrit,
       'bengali': bengali,
       'english': english,
-      'meaning': meaning,
+      'eng_mean': eng_mean,
+      'bng_mean': bng_mean,
       'wordMeaning': wordMeaning,
       'viewed': viewed ? 1 : 0,
       'learnt': learnt ? 1 : 0,

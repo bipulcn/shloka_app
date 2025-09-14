@@ -1,30 +1,18 @@
 class Track {
   final int? id;
   final String kinds;
-  final int page;
-  final int prev;
-  final int next;
-  final int numberOfTimeRead;
+  final String main;
+  final int subs;
 
-  Track({
-    this.id,
-    required this.kinds,
-    required this.page,
-    required this.prev,
-    required this.next,
-    this.numberOfTimeRead = 0,
-  });
+  Track({this.id, required this.kinds, required this.main, required this.subs});
 
   // Convert a Track into a Map
   Map<String, dynamic> toMap() {
-    return {
-      'id': id,
-      'kinds': kinds,
-      'page': page,
-      'prev': prev,
-      'next': next,
-      'numberOfTimeRead': numberOfTimeRead,
-    };
+    return {'id': id, 'kinds': kinds, 'main': main, 'subs': subs};
+  }
+
+  Map<String, dynamic> toValue() {
+    return {'kinds': kinds, 'main': main, 'subs': subs};
   }
 
   // Convert a Map into a Track
@@ -32,10 +20,8 @@ class Track {
     return Track(
       id: map['id'],
       kinds: map['kinds'] ?? '',
-      page: map['page'] ?? 0,
-      prev: map['prev'] ?? 0,
-      next: map['next'] ?? 0,
-      numberOfTimeRead: map['numberOfTimeRead'] ?? 0,
+      main: map['main'] ?? 0,
+      subs: map['subs'] ?? 0,
     );
   }
 
@@ -43,7 +29,8 @@ class Track {
   Track copyWith({
     int? id,
     String? kinds,
-    int? page,
+    String? main,
+    int? subs,
     int? prev,
     int? next,
     int? numberOfTimeRead,
@@ -51,17 +38,15 @@ class Track {
     return Track(
       id: id ?? this.id,
       kinds: kinds ?? this.kinds,
-      page: page ?? this.page,
-      prev: prev ?? this.prev,
-      next: next ?? this.next,
-      numberOfTimeRead: numberOfTimeRead ?? this.numberOfTimeRead,
+      main: main ?? this.main,
+      subs: subs ?? this.subs,
     );
   }
 
   // Override toString for easier debugging
   @override
   String toString() {
-    return 'Track(id: $id, kinds: $kinds, page: $page, prev: $prev, next: $next, numberOfTimeRead: $numberOfTimeRead)';
+    return 'Track(id: $id, kinds: $kinds, main: $main, subs: $subs)';
   }
 
   // Override equality operator
@@ -71,15 +56,13 @@ class Track {
     return other is Track &&
         other.id == id &&
         other.kinds == kinds &&
-        other.page == page &&
-        other.prev == prev &&
-        other.next == next &&
-        other.numberOfTimeRead == numberOfTimeRead;
+        other.main == main &&
+        other.subs == subs;
   }
 
   // Override hashCode
   @override
   int get hashCode {
-    return Object.hash(id, kinds, page, prev, next, numberOfTimeRead);
+    return Object.hash(id, kinds, main, subs);
   }
 }
