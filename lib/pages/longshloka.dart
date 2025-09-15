@@ -23,7 +23,7 @@ class _LongShlokaState extends State<LongShloka> {
   bool dark = true;
   Random rand = Random();
   int r_num = 0;
-  late PageController pageCon;
+  late PageController pageCon = PageController(initialPage: 0);
 
   void gPage() async {
     List<Track> th = await GetTracks().rdByKind('theme');
@@ -102,15 +102,19 @@ class _LongShlokaState extends State<LongShloka> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
-                                bgImg[r_num],
+                                bgImg[index % bgImg.length],
                               ), // Or NetworkImage('your_image_url')
                               fit: BoxFit
                                   .cover, // This makes the image cover the container
                             ),
                           ),
-                          child: Dec.head(index.toString(), '', dark),
+                          padding: EdgeInsets.only(top: 140),
+                          child: Dec.head(
+                            index.toString(),
+                            word.name.toString(),
+                            dark,
+                          ),
                         ),
-                        Dec.name(word.name.toString(), dark),
                         TextButton(
                           onPressed: () {
                             setState(() {

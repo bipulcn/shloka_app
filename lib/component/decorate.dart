@@ -86,7 +86,7 @@ class Dec {
   }
 
   static Widget word(String txt, bool drk) {
-    return Text(txt, style: StyTxt.h5(dk: drk));
+    return Text(txt, style: StyTxt.h6(dk: drk));
   }
 
   static Widget wordMean(String txt, bool drk) {

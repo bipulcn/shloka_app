@@ -18,12 +18,12 @@ class SingleShloka extends StatefulWidget {
 class _SingleShlokaState extends State<SingleShloka> {
   Future<List<ShlokaModel>>? slk;
   final GetShloka _repo = GetShloka();
-  int r_num = 0;
-  bool dark = true;
   Map<int, int> lang = {};
   Map<int, int> mean = {};
+  bool dark = true;
   Random rand = Random();
-  late PageController pageCon;
+  int r_num = 0;
+  late PageController pageCon = PageController(initialPage: 0);
 
   void gPage() async {
     List<Track> th = await GetTracks().rdByKind('theme');
@@ -104,15 +104,19 @@ class _SingleShlokaState extends State<SingleShloka> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
-                                bgImg[r_num],
+                                bgImg[index % bgImg.length],
                               ), // Or NetworkImage('your_image_url')
                               fit: BoxFit
                                   .cover, // This makes the image cover the container
                             ),
                           ),
-                          child: Dec.head(index.toString(), '', dark),
+                          padding: EdgeInsets.only(top: 140),
+                          child: Dec.head(
+                            index.toString(),
+                            word.name.toString(),
+                            dark,
+                          ),
                         ),
-                        Dec.name(word.name.toString(), dark),
                         TextButton(
                           onPressed: () {
                             setState(() {

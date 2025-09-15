@@ -23,7 +23,7 @@ class _GitaShlokaState extends State<GitaShloka> {
   Map<int, int> lang = {};
   Map<int, int> mean = {};
   Random rand = Random();
-  late PageController pageCon;
+  late PageController pageCon = PageController(initialPage: 0);
 
   void gPage() async {
     List<Track> th = await GetTracks().rdByKind('theme');
@@ -104,7 +104,7 @@ class _GitaShlokaState extends State<GitaShloka> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
-                                bgImg[r_num],
+                                bgImg[index % bgImg.length],
                               ), // Or NetworkImage('your_image_url')
                               fit: BoxFit
                                   .cover, // This makes the image cover the container

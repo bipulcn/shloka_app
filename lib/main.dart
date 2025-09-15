@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:slokas/data/get_shlokas.dart';
 import 'package:slokas/data/shloka_database.dart';
 import 'package:slokas/pages/gitashloka.dart';
@@ -9,6 +10,11 @@ import 'package:slokas/pages/words.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp, // Allows normal portrait orientation
+    DeviceOrientation.portraitDown, // Allows upside-down portrait orientation
+  ]);
   final db = ShlokaDatabase.instance;
   await GetShloka().insertShort();
   await GetShloka().insertLong();
@@ -33,9 +39,7 @@ class MyApp extends StatelessWidget {
         '/word': (context) => WordMeaning(),
       },
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
+      theme: ThemeData(scaffoldBackgroundColor: Colors.black),
       initialRoute: "/",
     );
   }
