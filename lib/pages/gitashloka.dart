@@ -24,6 +24,7 @@ class _GitaShlokaState extends State<GitaShloka> {
   Map<int, int> mean = {};
   Random rand = Random();
   late PageController pageCon = PageController(initialPage: 0);
+  double _currentSliderValue = 15;
 
   void gPage() async {
     List<Track> th = await GetTracks().rdByKind('theme');
@@ -31,11 +32,13 @@ class _GitaShlokaState extends State<GitaShloka> {
       dark = th.first.main == "dark" ? true : false;
     }
     List<Track> tk = await GetTracks().rdByKind('gita');
+    debugPrint(tk.toString());
     if (tk.isNotEmpty) {
       pageCon = PageController(initialPage: tk.first.subs);
     } else {
       pageCon = PageController(initialPage: 0);
     }
+    setState(() {});
   }
 
   void setPage(int page) async {
@@ -45,11 +48,26 @@ class _GitaShlokaState extends State<GitaShloka> {
     await GetTracks().uKindTrack(Track(kinds: 'gita', main: '', subs: page));
   }
 
+  Future<void> getPage(int num) async {
+    final list = await slk;
+    list?.forEach((obj) {
+      if (obj.chapter == num) {
+        debugPrint(obj.id.toString());
+        setPage(obj.id ?? 0);
+        pageCon.animateToPage(
+          obj.id ?? 0, // Navigate to the second page (index 1)
+          duration: Duration(milliseconds: 300),
+          curve: Curves.easeIn,
+        );
+      }
+    });
+  }
+
   @override
   void initState() {
-    gPage();
     super.initState();
     slk = _repo.getShlokaByCat('gita');
+    gPage();
     int ind = 0;
     slk?.then((SList) {
       if (SList != null) {
@@ -70,6 +88,11 @@ class _GitaShlokaState extends State<GitaShloka> {
     'assets/imgs/om_04.jpg',
     'assets/imgs/om_05.jpg',
   ];
+  @override
+  void dispose() {
+    pageCon.dispose(); // Dispose of the controller when the widget is removed
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -154,6 +177,30 @@ class _GitaShlokaState extends State<GitaShloka> {
         ),
       ),
       floatingActionButton: FloatingBtn(),
+      bottomNavigationBar: BottomAppBar(
+        child: SizedBox(
+          height: 10,
+          child: SliderTheme(
+            data: SliderThemeData(
+              thumbColor: Colors.green,
+              thumbShape: RoundSliderThumbShape(enabledThumbRadius: 10),
+            ),
+            child: Slider(
+              value: _currentSliderValue,
+              min: 0,
+              max: 18,
+              divisions: 18,
+              label: _currentSliderValue.round().toString(),
+              onChanged: (double value) {
+                setState(() {
+                  _currentSliderValue = value;
+                  getPage(value.toInt());
+                });
+              },
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

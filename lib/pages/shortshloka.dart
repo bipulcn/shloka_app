@@ -36,6 +36,7 @@ class _SingleShlokaState extends State<SingleShloka> {
     } else {
       pageCon = PageController(initialPage: 0);
     }
+    setState(() {});
   }
 
   void setPage(int page) async {

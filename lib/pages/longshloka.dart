@@ -36,6 +36,7 @@ class _LongShlokaState extends State<LongShloka> {
     } else {
       pageCon = PageController(initialPage: 0);
     }
+    setState(() {});
   }
 
   void setPage(int page) async {

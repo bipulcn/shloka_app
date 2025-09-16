@@ -9,7 +9,7 @@ class Dec {
       children: [
         Container(
           decoration: BoxDecoration(
-            color: Colors.black87,
+            color: drk ? Colors.black87 : Colors.white70,
             borderRadius: BorderRadius.circular(5),
           ),
           margin: EdgeInsets.all(10),
@@ -22,7 +22,7 @@ class Dec {
         ),
         Container(
           decoration: BoxDecoration(
-            color: Colors.black87,
+            color: drk ? Colors.black87 : Colors.white70,
             borderRadius: BorderRadius.circular(5),
           ),
           margin: EdgeInsets.all(10),
@@ -40,7 +40,7 @@ class Dec {
   static Widget name(String txt, bool drk) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.black12,
+        color: drk ? Colors.black12 : Colors.white24,
         borderRadius: BorderRadius.circular(10),
       ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
@@ -56,7 +56,7 @@ class Dec {
   static Widget impTx(String txt, bool drk) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.black12,
+        color: drk ? Colors.black12 : Colors.white24,
         borderRadius: BorderRadius.circular(10),
       ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
@@ -72,7 +72,7 @@ class Dec {
   static Widget bdyTx(String txt, bool drk) {
     return Container(
       // decoration: BoxDecoration(
-      //   color: Colors.black12,
+      //   color: drk?Colors.black12: Colors.white70,
       //   borderRadius: BorderRadius.circular(10),
       // ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),

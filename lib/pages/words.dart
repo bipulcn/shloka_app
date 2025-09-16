@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:slokas/component/decorate.dart';
 import 'package:slokas/data/get_tracks.dart';
@@ -21,12 +23,15 @@ class _WordMeaningState extends State<WordMeaning> {
   bool dark = true;
   Map<int, int> lang = {};
   Map<int, int> mean = {};
+  Timer? _debounce;
+  List<Word> _filteredWords = [];
 
   void gPage() async {
     List<Track> th = await GetTracks().rdByKind('theme');
     if (th.isNotEmpty) {
       dark = th.first.main == "dark" ? true : false;
     }
+    setState(() {});
   }
 
   @override
@@ -34,6 +39,48 @@ class _WordMeaningState extends State<WordMeaning> {
     gPage();
     super.initState();
     slk = _repo.readAllWords();
+  }
+
+  void searchText() {
+    setState(() {});
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    search.dispose();
+    _debounce?.cancel();
+    super.dispose();
+  }
+
+  // void _onSearchChanged() {
+  //   if (_debounce?.isActive ?? false) _debounce?.cancel();
+  //   _debounce = Timer(const Duration(milliseconds: 300), () {
+  //     _filterWords(search.text);
+  //   });
+  // }
+
+  List<Word> _filterWords(List<Word> words, String query) {
+    if (query.isEmpty) return words;
+
+    final lowerCaseQuery = query.toLowerCase();
+
+    return _filteredWords = words
+        .where(
+          (word) =>
+              word.pronounce.toLowerCase().contains(lowerCaseQuery) ||
+              word.sanskrit.toLowerCase().contains(lowerCaseQuery) ||
+              word.english.toLowerCase().contains(lowerCaseQuery) ||
+              word.bengali.toLowerCase().contains(lowerCaseQuery),
+        )
+        .toList();
+  }
+
+  void _clearSearch() {
+    search.clear();
+    setState(() {
+      // _filteredWords = widget.words;
+    });
   }
 
   @override
@@ -50,11 +97,21 @@ class _WordMeaningState extends State<WordMeaning> {
                 controller: search,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  fillColor: Colors.black,
+                  fillColor: dark ? Clr.dPri : Clr.lPri,
                   prefixIcon: Icon(Icons.search, color: Colors.white),
                   labelText: "Search",
                 ),
+                onChanged: (value) {
+                  debugPrint(value);
+                  setState(() {}); // Trigger rebuild on text change
+                },
               ),
+            ),
+            TextButton(
+              onPressed: () {
+                setState(() {});
+              },
+              child: Text("search"),
             ),
             Expanded(
               child: FutureBuilder<List<Word>>(
@@ -68,33 +125,43 @@ class _WordMeaningState extends State<WordMeaning> {
                     return const Center(child: Text("No words found"));
                   } else {
                     final words = snapshot.data!;
+                    final filteredWords = _filterWords(words, search.text);
+                    if (filteredWords.isEmpty) {
+                      return Center(
+                        child: Text(
+                          search.text.isEmpty
+                              ? 'No words available'
+                              : 'No results found for "${search.text}"',
+                        ),
+                      );
+                    }
                     return ListView.builder(
-                      itemCount: words.length,
+                      itemCount: filteredWords.length,
                       itemBuilder: (context, index) {
-                        final word = words[index];
-                        if (word.pronounce.contains(search.text)) {
-                          return ListTile(
-                            shape: RoundedRectangleBorder(
-                              side: BorderSide(
-                                color: Colors.white38,
-                                width: 0,
-                              ), // Customize color and width
-                              borderRadius: BorderRadius.circular(
-                                2,
-                              ), // Add border radius if desired
-                            ),
-                            title: Dec.word(
-                              "${word.sanskrit} (${word.pronounce})",
-                              dark,
-                            ),
-                            subtitle: Dec.wordMean(
-                              "${word.english}\n${word.bengali}",
-                              dark,
-                            ),
-                          );
-                        } else {
-                          return null;
-                        }
+                        final word = filteredWords[index];
+                        // if (word.pronounce.contains(search.text)) {
+                        return ListTile(
+                          shape: RoundedRectangleBorder(
+                            side: BorderSide(
+                              color: Colors.white38,
+                              width: 0,
+                            ), // Customize color and width
+                            borderRadius: BorderRadius.circular(
+                              2,
+                            ), // Add border radius if desired
+                          ),
+                          title: Dec.word(
+                            "${word.sanskrit} (${word.pronounce})",
+                            dark,
+                          ),
+                          subtitle: Dec.wordMean(
+                            "${word.english}\n${word.bengali}",
+                            dark,
+                          ),
+                        );
+                        // } else {
+                        //   return null;
+                        // }
                       },
                     );
                   }
