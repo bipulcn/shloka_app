@@ -16,6 +16,8 @@ class _FloatingBtnState extends State<FloatingBtn> {
       children: [
         if (isOpen) ...[
           FloatingActionButton(
+            backgroundColor: Colors.blueGrey,
+            foregroundColor: Colors.white,
             heroTag: "btn1",
             mini: true,
             onPressed: () {
@@ -25,6 +27,8 @@ class _FloatingBtnState extends State<FloatingBtn> {
           ),
           const SizedBox(height: 10),
           FloatingActionButton(
+            backgroundColor: Colors.blueGrey,
+            foregroundColor: Colors.white,
             heroTag: "btn2",
             mini: true,
             onPressed: () {
@@ -34,6 +38,8 @@ class _FloatingBtnState extends State<FloatingBtn> {
           ),
           const SizedBox(height: 10),
           FloatingActionButton(
+            backgroundColor: Colors.blueGrey,
+            foregroundColor: Colors.white,
             heroTag: "btn3",
             mini: true,
             onPressed: () {
@@ -43,6 +49,8 @@ class _FloatingBtnState extends State<FloatingBtn> {
           ),
           const SizedBox(height: 10),
           FloatingActionButton(
+            backgroundColor: Colors.blueGrey,
+            foregroundColor: Colors.white,
             heroTag: "btn4",
             mini: true,
             onPressed: () {
@@ -61,6 +69,8 @@ class _FloatingBtnState extends State<FloatingBtn> {
           // ),
           const SizedBox(height: 10),
           FloatingActionButton(
+            backgroundColor: Colors.blueGrey,
+            foregroundColor: Colors.white,
             heroTag: "btn6",
             mini: true,
             onPressed: () {
@@ -71,6 +81,8 @@ class _FloatingBtnState extends State<FloatingBtn> {
           const SizedBox(height: 10),
         ],
         FloatingActionButton(
+          backgroundColor: Colors.blueGrey,
+          foregroundColor: Colors.white,
           heroTag: "main",
           onPressed: () {
             setState(() {

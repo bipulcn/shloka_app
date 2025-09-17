@@ -1,5 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:slokas/component/buttons.dart';
+import 'package:slokas/component/decoreate.dart';
+import 'package:slokas/parts/bottombar.dart';
 import 'package:slokas/component/decorate.dart';
 import 'package:slokas/data/get_tracks.dart';
 import 'package:slokas/data/models/tracks.dart';
@@ -24,15 +27,20 @@ class _GitaShlokaState extends State<GitaShloka> {
   Map<int, int> mean = {};
   Random rand = Random();
   late PageController pageCon = PageController(initialPage: 0);
-  double _currentSliderValue = 15;
+  double _currentSliderValue = 1;
+  bool bang = false;
 
   void gPage() async {
+    List<Track> ln = await GetTracks().rdByKind('bengali');
+    if (ln.isNotEmpty) {
+      bang = ln.first.main == 'yes' ? true : false;
+    }
     List<Track> th = await GetTracks().rdByKind('theme');
     if (th.isNotEmpty) {
       dark = th.first.main == "dark" ? true : false;
     }
     List<Track> tk = await GetTracks().rdByKind('gita');
-    debugPrint(tk.toString());
+    // debugPrint(tk.toString());
     if (tk.isNotEmpty) {
       pageCon = PageController(initialPage: tk.first.subs);
     } else {
@@ -49,13 +57,14 @@ class _GitaShlokaState extends State<GitaShloka> {
   }
 
   Future<void> getPage(int num) async {
+    // debugPrint(num.toString());
     final list = await slk;
     list?.forEach((obj) {
       if (obj.chapter == num) {
-        debugPrint(obj.id.toString());
-        setPage(obj.id ?? 0);
+        int to = obj.id ?? 0;
+        setPage(to);
         pageCon.animateToPage(
-          obj.id ?? 0, // Navigate to the second page (index 1)
+          (to / 3).toInt(), // Navigate to the second page (index 1)
           duration: Duration(milliseconds: 300),
           curve: Curves.easeIn,
         );
@@ -114,16 +123,18 @@ class _GitaShlokaState extends State<GitaShloka> {
               return PageView.builder(
                 controller: pageCon,
                 onPageChanged: (value) => setPage(value),
-                itemCount: words.length,
+                itemCount: (words.length / 3).toInt(),
                 itemBuilder: (context, index) {
-                  final word = words[index];
+                  final word = words[index * 3];
+                  final word2 = words[(index * 3 + 1)];
+                  final word3 = words[(index * 3 + 2)];
                   return SingleChildScrollView(
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Container(
                           width: double.infinity,
-                          height: 200,
+                          height: 100,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
@@ -133,7 +144,7 @@ class _GitaShlokaState extends State<GitaShloka> {
                                   .cover, // This makes the image cover the container
                             ),
                           ),
-                          padding: EdgeInsets.only(top: 140),
+                          padding: EdgeInsets.only(top: 40),
                           child: Dec.head(
                             "${word.chapter}:${word.serial}",
                             word.name.toString(),
@@ -141,29 +152,35 @@ class _GitaShlokaState extends State<GitaShloka> {
                           ),
                         ),
                         // Dec.name(word.name.toString(), dark),
-                        TextButton(
-                          onPressed: () {
-                            setState(() {
-                              lang[index] = lang[index] == 0 ? 1 : 0;
-                            });
-                          },
-                          child: Dec.impTx(
-                            lang[index] == 1 ? word.bengali : word.sanskrit,
-                            dark,
-                          ),
+                        Dec.impTx(bang ? word.bengali : word.sanskrit, dark),
+                        Dec.impTx(bang ? word2.bengali : word2.sanskrit, dark),
+                        Dec.impTx(bang ? word3.bengali : word3.sanskrit, dark),
+                        // TextButton(
+                        //   onPressed: () {
+                        //     setState(() {
+                        //       mean[index] = mean[index] == 0 ? 1 : 0;
+                        //     });
+                        //   },
+                        //   child: Dec.bdyTx(
+                        //     mean[index] == 1 ? word.bng_mean : word.eng_mean,
+                        //     dark,
+                        //   ),
+                        // ),
+                        Decor.line(dark),
+                        Dec.bdyTx(
+                          word.wordMeaning +
+                              " " +
+                              word2.wordMeaning +
+                              " " +
+                              word3.wordMeaning,
+                          dark,
                         ),
-                        TextButton(
-                          onPressed: () {
-                            setState(() {
-                              mean[index] = mean[index] == 0 ? 1 : 0;
-                            });
-                          },
-                          child: Dec.bdyTx(
-                            mean[index] == 1 ? word.bng_mean : word.eng_mean,
-                            dark,
-                          ),
-                        ),
-                        Dec.bdyTx(word.wordMeaning, dark),
+                        Btn.iBtn(Icons.translate, () {
+                          setState(() {
+                            bang = !bang;
+                            // debugPrint(bang.toString());
+                          });
+                        }),
                       ],
                       // trailing: word.learnt
                       //     ? const Icon(Icons.check, color: Colors.green)
@@ -177,29 +194,15 @@ class _GitaShlokaState extends State<GitaShloka> {
         ),
       ),
       floatingActionButton: FloatingBtn(),
-      bottomNavigationBar: BottomAppBar(
-        child: SizedBox(
-          height: 10,
-          child: SliderTheme(
-            data: SliderThemeData(
-              thumbColor: Colors.green,
-              thumbShape: RoundSliderThumbShape(enabledThumbRadius: 10),
-            ),
-            child: Slider(
-              value: _currentSliderValue,
-              min: 0,
-              max: 18,
-              divisions: 18,
-              label: _currentSliderValue.round().toString(),
-              onChanged: (double value) {
-                setState(() {
-                  _currentSliderValue = value;
-                  getPage(value.toInt());
-                });
-              },
-            ),
-          ),
-        ),
+      bottomNavigationBar: BBar.buildSlider(
+        maxLim: 18,
+        currentSliderValue: _currentSliderValue,
+        onChanged: (double value) {
+          setState(() {
+            _currentSliderValue = value;
+            getPage(value.toInt());
+          });
+        },
       ),
     );
   }

@@ -1,5 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:slokas/component/buttons.dart';
+import 'package:slokas/component/decoreate.dart';
+import 'package:slokas/parts/bottombar.dart';
 import 'package:slokas/component/decorate.dart';
 import 'package:slokas/data/get_tracks.dart';
 import 'package:slokas/data/models/tracks.dart';
@@ -16,6 +19,7 @@ class LongShloka extends StatefulWidget {
 }
 
 class _LongShlokaState extends State<LongShloka> {
+  double _currentSliderValue = 1;
   Future<List<ShlokaModel>>? slk;
   final GetShloka _repo = GetShloka();
   Map<int, int> lang = {};
@@ -24,8 +28,13 @@ class _LongShlokaState extends State<LongShloka> {
   Random rand = Random();
   int r_num = 0;
   late PageController pageCon = PageController(initialPage: 0);
+  bool bang = false;
 
   void gPage() async {
+    List<Track> ln = await GetTracks().rdByKind('bengali');
+    if (ln.isNotEmpty) {
+      bang = ln.first.main == 'yes' ? true : false;
+    }
     List<Track> th = await GetTracks().rdByKind('theme');
     if (th.isNotEmpty) {
       dark = th.first.main == "dark" ? true : false;
@@ -70,6 +79,21 @@ class _LongShlokaState extends State<LongShloka> {
     'assets/imgs/om_05.jpg',
   ];
 
+  Future<void> getPage(int num) async {
+    final list = await slk;
+    list?.forEach((obj) {
+      if (obj.chapter == num) {
+        debugPrint(obj.id.toString());
+        setPage(obj.id ?? 0);
+        pageCon.animateToPage(
+          obj.id ?? 0, // Navigate to the second page (index 1)
+          duration: Duration(milliseconds: 300),
+          curve: Curves.easeIn,
+        );
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,22 +135,13 @@ class _LongShlokaState extends State<LongShloka> {
                           ),
                           padding: EdgeInsets.only(top: 140),
                           child: Dec.head(
-                            index.toString(),
+                            "${word.chapter}:${word.serial}",
                             word.name.toString(),
                             dark,
                           ),
                         ),
-                        TextButton(
-                          onPressed: () {
-                            setState(() {
-                              lang[index] = lang[index] == 0 ? 1 : 0;
-                            });
-                          },
-                          child: Dec.impTx(
-                            lang[index] == 1 ? word.bengali : word.sanskrit,
-                            dark,
-                          ),
-                        ),
+                        Dec.impTx(bang ? word.bengali : word.sanskrit, dark),
+                        Decor.line(dark),
                         TextButton(
                           onPressed: () {
                             setState(() {
@@ -138,6 +153,12 @@ class _LongShlokaState extends State<LongShloka> {
                             dark,
                           ),
                         ),
+                        Btn.iBtn(Icons.translate, () {
+                          setState(() {
+                            bang = !bang;
+                            debugPrint(bang.toString());
+                          });
+                        }),
                       ],
                       // trailing: word.learnt
                       //     ? const Icon(Icons.check, color: Colors.green)
@@ -151,6 +172,16 @@ class _LongShlokaState extends State<LongShloka> {
         ),
       ),
       floatingActionButton: FloatingBtn(),
+      bottomNavigationBar: BBar.buildSlider(
+        maxLim: 3,
+        currentSliderValue: _currentSliderValue,
+        onChanged: (double value) {
+          setState(() {
+            _currentSliderValue = value;
+            getPage(value.toInt());
+          });
+        },
+      ),
     );
   }
 }

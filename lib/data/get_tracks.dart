@@ -30,6 +30,26 @@ class GetTracks {
     return 1;
   }
 
+  Future<int> saveLanguage(String val) async {
+    final db = await _db;
+    final cks = await db.query(
+      'tracks',
+      where: 'kinds = ?',
+      whereArgs: ['bengali'],
+    );
+    if (cks.isEmpty) {
+      await createTrack(Track(kinds: 'bengali', main: val, subs: 0));
+    } else {
+      db.update(
+        'tracks',
+        {'main': val},
+        where: 'id=?',
+        whereArgs: [cks.first['id']],
+      );
+    }
+    return 1;
+  }
+
   // Read all tracks
   Future<List<Track>> readAllTracks() async {
     final db = await _db;
