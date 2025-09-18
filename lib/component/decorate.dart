@@ -79,21 +79,49 @@ class Dec {
       width: double.infinity,
       child: Text(
         txt,
-        style: StyTxt.txt(dk: drk),
+        style: StyTxt.shlok(dk: drk),
         textAlign: TextAlign.center,
       ),
     );
   }
 
   static Widget word(String txt, bool drk) {
-    return Text(txt, style: StyTxt.h6(dk: drk));
+    return Text(txt, style: StyTxt.word(dk: drk));
   }
 
-  static Widget wordMean(String txt, bool drk) {
-    return Text(
-      txt,
+  static TextSpan wordMean(String txt, bool drk) {
+    return TextSpan(
+      text: txt,
       style: StyTxt.txt(dk: drk),
-      textAlign: TextAlign.right,
+    );
+  }
+
+  static RichText test() {
+    return RichText(
+      text: TextSpan(
+        text: 'Hello ', // Default style for this part
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.red,
+        ), // Inherit default app style
+        children: <TextSpan>[
+          TextSpan(
+            text: 'bold',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 30,
+            ), // Specific style for "bold"
+          ),
+          TextSpan(
+            text: ' world!',
+            style: TextStyle(
+              fontStyle: FontStyle.italic,
+              color: Colors.red,
+            ), // Specific style for "world!"
+          ),
+        ],
+      ),
     );
   }
 }

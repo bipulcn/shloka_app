@@ -121,53 +121,69 @@ class _SingleShlokaState extends State<SingleShloka> {
                 itemCount: words.length,
                 itemBuilder: (context, index) {
                   final word = words[index];
-                  return SingleChildScrollView(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          width: double.infinity,
-                          height: 200,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage(
-                                bgImg[index % bgImg.length],
-                              ), // Or NetworkImage('your_image_url')
-                              fit: BoxFit
-                                  .cover, // This makes the image cover the container
+                  return Stack(
+                    children: [
+                      SingleChildScrollView(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              width: double.infinity,
+                              height: 200,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage(
+                                    bgImg[index % bgImg.length],
+                                  ), // Or NetworkImage('your_image_url')
+                                  fit: BoxFit
+                                      .cover, // This makes the image cover the container
+                                ),
+                              ),
+                              padding: EdgeInsets.only(top: 140),
+                              child: Dec.head(
+                                "${word.chapter}:${word.serial}",
+                                word.name.toString(),
+                                dark,
+                              ),
                             ),
-                          ),
-                          padding: EdgeInsets.only(top: 140),
-                          child: Dec.head(
-                            "${word.chapter}:${word.serial}",
-                            word.name.toString(),
-                            dark,
-                          ),
+                            Decor().rBox(
+                              Dec.bdyTx(
+                                bang ? word.bengali : word.sanskrit,
+                                dark,
+                              ),
+                              dark,
+                            ),
+                            Decor.line(dark),
+                            TextButton(
+                              onPressed: () {
+                                setState(() {
+                                  mean[index] = mean[index] == 0 ? 1 : 0;
+                                });
+                              },
+                              child: Dec.bdyTx(
+                                mean[index] == 1
+                                    ? word.bng_mean
+                                    : word.eng_mean,
+                                dark,
+                              ),
+                            ),
+                            // Expanded(child: Text("")),
+                          ],
+                          // trailing: word.learnt
+                          //     ? const Icon(Icons.check, color: Colors.green)
+                          //     : const Icon(Icons.school_outlined),
                         ),
-                        Dec.impTx(bang ? word.bengali : word.sanskrit, dark),
-                        Decor.line(dark),
-                        TextButton(
-                          onPressed: () {
-                            setState(() {
-                              mean[index] = mean[index] == 0 ? 1 : 0;
-                            });
-                          },
-                          child: Dec.bdyTx(
-                            mean[index] == 1 ? word.bng_mean : word.eng_mean,
-                            dark,
-                          ),
-                        ),
-                        Btn.iBtn(Icons.translate, () {
+                      ),
+                      Align(
+                        alignment: AlignmentGeometry.bottomLeft,
+                        child: Btn.iBtn(Icons.translate, () {
                           setState(() {
                             bang = !bang;
                             debugPrint(bang.toString());
                           });
                         }),
-                      ],
-                      // trailing: word.learnt
-                      //     ? const Icon(Icons.check, color: Colors.green)
-                      //     : const Icon(Icons.school_outlined),
-                    ),
+                      ),
+                    ],
                   );
                 },
               );

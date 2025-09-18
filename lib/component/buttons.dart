@@ -24,9 +24,9 @@ class Btn {
       icon: Container(
         decoration: BoxDecoration(
           color: Colors.blueGrey,
-          borderRadius: BorderRadius.circular(5),
+          borderRadius: BorderRadius.circular(10),
         ),
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
         child: Icon(icn, color: Colors.white),
       ),
     );

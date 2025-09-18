@@ -31,6 +31,13 @@ class StyTxt {
     fontWeight: FontWeight.w600,
     color: dk == true ? Colors.white : Colors.black,
   );
+  static TextStyle word({bool dk = true}) => TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.w600,
+    color: dk == true ? Colors.orange : Colors.teal,
+  );
   static TextStyle txt({bool dk = true}) =>
       TextStyle(fontSize: 16, color: dk == true ? Colors.white : Colors.black);
+  static TextStyle shlok({bool dk = true}) =>
+      TextStyle(fontSize: 18, color: dk == true ? Colors.white : Colors.black);
 }

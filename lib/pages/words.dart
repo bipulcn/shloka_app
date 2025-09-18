@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:float_column/float_column.dart';
 import 'package:flutter/material.dart';
 import 'package:slokas/component/decorate.dart';
 import 'package:slokas/data/get_tracks.dart';
@@ -107,12 +108,6 @@ class _WordMeaningState extends State<WordMeaning> {
                 },
               ),
             ),
-            TextButton(
-              onPressed: () {
-                setState(() {});
-              },
-              child: Text("search"),
-            ),
             Expanded(
               child: FutureBuilder<List<Word>>(
                 future: slk,
@@ -135,34 +130,47 @@ class _WordMeaningState extends State<WordMeaning> {
                         ),
                       );
                     }
-                    return ListView.builder(
-                      itemCount: filteredWords.length,
-                      itemBuilder: (context, index) {
-                        final word = filteredWords[index];
-                        // if (word.pronounce.contains(search.text)) {
-                        return ListTile(
-                          shape: RoundedRectangleBorder(
-                            side: BorderSide(
-                              color: Colors.white38,
-                              width: 0,
-                            ), // Customize color and width
-                            borderRadius: BorderRadius.circular(
-                              2,
-                            ), // Add border radius if desired
-                          ),
-                          title: Dec.word(
-                            "${word.sanskrit} (${word.pronounce})",
-                            dark,
-                          ),
-                          subtitle: Dec.wordMean(
-                            "${word.english}\n${word.bengali}",
-                            dark,
-                          ),
-                        );
-                        // } else {
-                        //   return null;
-                        // }
-                      },
+                    return Scrollbar(
+                      // Optional: Make the scrollbar thumb always visible
+                      thumbVisibility: true,
+                      // Optional: Make the scrollbar track always visible
+                      trackVisibility: true,
+                      // Optional: Adjust the thickness of the scrollbar
+                      thickness: 10.0,
+                      scrollbarOrientation: ScrollbarOrientation.right,
+                      child: ListView.builder(
+                        itemCount: filteredWords.length,
+                        itemBuilder: (context, index) {
+                          final word = filteredWords[index];
+                          return Container(
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 20,
+                              vertical: 10,
+                            ),
+                            child: FloatColumn(
+                              children: [
+                                Floatable(
+                                  float: FCFloat.start,
+                                  padding: EdgeInsets.only(right: 8),
+                                  child: SizedBox(
+                                    height: 50,
+                                    width: 150,
+                                    child: Dec.word(
+                                      "${word.sanskrit} (${word.pronounce})",
+                                      dark,
+                                    ),
+                                  ),
+                                ),
+
+                                Dec.wordMean(
+                                  "${word.english}\n${word.bengali}",
+                                  dark,
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
                     );
                   }
                 },

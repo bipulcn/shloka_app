@@ -128,64 +128,77 @@ class _GitaShlokaState extends State<GitaShloka> {
                   final word = words[index * 3];
                   final word2 = words[(index * 3 + 1)];
                   final word3 = words[(index * 3 + 2)];
-                  return SingleChildScrollView(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Container(
-                          width: double.infinity,
-                          height: 100,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage(
-                                bgImg[index % bgImg.length],
-                              ), // Or NetworkImage('your_image_url')
-                              fit: BoxFit
-                                  .cover, // This makes the image cover the container
+                  return Stack(
+                    children: [
+                      SingleChildScrollView(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Container(
+                              width: double.infinity,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage(
+                                    bgImg[index % bgImg.length],
+                                  ), // Or NetworkImage('your_image_url')
+                                  fit: BoxFit
+                                      .cover, // This makes the image cover the container
+                                ),
+                              ),
+                              padding: EdgeInsets.only(top: 40),
+                              child: Dec.head(
+                                "${word.chapter}:${word.serial}",
+                                word.name.toString(),
+                                dark,
+                              ),
                             ),
-                          ),
-                          padding: EdgeInsets.only(top: 40),
-                          child: Dec.head(
-                            "${word.chapter}:${word.serial}",
-                            word.name.toString(),
-                            dark,
-                          ),
+                            // Dec.name(word.name.toString(), dark),
+                            Dec.impTx(
+                              bang ? word.bengali : word.sanskrit,
+                              dark,
+                            ),
+                            Dec.impTx(
+                              bang ? word2.bengali : word2.sanskrit,
+                              dark,
+                            ),
+                            Dec.impTx(
+                              bang ? word3.bengali : word3.sanskrit,
+                              dark,
+                            ),
+                            // TextButton(
+                            //   onPressed: () {
+                            //     setState(() {
+                            //       mean[index] = mean[index] == 0 ? 1 : 0;
+                            //     });
+                            //   },
+                            //   child: Dec.bdyTx(
+                            //     mean[index] == 1 ? word.bng_mean : word.eng_mean,
+                            //     dark,
+                            //   ),
+                            // ),
+                            Decor.line(dark),
+                            Dec.bdyTx(
+                              "${word.wordMeaning} # ${word2.wordMeaning} # ${word3.wordMeaning}",
+                              dark,
+                            ),
+                          ],
+                          // trailing: word.learnt
+                          //     ? const Icon(Icons.check, color: Colors.green)
+                          //     : const Icon(Icons.school_outlined),
                         ),
-                        // Dec.name(word.name.toString(), dark),
-                        Dec.impTx(bang ? word.bengali : word.sanskrit, dark),
-                        Dec.impTx(bang ? word2.bengali : word2.sanskrit, dark),
-                        Dec.impTx(bang ? word3.bengali : word3.sanskrit, dark),
-                        // TextButton(
-                        //   onPressed: () {
-                        //     setState(() {
-                        //       mean[index] = mean[index] == 0 ? 1 : 0;
-                        //     });
-                        //   },
-                        //   child: Dec.bdyTx(
-                        //     mean[index] == 1 ? word.bng_mean : word.eng_mean,
-                        //     dark,
-                        //   ),
-                        // ),
-                        Decor.line(dark),
-                        Dec.bdyTx(
-                          word.wordMeaning +
-                              " " +
-                              word2.wordMeaning +
-                              " " +
-                              word3.wordMeaning,
-                          dark,
-                        ),
-                        Btn.iBtn(Icons.translate, () {
+                      ),
+                      Align(
+                        alignment: AlignmentGeometry.bottomLeft,
+
+                        child: Btn.iBtn(Icons.translate, () {
                           setState(() {
                             bang = !bang;
                             // debugPrint(bang.toString());
                           });
                         }),
-                      ],
-                      // trailing: word.learnt
-                      //     ? const Icon(Icons.check, color: Colors.green)
-                      //     : const Icon(Icons.school_outlined),
-                    ),
+                      ),
+                    ],
                   );
                 },
               );
