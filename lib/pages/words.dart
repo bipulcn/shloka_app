@@ -153,7 +153,7 @@ class _WordMeaningState extends State<WordMeaning> {
                                   float: FCFloat.start,
                                   padding: EdgeInsets.only(right: 8),
                                   child: SizedBox(
-                                    height: 50,
+                                    height: 100,
                                     width: 150,
                                     child: Dec.word(
                                       "${word.sanskrit} (${word.pronounce})",
