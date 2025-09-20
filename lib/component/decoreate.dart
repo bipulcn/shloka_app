@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:slokas/const/colors.dart';
+import 'dart:math' as math;
 
 class Decor {
   Widget rBox(Widget child, bool thm, {Color clr = Colors.lightBlueAccent}) =>
@@ -47,6 +48,20 @@ class Decor {
           thm ? 'assets/imgs/linel.png' : 'assets/imgs/lined.png',
         ),
         fit: BoxFit.contain,
+      ),
+    ),
+  );
+  static Widget lineR(bool thm) => Transform.rotate(
+    angle: math.pi,
+    child: Container(
+      height: 22,
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage(
+            thm ? 'assets/imgs/linel.png' : 'assets/imgs/lined.png',
+          ),
+          fit: BoxFit.contain,
+        ),
       ),
     ),
   );

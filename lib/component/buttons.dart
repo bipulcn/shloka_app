@@ -9,7 +9,7 @@ class Btn {
           color: Colors.blueGrey,
           borderRadius: BorderRadius.circular(5),
         ),
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
         child: Text(
           txt,
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),

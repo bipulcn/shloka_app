@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:slokas/component/buttons.dart';
-import 'package:slokas/component/decorate.dart';
 import 'package:slokas/component/decoreate.dart';
-import 'package:slokas/component/textstyle.dart';
 import 'package:slokas/data/get_tracks.dart';
 import 'package:slokas/data/models/tracks.dart';
 import 'package:slokas/parts/floating_btn.dart';
 import 'package:slokas/const/colors.dart';
+import 'package:slokas/parts/textview.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
@@ -17,7 +16,7 @@ class Homepage extends StatefulWidget {
 
 class _HomepageState extends State<Homepage> {
   bool dark = true;
-  bool lang = false;
+  int lang = 0;
   @override
   void initState() {
     super.initState();
@@ -28,7 +27,7 @@ class _HomepageState extends State<Homepage> {
     List<Track> ck = await GetTracks().rdByKind('theme');
     List<Track> ln = await GetTracks().rdByKind('bengali');
     if (ln.isNotEmpty) {
-      lang = ln.first.main == 'yes' ? true : false;
+      lang = ln.first.main == 'yes' ? 1 : 0;
     } else {
       setLanguage();
     }
@@ -45,10 +44,11 @@ class _HomepageState extends State<Homepage> {
   }
 
   void setLanguage() async {
-    String typ = lang ? 'no' : 'yes';
-    lang = !lang;
+    String typ = lang == 0 ? 'yes' : 'no';
     debugPrint(typ);
     GetTracks().saveLanguage(typ);
+    lang += 1;
+    if (lang > 1) lang = 0;
     setState(() {});
   }
 
@@ -70,29 +70,20 @@ class _HomepageState extends State<Homepage> {
             SingleChildScrollView(
               child: Column(
                 children: [
-                  lang
-                      ? Decor().rBox(
-                          Dec.bdyTx(
-                            "শ্লোকগুলি কেবলমাত্র পদ্য নয়; এগুলি হল চিরন্তন জ্ঞানের সংক্ষিপ্তসার, যা সৃষ্টির খুব কাঠামোর সাথে অনুরণিত হওয়ার জন্য সুনির্দিষ্ট ছন্দ এবং শব্দে নির্মিত। এগুলি চিন্তার সরঞ্জাম, উচ্চতর চেতনার অবস্থা উন্মুক্ত করার চাবিকাঠি এবং ধার্মিক জীবনযাপনের জন্য নির্দেশিকা। ভগবদ গীতা হল সেই divineশ্বরিক সংলাপ যা প্রতিটি মানুষের জীবনের উদ্ভূত হয়। ",
-                            dark,
-                          ),
-                          dark,
-                        )
-                      : Decor().rBox(
-                          Dec.bdyTx(
-                            "श्लोक केवल पद्य नहीं हैं; वे शाश्वत ज्ञान के सार संक्षेप हैं, जो सृष्टि के ताने-बाने के साथ अनुनाद करने के लिए सटीक छंद और ध्वनि में निर्मित हैं। भगवद्गीता वह दिव्य संवाद है जो प्रत्येक मनुष्य के जीवन की चौराहे पर उत्पन्न होता है।",
-                            dark,
-                          ),
-                          dark,
-                        ),
+                  SizedBox(height: 100),
                   Decor.line(dark),
-                  Decor().rBox(
-                    Dec.bdyTx(
-                      "Hindu shlokas are not mere verses; they are condensed capsules of eternal wisdom, designed with precise meter and sound to resonate with the very fabric of the cosmos. The Bhagavad Gita is the divine dialogue that arises at the crossroads of every human life. ",
-                      dark,
-                    ),
-                    dark,
+                  TextView(
+                    t1st:
+                        "श्लोक केवल पद्य नहीं हैं; वे शाश्वत ज्ञान के सार संक्षेप हैं, जो सृष्टि के ताने-बाने के साथ अनुनाद करने के लिए सटीक छंद और ध्वनि में निर्मित हैं। भगवद्गीता वह दिव्य संवाद है जो प्रत्येक मनुष्य के जीवन की चौराहे पर उत्पन्न होता है।",
+                    t2nd:
+                        "শ্লোকগুলি কেবলমাত্র পদ্য নয়; এগুলি হল চিরন্তন জ্ঞানের সংক্ষিপ্তসার, যা সৃষ্টির খুব কাঠামোর সাথে অনুরণিত হওয়ার জন্য সুনির্দিষ্ট ছন্দ এবং শব্দে নির্মিত। এগুলি চিন্তার সরঞ্জাম, উচ্চতর চেতনার অবস্থা উন্মুক্ত করার চাবিকাঠি এবং ধার্মিক জীবনযাপনের জন্য নির্দেশিকা। ভগবদ গীতা হল সেই divineশ্বরিক সংলাপ যা প্রতিটি মানুষের জীবনের উদ্ভূত হয়। ",
+                    t3rd:
+                        "Hindu shlokas are not mere verses; they are condensed capsules of eternal wisdom, designed with precise meter and sound to resonate with the very fabric of the cosmos. The Bhagavad Gita is the divine dialogue that arises at the crossroads of every human life. ",
+                    lang: lang,
+                    dark: dark,
+                    siz: 1,
                   ),
+                  Decor.lineR(dark),
                 ],
               ),
             ),
@@ -106,7 +97,7 @@ class _HomepageState extends State<Homepage> {
                   }),
 
                   Text(
-                    lang ? "বাংলা" : 'संस्कृत',
+                    lang == 1 ? "বাংলা" : 'संस्कृत',
                     style: TextStyle(color: dark ? Colors.white : Colors.black),
                   ),
                   Btn.iBtn(Icons.translate, () {

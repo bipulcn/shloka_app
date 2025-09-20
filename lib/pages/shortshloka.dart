@@ -10,6 +10,7 @@ import 'package:slokas/parts/floating_btn.dart';
 import 'package:slokas/const/colors.dart';
 import 'package:slokas/data/get_shlokas.dart';
 import 'package:slokas/data/models/shlokas.dart';
+import 'package:slokas/parts/textview.dart';
 
 class SingleShloka extends StatefulWidget {
   const SingleShloka({super.key});
@@ -29,12 +30,13 @@ class _SingleShlokaState extends State<SingleShloka> {
   int r_num = 0;
   late PageController pageCon = PageController(initialPage: 0);
 
-  bool bang = false;
+  int bang = 0;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
     if (ln.isNotEmpty) {
-      bang = ln.first.main == 'yes' ? true : false;
+      bang = ln.first.main == 'yes' ? 1 : 0;
+      debugPrint("Language is ${ln.first.main} = $bang");
     }
     List<Track> th = await GetTracks().rdByKind('theme');
     if (th.isNotEmpty) {
@@ -75,18 +77,29 @@ class _SingleShlokaState extends State<SingleShloka> {
   }
 
   List<String> bgImg = [
-    'assets/imgs/om_01.jpg',
-    'assets/imgs/om_02.jpg',
-    'assets/imgs/om_03.jpg',
-    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_06.jpg',
     'assets/imgs/om_05.jpg',
+    'assets/imgs/om_07.jpg',
+    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_08.jpg',
+    'assets/imgs/om_09.png',
+    'assets/imgs/om_03.jpg',
+    'assets/imgs/om_10.jpg',
+    'assets/imgs/om_11.jpg',
+    'assets/imgs/om_12.jpg',
+    'assets/imgs/om_02.jpg',
+    'assets/imgs/om_13.jpg',
+    'assets/imgs/om_14.jpg',
+    'assets/imgs/om_15.jpg',
+    'assets/imgs/om_01.jpg',
+    'assets/imgs/om_16.jpg',
+    'assets/imgs/om_117.jpg',
   ];
 
   Future<void> getPage(int num) async {
     final list = await slk;
     list?.forEach((obj) {
       if (obj.chapter == num) {
-        debugPrint(obj.id.toString());
         setPage(obj.id ?? 0);
         pageCon.animateToPage(
           obj.id ?? 0, // Navigate to the second page (index 1)
@@ -121,6 +134,7 @@ class _SingleShlokaState extends State<SingleShloka> {
                 itemCount: words.length,
                 itemBuilder: (context, index) {
                   final word = words[index];
+                  debugPrint("Bengali status is $bang");
                   return Stack(
                     children: [
                       SingleChildScrollView(
@@ -146,12 +160,13 @@ class _SingleShlokaState extends State<SingleShloka> {
                                 dark,
                               ),
                             ),
-                            Decor().rBox(
-                              Dec.bdyTx(
-                                bang ? word.bengali : word.sanskrit,
-                                dark,
-                              ),
-                              dark,
+                            TextView(
+                              t1st: word.sanskrit,
+                              t2nd: word.bengali,
+                              t3rd: "",
+                              lang: bang,
+                              dark: dark,
+                              siz: 0,
                             ),
                             Decor.line(dark),
                             TextButton(
@@ -174,15 +189,14 @@ class _SingleShlokaState extends State<SingleShloka> {
                           //     : const Icon(Icons.school_outlined),
                         ),
                       ),
-                      Align(
-                        alignment: AlignmentGeometry.bottomLeft,
-                        child: Btn.iBtn(Icons.translate, () {
-                          setState(() {
-                            bang = !bang;
-                            debugPrint(bang.toString());
-                          });
-                        }),
-                      ),
+                      // Align(
+                      //   alignment: AlignmentGeometry.bottomLeft,
+                      //   child: Btn.iBtn(Icons.translate, () {
+                      //     setState(() {
+                      //       bang = !bang;
+                      //     });
+                      //   }),
+                      // ),
                     ],
                   );
                 },
