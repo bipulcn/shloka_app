@@ -10,6 +10,7 @@ import 'package:slokas/parts/floating_btn.dart';
 import 'package:slokas/const/colors.dart';
 import 'package:slokas/data/get_shlokas.dart';
 import 'package:slokas/data/models/shlokas.dart';
+import 'package:slokas/parts/textview.dart';
 
 class GitaShloka extends StatefulWidget {
   const GitaShloka({super.key});
@@ -28,12 +29,13 @@ class _GitaShlokaState extends State<GitaShloka> {
   Random rand = Random();
   late PageController pageCon = PageController(initialPage: 0);
   double _currentSliderValue = 1;
-  bool bang = false;
+  int bang = 0;
+  int lngW = 0;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
     if (ln.isNotEmpty) {
-      bang = ln.first.main == 'yes' ? true : false;
+      bang = ln.first.main == 'yes' ? 1 : 0;
     }
     List<Track> th = await GetTracks().rdByKind('theme');
     if (th.isNotEmpty) {
@@ -128,77 +130,57 @@ class _GitaShlokaState extends State<GitaShloka> {
                   final word = words[index * 3];
                   final word2 = words[(index * 3 + 1)];
                   final word3 = words[(index * 3 + 2)];
-                  return Stack(
-                    children: [
-                      SingleChildScrollView(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            Container(
-                              width: double.infinity,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image: AssetImage(
-                                    bgImg[index % bgImg.length],
-                                  ), // Or NetworkImage('your_image_url')
-                                  fit: BoxFit
-                                      .cover, // This makes the image cover the container
-                                ),
-                              ),
-                              padding: EdgeInsets.only(top: 40),
-                              child: Dec.head(
-                                "${word.chapter}:${word.serial}",
-                                word.name.toString(),
-                                dark,
-                              ),
+                  return SingleChildScrollView(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Container(
+                          width: double.infinity,
+                          height: 100,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                bgImg[index % bgImg.length],
+                              ), // Or NetworkImage('your_image_url')
+                              fit: BoxFit
+                                  .cover, // This makes the image cover the container
                             ),
-                            // Dec.name(word.name.toString(), dark),
-                            Dec.impTx(
-                              bang ? word.bengali : word.sanskrit,
-                              dark,
-                            ),
-                            Dec.impTx(
-                              bang ? word2.bengali : word2.sanskrit,
-                              dark,
-                            ),
-                            Dec.impTx(
-                              bang ? word3.bengali : word3.sanskrit,
-                              dark,
-                            ),
-                            // TextButton(
-                            //   onPressed: () {
-                            //     setState(() {
-                            //       mean[index] = mean[index] == 0 ? 1 : 0;
-                            //     });
-                            //   },
-                            //   child: Dec.bdyTx(
-                            //     mean[index] == 1 ? word.bng_mean : word.eng_mean,
-                            //     dark,
-                            //   ),
-                            // ),
-                            Decor.line(dark),
-                            Dec.bdyTx(
-                              "${word.wordMeaning} # ${word2.wordMeaning} # ${word3.wordMeaning}",
-                              dark,
-                            ),
-                          ],
-                          // trailing: word.learnt
-                          //     ? const Icon(Icons.check, color: Colors.green)
-                          //     : const Icon(Icons.school_outlined),
+                          ),
+                          padding: EdgeInsets.only(top: 40),
+                          child: Dec.head(
+                            "${word.chapter}:${word.serial}",
+                            word.name.toString(),
+                            dark,
+                          ),
                         ),
-                      ),
-                      Align(
-                        alignment: AlignmentGeometry.bottomLeft,
-
-                        child: Btn.iBtn(Icons.translate, () {
-                          setState(() {
-                            bang = !bang;
-                            // debugPrint(bang.toString());
-                          });
-                        }),
-                      ),
-                    ],
+                        // Dec.name(word.name.toString(), dark),
+                        TextView(
+                          t1st:
+                              "${word.sanskrit}\n\n${word2.sanskrit}\n\n${word3.sanskrit}",
+                          t2nd:
+                              "${word.bengali}\n\n${word2.bengali}\n\n${word3.bengali}",
+                          t3rd:
+                              "${word.english}\n\n${word2.english}\n\n${word3.english}",
+                          lang: bang,
+                          dark: dark,
+                          siz: 0,
+                          bgs: 1,
+                        ),
+                        Decor.line(dark),
+                        TextView(
+                          t1st:
+                              "${word.wordMeaning}\n\n${word2.wordMeaning}\n\n${word3.wordMeaning}",
+                          t2nd:
+                              "${word.bng_mean}\n\n${word2.bng_mean}\n\n${word3.bng_mean}",
+                          t3rd:
+                              "${word.eng_mean}\n\n${word2.eng_mean}\n\n${word3.eng_mean}",
+                          lang: bang,
+                          dark: dark,
+                          siz: 0,
+                          bgs: 0,
+                        ),
+                      ],
+                    ),
                   );
                 },
               );

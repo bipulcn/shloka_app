@@ -82,6 +82,7 @@ class _HomepageState extends State<Homepage> {
                     lang: lang,
                     dark: dark,
                     siz: 1,
+                    bgs: 1,
                   ),
                   Decor.lineR(dark),
                 ],

@@ -10,6 +10,7 @@ import 'package:slokas/parts/floating_btn.dart';
 import 'package:slokas/const/colors.dart';
 import 'package:slokas/data/get_shlokas.dart';
 import 'package:slokas/data/models/shlokas.dart';
+import 'package:slokas/parts/textview.dart';
 
 class LongShloka extends StatefulWidget {
   const LongShloka({super.key});
@@ -28,12 +29,13 @@ class _LongShlokaState extends State<LongShloka> {
   Random rand = Random();
   int r_num = 0;
   late PageController pageCon = PageController(initialPage: 0);
-  bool bang = false;
+  int bang = 0;
+  int lngW = 0;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
     if (ln.isNotEmpty) {
-      bang = ln.first.main == 'yes' ? true : false;
+      bang = ln.first.main == 'yes' ? 1 : 0;
     }
     List<Track> th = await GetTracks().rdByKind('theme');
     if (th.isNotEmpty) {
@@ -117,68 +119,64 @@ class _LongShlokaState extends State<LongShloka> {
                 itemCount: words.length,
                 itemBuilder: (context, index) {
                   final word = words[index];
-                  return Stack(
-                    children: [
-                      SingleChildScrollView(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Container(
-                              width: double.infinity,
-                              height: 200,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image: AssetImage(
-                                    bgImg[index % bgImg.length],
-                                  ), // Or NetworkImage('your_image_url')
-                                  fit: BoxFit
-                                      .cover, // This makes the image cover the container
-                                ),
-                              ),
-                              padding: EdgeInsets.only(top: 140),
-                              child: Dec.head(
-                                "${word.chapter}:${word.serial}",
-                                word.name.toString(),
-                                dark,
-                              ),
+                  return SingleChildScrollView(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          width: double.infinity,
+                          height: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                bgImg[index % bgImg.length],
+                              ), // Or NetworkImage('your_image_url')
+                              fit: BoxFit
+                                  .cover, // This makes the image cover the container
                             ),
-                            Decor().rBox(
-                              Dec.bdyTx(
-                                bang ? word.bengali : word.sanskrit,
-                                dark,
-                              ),
-                              dark,
-                            ),
-                            Decor.line(dark),
-                            TextButton(
-                              onPressed: () {
-                                setState(() {
-                                  mean[index] = mean[index] == 0 ? 1 : 0;
-                                });
-                              },
-                              child: Dec.bdyTx(
-                                mean[index] == 1
-                                    ? word.bng_mean
-                                    : word.eng_mean,
-                                dark,
-                              ),
-                            ),
-                          ],
-                          // trailing: word.learnt
-                          //     ? const Icon(Icons.check, color: Colors.green)
-                          //     : const Icon(Icons.school_outlined),
+                          ),
+                          padding: EdgeInsets.only(top: 140),
+                          child: Dec.head(
+                            "${word.chapter}:${word.serial}",
+                            word.name.toString(),
+                            dark,
+                          ),
                         ),
-                      ),
-                      Align(
-                        alignment: AlignmentGeometry.bottomLeft,
-                        child: Btn.iBtn(Icons.translate, () {
-                          setState(() {
-                            bang = !bang;
-                            debugPrint(bang.toString());
-                          });
-                        }),
-                      ),
-                    ],
+                        TextView(
+                          t1st: word.sanskrit,
+                          t2nd: word.bengali,
+                          t3rd: "",
+                          lang: bang,
+                          dark: dark,
+                          siz: 0,
+                          bgs: 1,
+                        ),
+                        Decor.line(dark),
+                        TextView(
+                          t1st: word.eng_mean,
+                          t2nd: word.bng_mean,
+                          t3rd: word.wordMeaning,
+                          lang: lngW,
+                          dark: dark,
+                          siz: 0,
+                          bgs: 0,
+                        ),
+                        // TextButton(
+                        //   onPressed: () {
+                        //     setState(() {
+                        //       mean[index] = mean[index] == 0 ? 1 : 0;
+                        //     });
+                        //   },
+                        //   child: Dec.bdyTx(
+                        //     mean[index] == 1 ? word.bng_mean : word.eng_mean,
+                        //     dark,
+                        //   ),
+                        // ),
+                      ],
+                      // trailing: word.learnt
+                      //     ? const Icon(Icons.check, color: Colors.green)
+                      //     : const Icon(Icons.school_outlined),
+                    ),
                   );
                 },
               );

@@ -11,6 +11,7 @@ class TextView extends StatefulWidget {
   int lang;
   bool dark;
   int siz;
+  int bgs;
   TextView({
     super.key,
     required this.t1st,
@@ -19,6 +20,7 @@ class TextView extends StatefulWidget {
     required this.lang,
     required this.dark,
     required this.siz,
+    required this.bgs,
   });
 
   @override
@@ -35,13 +37,18 @@ class _TextViewState extends State<TextView> {
     });
   }
 
-  @override
+  // @override
   void initState() {
     super.initState();
-    beng = widget.lang;
-    if (widget.t2nd != "" && widget.lang == 1) setInd(widget.lang);
-    if (widget.t3rd != "" && widget.lang == 2) setInd(widget.lang);
-    setInd(0);
+    debugPrint(widget.bgs.toString());
+    // beng = widget.lang;
+    if (widget.t2nd != "" && widget.lang == 1) {
+      setInd(widget.lang);
+    } else if (widget.t3rd != "" && widget.lang == 2) {
+      // setInd(widget.lang);
+    } else {
+      setInd(0);
+    }
   }
 
   @override
@@ -49,14 +56,18 @@ class _TextViewState extends State<TextView> {
     return Container(
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/imgs/border-b.png'),
-          fit: BoxFit.none,
-          alignment: AlignmentGeometry.xy(-15, 1),
-        ),
-        color: widget.dark
-            ? Clr.hc01(.6).withAlpha(50)
-            : Clr.cl04.withAlpha(50),
+        image: widget.bgs == 1
+            ? DecorationImage(
+                image: AssetImage('assets/imgs/border-b.png'),
+                fit: BoxFit.none,
+                alignment: AlignmentGeometry.xy(-15, 1),
+              )
+            : null,
+        color: widget.bgs == 1
+            ? widget.dark
+                  ? Clr.hc01(.6).withAlpha(50)
+                  : Clr.cl04.withAlpha(50)
+            : Colors.transparent,
         borderRadius: BorderRadius.circular(10),
         boxShadow: [
           // BoxShadow(
@@ -69,13 +80,15 @@ class _TextViewState extends State<TextView> {
       ),
       child: Stack(
         children: [
-          Positioned(
-            child: Image.asset(
-              'assets/imgs/border.png',
-              fit: BoxFit.contain,
-              alignment: AlignmentGeometry.xy(-10, 0),
-            ),
-          ),
+          widget.bgs == 1
+              ? Positioned(
+                  child: Image.asset(
+                    'assets/imgs/border.png',
+                    fit: BoxFit.contain,
+                    alignment: AlignmentGeometry.xy(-10, 0),
+                  ),
+                )
+              : SizedBox(),
           Container(
             padding: EdgeInsets.symmetric(horizontal: 10, vertical: 30),
             child: Column(
@@ -83,9 +96,7 @@ class _TextViewState extends State<TextView> {
                 Container(
                   padding: EdgeInsets.all(0),
                   child: Dec.bdyTx(
-                    [widget.t1st, widget.t2nd, widget.t3rd][widget.lang] +
-                        widget.lang.toString() +
-                        widget.dark.toString(),
+                    [widget.t1st, widget.t2nd, widget.t3rd][beng],
                     widget.dark,
                   ),
                 ),
