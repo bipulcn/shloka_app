@@ -10,6 +10,46 @@ class GetTracks {
     return await db.insert('tracks', track.toMap());
   }
 
+  Future<int> saveTheme(bool theme) async {
+    final db = await _db;
+    final cks = await db.query(
+      'tracks',
+      where: 'kinds = ?',
+      whereArgs: ['theme'],
+    );
+    if (cks.isEmpty) {
+      await createTrack(Track(kinds: 'theme', main: 'dark', subs: 0));
+    } else {
+      db.update(
+        'tracks',
+        {'main': theme ? 'dark' : 'light'},
+        where: 'id=?',
+        whereArgs: [cks.first['id']],
+      );
+    }
+    return 1;
+  }
+
+  Future<int> saveLanguage(String val) async {
+    final db = await _db;
+    final cks = await db.query(
+      'tracks',
+      where: 'kinds = ?',
+      whereArgs: ['bengali'],
+    );
+    if (cks.isEmpty) {
+      await createTrack(Track(kinds: 'bengali', main: val, subs: 0));
+    } else {
+      db.update(
+        'tracks',
+        {'main': val},
+        where: 'id=?',
+        whereArgs: [cks.first['id']],
+      );
+    }
+    return 1;
+  }
+
   // Read all tracks
   Future<List<Track>> readAllTracks() async {
     final db = await _db;
@@ -106,6 +146,11 @@ class GetTracks {
   Future<int> deleteTrack(int id) async {
     final db = await _db;
     return await db.delete('tracks', where: 'id = ?', whereArgs: [id]);
+  }
+
+  Future<int> deleteUnWantedTrack(String key) async {
+    final db = await _db;
+    return await db.delete('tracks', where: 'kinds = ?', whereArgs: [key]);
   }
 
   // Get next track in sequence

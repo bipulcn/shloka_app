@@ -9,7 +9,7 @@ class Dec {
       children: [
         Container(
           decoration: BoxDecoration(
-            color: Colors.black87,
+            color: drk ? Colors.black87 : Colors.white70,
             borderRadius: BorderRadius.circular(5),
           ),
           margin: EdgeInsets.all(10),
@@ -22,7 +22,7 @@ class Dec {
         ),
         Container(
           decoration: BoxDecoration(
-            color: Colors.black87,
+            color: drk ? Colors.black87 : Colors.white70,
             borderRadius: BorderRadius.circular(5),
           ),
           margin: EdgeInsets.all(10),
@@ -40,7 +40,7 @@ class Dec {
   static Widget name(String txt, bool drk) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.black12,
+        color: drk ? Colors.black12 : Colors.white24,
         borderRadius: BorderRadius.circular(10),
       ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
@@ -56,7 +56,7 @@ class Dec {
   static Widget impTx(String txt, bool drk) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.black12,
+        color: drk ? Colors.black12 : Colors.white24,
         borderRadius: BorderRadius.circular(10),
       ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
@@ -72,28 +72,56 @@ class Dec {
   static Widget bdyTx(String txt, bool drk) {
     return Container(
       // decoration: BoxDecoration(
-      //   color: Colors.black12,
+      //   color: drk?Colors.black12: Colors.white70,
       //   borderRadius: BorderRadius.circular(10),
       // ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
       width: double.infinity,
       child: Text(
         txt,
-        style: StyTxt.txt(dk: drk),
+        style: StyTxt.shlok(dk: drk),
         textAlign: TextAlign.center,
       ),
     );
   }
 
   static Widget word(String txt, bool drk) {
-    return Text(txt, style: StyTxt.h6(dk: drk));
+    return Text(txt, style: StyTxt.word(dk: drk));
   }
 
-  static Widget wordMean(String txt, bool drk) {
-    return Text(
-      txt,
+  static TextSpan wordMean(String txt, bool drk) {
+    return TextSpan(
+      text: txt,
       style: StyTxt.txt(dk: drk),
-      textAlign: TextAlign.right,
+    );
+  }
+
+  static RichText test() {
+    return RichText(
+      text: TextSpan(
+        text: 'Hello ', // Default style for this part
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.red,
+        ), // Inherit default app style
+        children: <TextSpan>[
+          TextSpan(
+            text: 'bold',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 30,
+            ), // Specific style for "bold"
+          ),
+          TextSpan(
+            text: ' world!',
+            style: TextStyle(
+              fontStyle: FontStyle.italic,
+              color: Colors.red,
+            ), // Specific style for "world!"
+          ),
+        ],
+      ),
     );
   }
 }
