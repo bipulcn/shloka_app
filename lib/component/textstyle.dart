@@ -38,6 +38,10 @@ class StyTxt {
   );
   static TextStyle txt({bool dk = true}) =>
       TextStyle(fontSize: 16, color: dk == true ? Colors.white : Colors.black);
-  static TextStyle shlok({bool dk = true}) =>
-      TextStyle(fontSize: 18, color: dk == true ? Colors.white : Colors.black);
+  static TextStyle shlok({bool dk = true, double siz = 0}) => TextStyle(
+    fontFamily: "Karma",
+    fontWeight: FontWeight.w500,
+    fontSize: 18 + siz * 2,
+    color: dk == true ? Colors.white : Colors.black,
+  );
 }

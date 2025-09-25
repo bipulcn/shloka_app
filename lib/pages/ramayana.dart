@@ -98,6 +98,7 @@ class _RamayanaState extends State<Ramayana> {
                           child: Dec.bdyTx(
                             mean[index] == 1 ? word.bng_mean : word.eng_mean,
                             dark,
+                            0,
                           ),
                         ),
                       ],

@@ -10,7 +10,7 @@ class TextView extends StatefulWidget {
   String t3rd;
   int lang;
   bool dark;
-  int siz;
+  double siz;
   int bgs;
   TextView({
     super.key,
@@ -66,16 +66,20 @@ class _TextViewState extends State<TextView> {
         color: widget.bgs == 1
             ? widget.dark
                   ? Clr.hc01(.6).withAlpha(50)
-                  : Clr.cl04.withAlpha(50)
+                  : Clr.hc04(0.8)
             : Colors.transparent,
         borderRadius: BorderRadius.circular(10),
         boxShadow: [
-          // BoxShadow(
-          //   offset: Offset(1, 5),
-          //   color: Colors.black.withAlpha(100),
-          //   spreadRadius: -12,
-          //   blurRadius: 20,
-          // ),
+          widget.bgs == 1
+              ? widget.dark
+                    ? BoxShadow(color: Colors.transparent)
+                    : BoxShadow(
+                        offset: Offset(1, 5),
+                        color: Colors.black.withAlpha(100),
+                        spreadRadius: -12,
+                        blurRadius: 20,
+                      )
+              : BoxShadow(color: Colors.transparent),
         ],
       ),
       child: Stack(
@@ -98,6 +102,7 @@ class _TextViewState extends State<TextView> {
                   child: Dec.bdyTx(
                     [widget.t1st, widget.t2nd, widget.t3rd][beng],
                     widget.dark,
+                    widget.siz,
                   ),
                 ),
                 Row(
@@ -118,6 +123,8 @@ class _TextViewState extends State<TextView> {
                             setInd(2);
                           })
                         : SizedBox(),
+                    Btn.tBtn("-", () {}),
+                    Btn.tBtn("+", () {}),
                   ],
                 ),
               ],

@@ -5,6 +5,7 @@ import 'package:slokas/data/shloka_database.dart';
 import 'package:slokas/pages/gitashloka.dart';
 import 'package:slokas/pages/homepage.dart';
 import 'package:slokas/pages/longshloka.dart';
+import 'package:slokas/pages/phonetics.dart';
 import 'package:slokas/pages/shortshloka.dart';
 import 'package:slokas/pages/words.dart';
 
@@ -37,10 +38,11 @@ class MyApp extends StatelessWidget {
         '/long': (context) => LongShloka(),
         '/gita': (context) => GitaShloka(),
         '/word': (context) => WordMeaning(),
+        '/font': (context) => SanskritPhoneticsTable(),
       },
       title: 'Flutter Demo',
       theme: ThemeData(scaffoldBackgroundColor: Colors.black),
-      initialRoute: "/",
+      initialRoute: "/font",
     );
   }
 }

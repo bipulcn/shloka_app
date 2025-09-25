@@ -176,22 +176,7 @@ class _SingleShlokaState extends State<SingleShloka> {
                           siz: 0,
                           bgs: 0,
                         ),
-                        // TextButton(
-                        //   onPressed: () {
-                        //     setState(() {
-                        //       mean[index] = mean[index] == 0 ? 1 : 0;
-                        //     });
-                        //   },
-                        //   child: Dec.bdyTx(
-                        //     mean[index] == 1 ? word.bng_mean : word.eng_mean,
-                        //     dark,
-                        //   ),
-                        // ),
-                        // Expanded(child: Text("")),
                       ],
-                      // trailing: word.learnt
-                      //     ? const Icon(Icons.check, color: Colors.green)
-                      //     : const Icon(Icons.school_outlined),
                     ),
                   );
                 },

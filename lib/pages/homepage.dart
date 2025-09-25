@@ -81,7 +81,7 @@ class _HomepageState extends State<Homepage> {
                         "Hindu shlokas are not mere verses; they are condensed capsules of eternal wisdom, designed with precise meter and sound to resonate with the very fabric of the cosmos. The Bhagavad Gita is the divine dialogue that arises at the crossroads of every human life. ",
                     lang: lang,
                     dark: dark,
-                    siz: 1,
+                    siz: 0,
                     bgs: 1,
                   ),
                   Decor.lineR(dark),

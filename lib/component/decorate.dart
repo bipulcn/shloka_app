@@ -69,17 +69,13 @@ class Dec {
     );
   }
 
-  static Widget bdyTx(String txt, bool drk) {
+  static Widget bdyTx(String txt, bool drk, double sz) {
     return Container(
-      // decoration: BoxDecoration(
-      //   color: drk?Colors.black12: Colors.white70,
-      //   borderRadius: BorderRadius.circular(10),
-      // ),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
       width: double.infinity,
       child: Text(
         txt,
-        style: StyTxt.shlok(dk: drk),
+        style: StyTxt.shlok(dk: drk, siz: sz),
         textAlign: TextAlign.center,
       ),
     );
