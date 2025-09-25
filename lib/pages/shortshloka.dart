@@ -32,6 +32,7 @@ class _SingleShlokaState extends State<SingleShloka> {
 
   int bang = 0;
   int lngW = 0;
+  int numShl = 1;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
@@ -52,9 +53,7 @@ class _SingleShlokaState extends State<SingleShloka> {
   }
 
   void setPage(int page) async {
-    await GetTracks().uKindTrack(
-      Track(kinds: 'page', main: '/short', subs: page),
-    );
+    await GetTracks().uKindTrack(Track(kinds: 'page', main: '/short', subs: page));
     await GetTracks().uKindTrack(Track(kinds: 'short', main: '', subs: page));
   }
 
@@ -71,8 +70,10 @@ class _SingleShlokaState extends State<SingleShloka> {
           mean[ind] = 0;
           ind++;
         }
+        numShl = ind;
       }
     });
+    setState(() {});
     r_num = rand.nextInt(bgImg.length);
   }
 
@@ -97,17 +98,12 @@ class _SingleShlokaState extends State<SingleShloka> {
   ];
 
   Future<void> getPage(int num) async {
-    final list = await slk;
-    list?.forEach((obj) {
-      if (obj.chapter == num) {
-        setPage(obj.id ?? 0);
-        pageCon.animateToPage(
-          obj.id ?? 0, // Navigate to the second page (index 1)
-          duration: Duration(milliseconds: 300),
-          curve: Curves.easeIn,
-        );
-      }
-    });
+    setPage(num);
+    pageCon.animateToPage(
+      num, // Navigate to the second page (index 1)
+      duration: Duration(milliseconds: 300),
+      curve: Curves.easeIn,
+    );
   }
 
   @override
@@ -146,8 +142,7 @@ class _SingleShlokaState extends State<SingleShloka> {
                               image: AssetImage(
                                 bgImg[index % bgImg.length],
                               ), // Or NetworkImage('your_image_url')
-                              fit: BoxFit
-                                  .cover, // This makes the image cover the container
+                              fit: BoxFit.cover, // This makes the image cover the container
                             ),
                           ),
                           padding: EdgeInsets.only(top: 140),
@@ -187,9 +182,10 @@ class _SingleShlokaState extends State<SingleShloka> {
       ),
       floatingActionButton: FloatingBtn(),
       bottomNavigationBar: BBar.buildSlider(
-        maxLim: 3,
+        maxLim: numShl,
         currentSliderValue: _currentSliderValue,
         onChanged: (double value) {
+          debugPrint(numShl.toString());
           setState(() {
             _currentSliderValue = value;
             getPage(value.toInt());

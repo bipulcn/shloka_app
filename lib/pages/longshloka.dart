@@ -31,6 +31,7 @@ class _LongShlokaState extends State<LongShloka> {
   late PageController pageCon = PageController(initialPage: 0);
   int bang = 0;
   int lngW = 0;
+  int numShl = 1;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
@@ -51,9 +52,7 @@ class _LongShlokaState extends State<LongShloka> {
   }
 
   void setPage(int page) async {
-    await GetTracks().uKindTrack(
-      Track(kinds: 'page', main: '/long', subs: page),
-    );
+    await GetTracks().uKindTrack(Track(kinds: 'page', main: '/long', subs: page));
     await GetTracks().uKindTrack(Track(kinds: 'long', main: '', subs: page));
   }
 
@@ -69,31 +68,34 @@ class _LongShlokaState extends State<LongShloka> {
         mean[ind] = 0;
         ind++;
       }
+      numShl = ind;
     });
     r_num = rand.nextInt(bgImg.length);
   }
 
   List<String> bgImg = [
-    'assets/imgs/om_01.jpg',
-    'assets/imgs/om_02.jpg',
-    'assets/imgs/om_03.jpg',
-    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_06.jpg',
     'assets/imgs/om_05.jpg',
+    'assets/imgs/om_07.jpg',
+    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_08.jpg',
+    'assets/imgs/om_09.png',
+    'assets/imgs/om_03.jpg',
+    'assets/imgs/om_10.jpg',
+    'assets/imgs/om_11.jpg',
+    'assets/imgs/om_12.jpg',
+    'assets/imgs/om_02.jpg',
+    'assets/imgs/om_13.jpg',
+    'assets/imgs/om_14.jpg',
+    'assets/imgs/om_15.jpg',
+    'assets/imgs/om_01.jpg',
+    'assets/imgs/om_16.jpg',
+    'assets/imgs/om_117.jpg',
   ];
 
   Future<void> getPage(int num) async {
-    final list = await slk;
-    list?.forEach((obj) {
-      if (obj.chapter == num) {
-        debugPrint(obj.id.toString());
-        setPage(obj.id ?? 0);
-        pageCon.animateToPage(
-          obj.id ?? 0, // Navigate to the second page (index 1)
-          duration: Duration(milliseconds: 300),
-          curve: Curves.easeIn,
-        );
-      }
-    });
+    setPage(num);
+    pageCon.animateToPage(num, duration: Duration(milliseconds: 300), curve: Curves.easeIn);
   }
 
   @override
@@ -131,8 +133,7 @@ class _LongShlokaState extends State<LongShloka> {
                               image: AssetImage(
                                 bgImg[index % bgImg.length],
                               ), // Or NetworkImage('your_image_url')
-                              fit: BoxFit
-                                  .cover, // This makes the image cover the container
+                              fit: BoxFit.cover, // This makes the image cover the container
                             ),
                           ),
                           padding: EdgeInsets.only(top: 140),
@@ -186,7 +187,7 @@ class _LongShlokaState extends State<LongShloka> {
       ),
       floatingActionButton: FloatingBtn(),
       bottomNavigationBar: BBar.buildSlider(
-        maxLim: 3,
+        maxLim: numShl,
         currentSliderValue: _currentSliderValue,
         onChanged: (double value) {
           setState(() {

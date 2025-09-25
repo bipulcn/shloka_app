@@ -31,6 +31,7 @@ class _GitaShlokaState extends State<GitaShloka> {
   double _currentSliderValue = 1;
   int bang = 0;
   int lngW = 0;
+  int numShl = 1;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
@@ -52,26 +53,15 @@ class _GitaShlokaState extends State<GitaShloka> {
   }
 
   void setPage(int page) async {
-    await GetTracks().uKindTrack(
-      Track(kinds: 'page', main: '/gita', subs: page),
-    );
+    await GetTracks().uKindTrack(Track(kinds: 'page', main: '/gita', subs: page));
     await GetTracks().uKindTrack(Track(kinds: 'gita', main: '', subs: page));
   }
 
   Future<void> getPage(int num) async {
     // debugPrint(num.toString());
     final list = await slk;
-    list?.forEach((obj) {
-      if (obj.chapter == num) {
-        int to = obj.id ?? 0;
-        setPage(to);
-        pageCon.animateToPage(
-          (to / 3).toInt(), // Navigate to the second page (index 1)
-          duration: Duration(milliseconds: 300),
-          curve: Curves.easeIn,
-        );
-      }
-    });
+    setPage(num);
+    pageCon.animateToPage(num, duration: Duration(milliseconds: 300), curve: Curves.easeIn);
   }
 
   @override
@@ -87,17 +77,30 @@ class _GitaShlokaState extends State<GitaShloka> {
           mean[ind] = 0;
           ind++;
         }
+        numShl = (ind / 3).toInt();
       }
     });
     r_num = rand.nextInt(bgImg.length);
   }
 
   List<String> bgImg = [
-    'assets/imgs/om_01.jpg',
-    'assets/imgs/om_02.jpg',
-    'assets/imgs/om_03.jpg',
-    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_06.jpg',
     'assets/imgs/om_05.jpg',
+    'assets/imgs/om_07.jpg',
+    'assets/imgs/om_04.jpg',
+    'assets/imgs/om_08.jpg',
+    'assets/imgs/om_09.png',
+    'assets/imgs/om_03.jpg',
+    'assets/imgs/om_10.jpg',
+    'assets/imgs/om_11.jpg',
+    'assets/imgs/om_12.jpg',
+    'assets/imgs/om_02.jpg',
+    'assets/imgs/om_13.jpg',
+    'assets/imgs/om_14.jpg',
+    'assets/imgs/om_15.jpg',
+    'assets/imgs/om_01.jpg',
+    'assets/imgs/om_16.jpg',
+    'assets/imgs/om_117.jpg',
   ];
   @override
   void dispose() {
@@ -142,8 +145,7 @@ class _GitaShlokaState extends State<GitaShloka> {
                               image: AssetImage(
                                 bgImg[index % bgImg.length],
                               ), // Or NetworkImage('your_image_url')
-                              fit: BoxFit
-                                  .cover, // This makes the image cover the container
+                              fit: BoxFit.cover, // This makes the image cover the container
                             ),
                           ),
                           padding: EdgeInsets.only(top: 40),
@@ -155,12 +157,9 @@ class _GitaShlokaState extends State<GitaShloka> {
                         ),
                         // Dec.name(word.name.toString(), dark),
                         TextView(
-                          t1st:
-                              "${word.sanskrit}\n\n${word2.sanskrit}\n\n${word3.sanskrit}",
-                          t2nd:
-                              "${word.bengali}\n\n${word2.bengali}\n\n${word3.bengali}",
-                          t3rd:
-                              "${word.english}\n\n${word2.english}\n\n${word3.english}",
+                          t1st: "${word.sanskrit}\n\n${word2.sanskrit}\n\n${word3.sanskrit}",
+                          t2nd: "${word.bengali}\n\n${word2.bengali}\n\n${word3.bengali}",
+                          t3rd: "${word.english}\n\n${word2.english}\n\n${word3.english}",
                           lang: bang,
                           dark: dark,
                           siz: 0,
@@ -170,10 +169,8 @@ class _GitaShlokaState extends State<GitaShloka> {
                         TextView(
                           t1st:
                               "${word.wordMeaning}\n\n${word2.wordMeaning}\n\n${word3.wordMeaning}",
-                          t2nd:
-                              "${word.bng_mean}\n\n${word2.bng_mean}\n\n${word3.bng_mean}",
-                          t3rd:
-                              "${word.eng_mean}\n\n${word2.eng_mean}\n\n${word3.eng_mean}",
+                          t2nd: "${word.bng_mean}\n\n${word2.bng_mean}\n\n${word3.bng_mean}",
+                          t3rd: "${word.eng_mean}\n\n${word2.eng_mean}\n\n${word3.eng_mean}",
                           lang: bang,
                           dark: dark,
                           siz: 0,
@@ -190,7 +187,7 @@ class _GitaShlokaState extends State<GitaShloka> {
       ),
       floatingActionButton: FloatingBtn(),
       bottomNavigationBar: BBar.buildSlider(
-        maxLim: 18,
+        maxLim: numShl,
         currentSliderValue: _currentSliderValue,
         onChanged: (double value) {
           setState(() {
