@@ -66,6 +66,16 @@ class _FloatingBtnState extends State<FloatingBtn> {
             child: const Icon(Icons.translate),
           ),
           const SizedBox(height: 10),
+          FloatingActionButton(
+            backgroundColor: Colors.blueGrey,
+            foregroundColor: Colors.white,
+            heroTag: "font",
+            onPressed: () {
+              Navigator.pushReplacementNamed(context, '/font');
+            },
+            child: Text("अ"),
+          ),
+          const SizedBox(height: 10),
         ],
         FloatingActionButton(
           backgroundColor: Colors.blueGrey,

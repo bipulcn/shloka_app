@@ -37,6 +37,13 @@ class _TextViewState extends State<TextView> {
     });
   }
 
+  void sizChange(int num) {
+    widget.siz += num;
+    if (widget.siz < -3) widget.siz = -3;
+    if (widget.siz > 4) widget.siz = 4;
+    setState(() {});
+  }
+
   // @override
   void initState() {
     super.initState();
@@ -94,7 +101,7 @@ class _TextViewState extends State<TextView> {
                 )
               : SizedBox(),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 30),
+            padding: EdgeInsets.only(left: 10, top: 30, right: 10, bottom: 0),
             child: Column(
               children: [
                 Container(
@@ -108,23 +115,24 @@ class _TextViewState extends State<TextView> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    (widget.t2nd != "" || widget.t3rd != "")
-                        ? Btn.tBtn("अ", () {
-                            setInd(0);
-                          })
-                        : SizedBox(),
-                    (widget.t2nd != "")
-                        ? Btn.tBtn("অ", () {
-                            setInd(1);
-                          })
-                        : SizedBox(),
-                    (widget.t3rd != "")
-                        ? Btn.tBtn("A", () {
-                            setInd(2);
-                          })
-                        : SizedBox(),
-                    Btn.tBtn("-", () {}),
-                    Btn.tBtn("+", () {}),
+                    if (widget.t2nd != "" || widget.t3rd != "")
+                      Btn.tBtn("अ", () {
+                        setInd(0);
+                      }),
+                    if (widget.t2nd != "")
+                      Btn.tBtn("অ", () {
+                        setInd(1);
+                      }),
+                    if (widget.t3rd != "")
+                      Btn.tBtn("A", () {
+                        setInd(2);
+                      }),
+                    Btn.tBtn("-", () {
+                      sizChange(-1);
+                    }),
+                    Btn.tBtn("+", () {
+                      sizChange(1);
+                    }),
                   ],
                 ),
               ],

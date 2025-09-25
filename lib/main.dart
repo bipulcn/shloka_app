@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
         '/long': (context) => LongShloka(),
         '/gita': (context) => GitaShloka(),
         '/word': (context) => WordMeaning(),
-        '/font': (context) => SanskritPhoneticsTable(),
+        '/font': (context) => SansKritPhonetics(),
       },
       title: 'Flutter Demo',
       theme: ThemeData(scaffoldBackgroundColor: Colors.black),

@@ -88,7 +88,6 @@ class _WordMeaningState extends State<WordMeaning> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: dark ? Clr.dPri : Clr.lPri,
-      // appBar: AppBar(title: Text("This is app bar")),
       body: SafeArea(
         child: Column(
           children: [
@@ -143,10 +142,7 @@ class _WordMeaningState extends State<WordMeaning> {
                         itemBuilder: (context, index) {
                           final word = filteredWords[index];
                           return Container(
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 20,
-                              vertical: 10,
-                            ),
+                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                             child: FloatColumn(
                               children: [
                                 Floatable(
@@ -155,17 +151,11 @@ class _WordMeaningState extends State<WordMeaning> {
                                   child: SizedBox(
                                     height: 100,
                                     width: 150,
-                                    child: Dec.word(
-                                      "${word.sanskrit} (${word.pronounce})",
-                                      dark,
-                                    ),
+                                    child: Dec.word("${word.sanskrit} (${word.pronounce})", dark),
                                   ),
                                 ),
 
-                                Dec.wordMean(
-                                  "${word.english}\n${word.bengali}",
-                                  dark,
-                                ),
+                                Dec.wordMean("${word.english}\n${word.bengali}", dark),
                               ],
                             ),
                           );
