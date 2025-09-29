@@ -29,6 +29,7 @@ class _SingleShlokaState extends State<SingleShloka> {
   Random rand = Random();
   int r_num = 0;
   late PageController pageCon = PageController(initialPage: 0);
+  bool _isLoading = true;
 
   int bang = 0;
   int lngW = 0;
@@ -49,7 +50,9 @@ class _SingleShlokaState extends State<SingleShloka> {
     } else {
       pageCon = PageController(initialPage: 0);
     }
-    setState(() {});
+    setState(() {
+      _isLoading = false;
+    });
   }
 
   void setPage(int page) async {
@@ -96,6 +99,11 @@ class _SingleShlokaState extends State<SingleShloka> {
     'assets/imgs/om_16.jpg',
     'assets/imgs/om_117.jpg',
   ];
+  @override
+  void dispose() {
+    pageCon.dispose(); // Dispose of the controller when the widget is removed
+    super.dispose();
+  }
 
   Future<void> getPage(int num) async {
     setPage(num);
@@ -108,7 +116,25 @@ class _SingleShlokaState extends State<SingleShloka> {
 
   @override
   Widget build(BuildContext context) {
-    HSLColor hslColor = HSLColor.fromColor(Clr.cl04);
+    if (_isLoading) {
+      return Scaffold(
+        backgroundColor: dark ? Clr.dPri : Clr.lPri,
+        // appBar: AppBar(title: Text("This is app bar")),
+        body: SafeArea(
+          child: const Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(height: 16),
+                Text('Loading content from database...'),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
     return Scaffold(
       backgroundColor: dark ? Clr.dPri : Clr.lPri,
       // appBar: AppBar(title: Text("This is app bar")),

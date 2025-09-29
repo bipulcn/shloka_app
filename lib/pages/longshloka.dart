@@ -32,6 +32,7 @@ class _LongShlokaState extends State<LongShloka> {
   int bang = 0;
   int lngW = 0;
   int numShl = 1;
+  bool _isLoading = true;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
@@ -48,7 +49,9 @@ class _LongShlokaState extends State<LongShloka> {
     } else {
       pageCon = PageController(initialPage: 0);
     }
-    setState(() {});
+    setState(() {
+      _isLoading = false;
+    });
   }
 
   void setPage(int page) async {
@@ -92,6 +95,11 @@ class _LongShlokaState extends State<LongShloka> {
     'assets/imgs/om_16.jpg',
     'assets/imgs/om_117.jpg',
   ];
+  @override
+  void dispose() {
+    pageCon.dispose(); // Dispose of the controller when the widget is removed
+    super.dispose();
+  }
 
   Future<void> getPage(int num) async {
     setPage(num);
@@ -100,6 +108,24 @@ class _LongShlokaState extends State<LongShloka> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return Scaffold(
+        backgroundColor: dark ? Clr.dPri : Clr.lPri,
+        // appBar: AppBar(title: Text("This is app bar")),
+        body: SafeArea(
+          child: const Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(height: 16),
+                Text('Loading content from database...'),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
     return Scaffold(
       backgroundColor: dark ? Clr.dPri : Clr.lPri,
       // appBar: AppBar(title: Text("This is app bar")),

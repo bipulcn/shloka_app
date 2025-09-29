@@ -32,6 +32,7 @@ class _GitaShlokaState extends State<GitaShloka> {
   int bang = 0;
   int lngW = 0;
   int numShl = 1;
+  bool _isLoading = true;
 
   void gPage() async {
     List<Track> ln = await GetTracks().rdByKind('bengali');
@@ -45,11 +46,14 @@ class _GitaShlokaState extends State<GitaShloka> {
     List<Track> tk = await GetTracks().rdByKind('gita');
     // debugPrint(tk.toString());
     if (tk.isNotEmpty) {
+      print(tk.toString());
       pageCon = PageController(initialPage: tk.first.subs);
     } else {
       pageCon = PageController(initialPage: 0);
     }
-    setState(() {});
+    setState(() {
+      _isLoading = false;
+    });
   }
 
   void setPage(int page) async {
@@ -58,7 +62,7 @@ class _GitaShlokaState extends State<GitaShloka> {
   }
 
   Future<void> getPage(int num) async {
-    // debugPrint(num.toString());
+    debugPrint("$num Getting to page".toString());
     final list = await slk;
     setPage(num);
     pageCon.animateToPage(num, duration: Duration(milliseconds: 300), curve: Curves.easeIn);
@@ -110,6 +114,24 @@ class _GitaShlokaState extends State<GitaShloka> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return Scaffold(
+        backgroundColor: dark ? Clr.dPri : Clr.lPri,
+        // appBar: AppBar(title: Text("This is app bar")),
+        body: SafeArea(
+          child: const Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(height: 16),
+                Text('Loading content from database...'),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
     return Scaffold(
       backgroundColor: dark ? Clr.dPri : Clr.lPri,
       // appBar: AppBar(title: Text("This is app bar")),
